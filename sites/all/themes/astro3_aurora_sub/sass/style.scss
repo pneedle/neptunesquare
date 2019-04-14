@@ -1,0 +1,47 @@
+////////////////////////
+// Style File
+//
+// This file gets turned into style.css. This file should really hold nothing except for imports of your base, style guide, layout, and design partials.
+////////////////////////
+
+////////////////////////
+// Base Import
+////////////////////////
+@import 'partials/variables/colors';
+@import 'partials/global/base';
+
+////////////////////////
+// Import Variables
+////////////////////////
+@import 'partials/variables/breakpoint';
+@import 'partials/variables/typography';
+
+////////////////////////
+// Import Pages
+////////////////////////
+@import 'partials/pages/aspect';
+@import 'partials/pages/astro-list';
+@import 'partials/pages/birthchart';
+@import 'partials/pages/compatibility';
+@import 'partials/pages/glossary';
+@import 'partials/pages/homepage';
+@import 'partials/pages/horoscope';
+@import 'partials/pages/interaction';
+@import 'partials/pages/major-aspects';
+@import 'partials/pages/moon-color';
+@import 'partials/pages/natal';
+@import 'partials/pages/planets';
+@import 'partials/pages/transits';
+
+////////////////////////
+// Import Layout
+////////////////////////
+@import 'partials/layout/blocks';
+@import 'partials/layout/footer';
+@import 'partials/layout/header';
+@import 'partials/layout/navigation';
+
+////////////////////////
+// Import Design
+////////////////////////
+@import 'partials/design/design';

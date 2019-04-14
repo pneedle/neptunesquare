@@ -1,0 +1,33 @@
+////////////////////////
+// Layouts Partials
+//
+// Separate your Layout from Design
+// Build sub folders and partials in this folder, with everything being imported, in cascading order, into this file.
+//
+// All box model properties go here
+////////////////////////
+
+///////////////////////////////
+//  HEADER
+///////////////////////////////
+.pane-page-logo {
+	background: $darker-gray;
+	img {
+		padding-left: 5px;
+		padding-top: 5px;
+	}
+}
+
+/*
+.pane-search-form {
+	position: absolute;
+	top: 75px;
+	right: 28px;
+	width: 118px;
+	#edit-submit {
+		position: relative;
+		top: 5px;
+		right: -28px;
+	}
+}
+*/

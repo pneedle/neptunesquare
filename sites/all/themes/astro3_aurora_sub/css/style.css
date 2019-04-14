@@ -1,0 +1,1940 @@
+/* line 1, ../.vendor/bundle/ruby/2.3.0/gems/toolkit-2.10.2/stylesheets/toolkit/_kickstart.scss */
+html {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 11, ../.vendor/bundle/ruby/2.3.0/gems/toolkit-2.10.2/stylesheets/toolkit/_kickstart.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 15, ../.vendor/bundle/ruby/2.3.0/gems/toolkit-2.10.2/stylesheets/toolkit/_kickstart.scss */
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 34, ../sass/partials/global/_base.scss */
+body {
+  background-color: rgba(52, 28, 44, 0.1);
+}
+
+/*
+$bkpt-xsmall: 0px 319px;
+$bkpt-small: 320px 374px;
+$bkpt-medium: 375px 471px;
+$bkpt-large: 472px 775px;
+$bkpt-xlarge: 776px;
+*/
+/* line 8, ../sass/partials/pages/_aspect.scss */
+#aspect {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+/* line 10, ../sass/partials/pages/_aspect.scss */
+#aspect .comment_forbidden {
+  display: none;
+}
+
+/* line 8, ../sass/partials/pages/_astro-list.scss */
+#astro-list {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+/* line 10, ../sass/partials/pages/_astro-list.scss */
+#astro-list li.leaf {
+  padding: 0;
+}
+/* line 13, ../sass/partials/pages/_astro-list.scss */
+#astro-list .facet_api {
+  float: left;
+  border: 1px solid rgba(82, 112, 125, 0.8);
+  background-color: rgba(163, 219, 122, 0.2);
+  clear: both;
+}
+/* line 18, ../sass/partials/pages/_astro-list.scss */
+#astro-list .facet_api ul {
+  list-style-type: none;
+  list-style: none;
+  margin-left: -35px;
+  margin-top: -3px;
+  margin-bottom: -1px;
+  font-size: 88%;
+}
+/* line 26, ../sass/partials/pages/_astro-list.scss */
+#astro-list .facet_api li {
+  list-style-type: none;
+  list-style: none;
+}
+/* line 30, ../sass/partials/pages/_astro-list.scss */
+#astro-list .facet_api a {
+  text-decoration: none;
+  color: rgba(52, 28, 44, 0.7);
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 30, ../sass/partials/pages/_astro-list.scss */
+  #astro-list .facet_api a {
+    font-size: 75%;
+  }
+  /* line 35, ../sass/partials/pages/_astro-list.scss */
+  #astro-list .facet_api a .facet_api {
+    min-width: 56px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 30, ../sass/partials/pages/_astro-list.scss */
+  #astro-list .facet_api a {
+    font-size: 86%;
+  }
+  /* line 41, ../sass/partials/pages/_astro-list.scss */
+  #astro-list .facet_api a .facet_api {
+    min-width: 60px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 30, ../sass/partials/pages/_astro-list.scss */
+  #astro-list .facet_api a {
+    font-size: 93%;
+  }
+  /* line 47, ../sass/partials/pages/_astro-list.scss */
+  #astro-list .facet_api a .facet_api {
+    min-width: 64px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 30, ../sass/partials/pages/_astro-list.scss */
+  #astro-list .facet_api a {
+    font-size: 100%;
+  }
+  /* line 53, ../sass/partials/pages/_astro-list.scss */
+  #astro-list .facet_api a .facet_api {
+    min-width: 68px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 30, ../sass/partials/pages/_astro-list.scss */
+  #astro-list .facet_api a {
+    font-size: 100%;
+  }
+  /* line 59, ../sass/partials/pages/_astro-list.scss */
+  #astro-list .facet_api a .facet_api {
+    min-width: 71px;
+  }
+}
+/* line 64, ../sass/partials/pages/_astro-list.scss */
+#astro-list .facet_api a.facetapi-limit-link {
+  color: #92c6de;
+  font-size: 70%;
+}
+/* line 68, ../sass/partials/pages/_astro-list.scss */
+#astro-list .facet_api input {
+  display: none;
+}
+/* line 72, ../sass/partials/pages/_astro-list.scss */
+#astro-list table {
+  clear: both;
+  display: inline-block;
+}
+/* line 83, ../sass/partials/pages/_astro-list.scss */
+#astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
+#astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th {
+  padding-right: 0;
+  font-weight: initial;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 88, ../sass/partials/pages/_astro-list.scss */
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 span.pane-title,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 span.pane-title {
+    font-size: 65%;
+  }
+  /* line 93, ../sass/partials/pages/_astro-list.scss */
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
+    width: 13px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 98, ../sass/partials/pages/_astro-list.scss */
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 span.pane-title,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 span.pane-title {
+    font-size: 73%;
+  }
+  /* line 103, ../sass/partials/pages/_astro-list.scss */
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
+    width: 14px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 108, ../sass/partials/pages/_astro-list.scss */
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 td {
+    font-size: 85%;
+  }
+  /* line 112, ../sass/partials/pages/_astro-list.scss */
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
+    width: 17px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 117, ../sass/partials/pages/_astro-list.scss */
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 td {
+    font-size: 96%;
+  }
+  /* line 121, ../sass/partials/pages/_astro-list.scss */
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
+    width: 23px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 126, ../sass/partials/pages/_astro-list.scss */
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th
+  td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th
+  td {
+    font-size: 100%;
+  }
+  /* line 130, ../sass/partials/pages/_astro-list.scss */
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
+    width: 25px;
+  }
+}
+
+/* line 28, ../sass/partials/pages/_birthchart.scss */
+#birthchart div#current-block {
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+/* line 33, ../sass/partials/pages/_birthchart.scss */
+#birthchart #current-block {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+/* line 37, ../sass/partials/pages/_birthchart.scss */
+#birthchart #current-block h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 27, ../sass/partials/pages/_birthchart.scss */
+  #birthchart {
+    font-size: 92%;
+  }
+  /* line 42, ../sass/partials/pages/_birthchart.scss */
+  #birthchart #current-block {
+    display: none;
+  }
+  /* line 46, ../sass/partials/pages/_birthchart.scss */
+  #birthchart #current-block img {
+    width: 28px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 27, ../sass/partials/pages/_birthchart.scss */
+  #birthchart {
+    font-size: 94%;
+  }
+  /* line 51, ../sass/partials/pages/_birthchart.scss */
+  #birthchart #current-block {
+    display: none;
+  }
+  /* line 55, ../sass/partials/pages/_birthchart.scss */
+  #birthchart #current-block img {
+    width: 31px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 27, ../sass/partials/pages/_birthchart.scss */
+  #birthchart {
+    font-size: 96%;
+  }
+  /* line 61, ../sass/partials/pages/_birthchart.scss */
+  #birthchart #current-block img {
+    width: 34px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 27, ../sass/partials/pages/_birthchart.scss */
+  #birthchart {
+    font-size: 98%;
+  }
+  /* line 67, ../sass/partials/pages/_birthchart.scss */
+  #birthchart #current-block img {
+    width: 37px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 27, ../sass/partials/pages/_birthchart.scss */
+  #birthchart {
+    font-size: 100%;
+  }
+  /* line 73, ../sass/partials/pages/_birthchart.scss */
+  #birthchart #current-block img {
+    width: 40px;
+  }
+}
+
+/* line 83, ../sass/partials/pages/_birthchart.scss */
+#birthchart #astrotheme {
+  border: 1px solid black;
+  background-color: rgba(146, 198, 222, 0.2);
+  float: right;
+}
+/* line 87, ../sass/partials/pages/_birthchart.scss */
+#birthchart #astrotheme header > h2 > a,
+#birthchart #astrotheme .pane-title {
+  display: none;
+}
+/* line 92, ../sass/partials/pages/_birthchart.scss */
+#birthchart #astrotheme p {
+  text-transform: initial;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 83, ../sass/partials/pages/_birthchart.scss */
+  #birthchart #astrotheme {
+    width: calc(96% - 0px);
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 83, ../sass/partials/pages/_birthchart.scss */
+  #birthchart #astrotheme {
+    width: calc(96% - 0px);
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 83, ../sass/partials/pages/_birthchart.scss */
+  #birthchart #astrotheme {
+    width: calc(96% - 140px);
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 83, ../sass/partials/pages/_birthchart.scss */
+  #birthchart #astrotheme {
+    width: calc(96% - 155px);
+  }
+}
+@media (min-width: 1201px) {
+  /* line 83, ../sass/partials/pages/_birthchart.scss */
+  #birthchart #astrotheme {
+    width: calc(96% - 160px);
+  }
+}
+
+/* line 115, ../sass/partials/pages/_birthchart.scss */
+#astrotheme {
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+  margin: 0px 0;
+  overflow: hidden;
+}
+
+/* line 123, ../sass/partials/pages/_birthchart.scss */
+#astrotheme iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 123, ../sass/partials/pages/_birthchart.scss */
+  #astrotheme iframe {
+    width: 150%;
+    height: 130%;
+    -moz-transform: scale(0.65, 0.65);
+    -webkit-transform: scale(0.65, 0.65);
+    -o-transform: scale(0.65, 0.65);
+    -ms-transform: scale(0.65, 0.65);
+    transform: scale(0.65, 0.65);
+  }
+  /* line 136, ../sass/partials/pages/_birthchart.scss */
+  #astrotheme iframe #carte_corps > div {
+    margin: inherit;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 123, ../sass/partials/pages/_birthchart.scss */
+  #astrotheme iframe {
+    width: 120%;
+    height: 120%;
+    -moz-transform: scale(0.75, 0.75);
+    -webkit-transform: scale(0.75, 0.75);
+    -o-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75);
+  }
+  /* line 148, ../sass/partials/pages/_birthchart.scss */
+  #astrotheme iframe #carte_corps > div {
+    margin: inherit;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 123, ../sass/partials/pages/_birthchart.scss */
+  #astrotheme iframe {
+    width: 110%;
+    height: 100%;
+    -moz-transform: scale(0.85, 0.85);
+    -webkit-transform: scale(0.85, 0.85);
+    -o-transform: scale(0.85, 0.85);
+    -ms-transform: scale(0.85, 0.85);
+    transform: scale(0.85, 0.85);
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 123, ../sass/partials/pages/_birthchart.scss */
+  #astrotheme iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 123, ../sass/partials/pages/_birthchart.scss */
+  #astrotheme iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*#carte_corps > div {
+	margin: inherit;
+	width: inherit;
+}
+*/
+/* line 28, ../sass/partials/pages/_compatibility.scss */
+#compatibility div#current-block {
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+/* line 33, ../sass/partials/pages/_compatibility.scss */
+#compatibility #current-block {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+/* line 37, ../sass/partials/pages/_compatibility.scss */
+#compatibility #current-block h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 27, ../sass/partials/pages/_compatibility.scss */
+  #compatibility {
+    font-size: 92%;
+  }
+  /* line 42, ../sass/partials/pages/_compatibility.scss */
+  #compatibility #current-block {
+    display: none;
+  }
+  /* line 46, ../sass/partials/pages/_compatibility.scss */
+  #compatibility #current-block img {
+    width: 28px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 27, ../sass/partials/pages/_compatibility.scss */
+  #compatibility {
+    font-size: 94%;
+  }
+  /* line 51, ../sass/partials/pages/_compatibility.scss */
+  #compatibility #current-block {
+    display: none;
+  }
+  /* line 55, ../sass/partials/pages/_compatibility.scss */
+  #compatibility #current-block img {
+    width: 31px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 27, ../sass/partials/pages/_compatibility.scss */
+  #compatibility {
+    font-size: 96%;
+  }
+  /* line 61, ../sass/partials/pages/_compatibility.scss */
+  #compatibility #current-block img {
+    width: 34px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 27, ../sass/partials/pages/_compatibility.scss */
+  #compatibility {
+    font-size: 98%;
+  }
+  /* line 67, ../sass/partials/pages/_compatibility.scss */
+  #compatibility #current-block img {
+    width: 37px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 27, ../sass/partials/pages/_compatibility.scss */
+  #compatibility {
+    font-size: 100%;
+  }
+  /* line 73, ../sass/partials/pages/_compatibility.scss */
+  #compatibility #current-block img {
+    width: 40px;
+  }
+}
+
+/* line 83, ../sass/partials/pages/_compatibility.scss */
+#compatibility #compatibility-content {
+  border: 1px solid black;
+  background-color: rgba(146, 198, 222, 0.2);
+  float: right;
+}
+/* line 87, ../sass/partials/pages/_compatibility.scss */
+#compatibility #compatibility-content header > h2 > a,
+#compatibility #compatibility-content .pane-title {
+  display: none;
+}
+/* line 92, ../sass/partials/pages/_compatibility.scss */
+#compatibility #compatibility-content p {
+  text-transform: initial;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 83, ../sass/partials/pages/_compatibility.scss */
+  #compatibility #compatibility-content {
+    width: calc(96% - 0px);
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 83, ../sass/partials/pages/_compatibility.scss */
+  #compatibility #compatibility-content {
+    width: calc(96% - 0px);
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 83, ../sass/partials/pages/_compatibility.scss */
+  #compatibility #compatibility-content {
+    width: calc(96% - 140px);
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 83, ../sass/partials/pages/_compatibility.scss */
+  #compatibility #compatibility-content {
+    width: calc(96% - 155px);
+  }
+}
+@media (min-width: 1201px) {
+  /* line 83, ../sass/partials/pages/_compatibility.scss */
+  #compatibility #compatibility-content {
+    width: calc(96% - 160px);
+  }
+}
+
+/* line 115, ../sass/partials/pages/_compatibility.scss */
+#compatibility-content {
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+  margin: 0px 0;
+  overflow: hidden;
+}
+
+/* line 123, ../sass/partials/pages/_compatibility.scss */
+#compatibility-content iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 123, ../sass/partials/pages/_compatibility.scss */
+  #compatibility-content iframe {
+    width: 150%;
+    height: 130%;
+    -moz-transform: scale(0.65, 0.65);
+    -webkit-transform: scale(0.65, 0.65);
+    -o-transform: scale(0.65, 0.65);
+    -ms-transform: scale(0.65, 0.65);
+    transform: scale(0.65, 0.65);
+  }
+  /* line 136, ../sass/partials/pages/_compatibility.scss */
+  #compatibility-content iframe #carte_corps > div {
+    margin: inherit;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 123, ../sass/partials/pages/_compatibility.scss */
+  #compatibility-content iframe {
+    width: 120%;
+    height: 120%;
+    -moz-transform: scale(0.75, 0.75);
+    -webkit-transform: scale(0.75, 0.75);
+    -o-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75);
+  }
+  /* line 148, ../sass/partials/pages/_compatibility.scss */
+  #compatibility-content iframe #carte_corps > div {
+    margin: inherit;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 123, ../sass/partials/pages/_compatibility.scss */
+  #compatibility-content iframe {
+    width: 110%;
+    height: 100%;
+    -moz-transform: scale(0.85, 0.85);
+    -webkit-transform: scale(0.85, 0.85);
+    -o-transform: scale(0.85, 0.85);
+    -ms-transform: scale(0.85, 0.85);
+    transform: scale(0.85, 0.85);
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 123, ../sass/partials/pages/_compatibility.scss */
+  #compatibility-content iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 123, ../sass/partials/pages/_compatibility.scss */
+  #compatibility-content iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*#carte_corps > div {
+	margin: inherit;
+	width: inherit;
+}
+*/
+/* line 26, ../sass/partials/pages/_glossary.scss */
+#glossary-list .views-field-body p {
+  color: rgba(52, 28, 44, 0.7);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 25, ../sass/partials/pages/_glossary.scss */
+  #glossary-list .views-field-body {
+    font-size: 80%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 25, ../sass/partials/pages/_glossary.scss */
+  #glossary-list .views-field-body {
+    font-size: 90%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 25, ../sass/partials/pages/_glossary.scss */
+  #glossary-list .views-field-body {
+    font-size: 100%;
+  }
+}
+
+/* line 49, ../sass/partials/pages/_glossary.scss */
+#glossary-page {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+/* line 51, ../sass/partials/pages/_glossary.scss */
+#glossary-page div.panel-pane.pane-page-title h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+/* line 55, ../sass/partials/pages/_glossary.scss */
+#glossary-page .pane-node-body {
+  background-color: rgba(163, 219, 122, 0.2);
+  padding: 8px;
+}
+
+/* line 24, ../sass/partials/pages/_homepage.scss */
+#homepage > section.aurora-sample-section.aurora-section-second > div.panel-pane.pane-block.pane-block-8.chart_wheel {
+  clear: both;
+}
+
+/* line 33, ../sass/partials/pages/_homepage.scss */
+#homepage .chart_wheel iframe {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+/* line 38, ../sass/partials/pages/_homepage.scss */
+#homepage .chart_wheel .moreellipses {
+  display: none;
+}
+/* line 41, ../sass/partials/pages/_homepage.scss */
+#homepage .chart_wheel a.morelink {
+  margin-top: -1.0em;
+}
+/* line 44, ../sass/partials/pages/_homepage.scss */
+#homepage .chart_wheel a.less {
+  margin-top: 0.0em;
+}
+/* line 47, ../sass/partials/pages/_homepage.scss */
+#homepage .chart_wheel span.moreellipses {
+  display: none !important;
+}
+
+/* line 57, ../sass/partials/pages/_homepage.scss */
+#homepage div#planetary-positions {
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  background-color: rgba(163, 219, 122, 0.2);
+}
+/* line 64, ../sass/partials/pages/_homepage.scss */
+#homepage #planetary-positions {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 100%;
+}
+/* line 70, ../sass/partials/pages/_homepage.scss */
+#homepage #planetary-positions h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 76, ../sass/partials/pages/_homepage.scss */
+  #homepage #planetary-positions img {
+    width: 33px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 81, ../sass/partials/pages/_homepage.scss */
+  #homepage #planetary-positions img {
+    width: 34px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 86, ../sass/partials/pages/_homepage.scss */
+  #homepage #planetary-positions img {
+    width: 39px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 91, ../sass/partials/pages/_homepage.scss */
+  #homepage #planetary-positions img {
+    width: 42px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 96, ../sass/partials/pages/_homepage.scss */
+  #homepage #planetary-positions img {
+    width: 45px;
+  }
+}
+
+/* line 105, ../sass/partials/pages/_homepage.scss */
+#homepage {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+/* line 106, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col-first {
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  border: 1px solid black;
+  padding: 5px;
+  width: 35%;
+}
+/* line 113, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col-first h2.pane-title {
+  font-size: 1.0em;
+  font-weight: normal;
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 106, ../sass/partials/pages/_homepage.scss */
+  #homepage .panel-col-first {
+    clear: both;
+  }
+}
+/* line 121, ../sass/partials/pages/_homepage.scss */
+#homepage #planetary-positions {
+  width: 100%;
+}
+/* line 125, ../sass/partials/pages/_homepage.scss */
+#homepage #frontpage-feed {
+  width: 100%;
+  background-color: rgba(244, 244, 135, 0.2);
+}
+/* line 132, ../sass/partials/pages/_homepage.scss */
+#homepage li.leaf {
+  padding: 0;
+}
+/* line 135, ../sass/partials/pages/_homepage.scss */
+#homepage .pane-aggregator-feed-1,
+#homepage .pane-aggregator-feed-2,
+#homepage .pane-2 {
+  float: left;
+  border: 1px solid rgba(82, 112, 125, 0.8);
+  background-color: rgba(163, 219, 122, 0.2);
+  clear: both;
+  padding: 3px;
+  margin-bottom: 7px;
+}
+/* line 144, ../sass/partials/pages/_homepage.scss */
+#homepage .pane-aggregator-feed-1 ul,
+#homepage .pane-aggregator-feed-2 ul,
+#homepage .pane-2 ul {
+  list-style-type: none;
+  list-style: none;
+  margin-left: -39px;
+  margin-top: 4px;
+  margin-bottom: -1px;
+  font-size: 88%;
+  padding-right: 8px;
+}
+/* line 153, ../sass/partials/pages/_homepage.scss */
+#homepage .pane-aggregator-feed-1 a,
+#homepage .pane-aggregator-feed-2 a,
+#homepage .pane-2 a {
+  text-decoration: none;
+  color: rgba(52, 28, 44, 0.7);
+}
+/* line 157, ../sass/partials/pages/_homepage.scss */
+#homepage .pane-aggregator-feed-1 li,
+#homepage .pane-aggregator-feed-2 li,
+#homepage .pane-2 li {
+  list-style-type: none;
+  list-style: none;
+  padding-bottom: 6px;
+  font-size: 100%;
+}
+/* line 163, ../sass/partials/pages/_homepage.scss */
+#homepage .pane-aggregator-feed-1 div.more-link,
+#homepage .pane-aggregator-feed-2 div.more-link,
+#homepage .pane-2 div.more-link {
+  color: #92c6de;
+  font-size: 90%;
+  float: left;
+  padding: 7px;
+}
+
+/* line 176, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col-last {
+  width: 63%;
+  float: right;
+  border: 1px solid black;
+  padding: 8px 8px 34px 8px;
+  text-align: justify;
+  background-color: rgba(146, 198, 222, 0.2);
+  font-size: 85%;
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 176, ../sass/partials/pages/_homepage.scss */
+  #homepage .panel-col-last {
+    width: 61%;
+  }
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 176, ../sass/partials/pages/_homepage.scss */
+  #homepage .panel-col-last {
+    width: 59%;
+  }
+}
+/* line 190, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col-last header > h2 {
+  margin-top: -15px;
+}
+/* line 193, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col-last header > h2 > a,
+#homepage .panel-col-last .pane-title {
+  display: none;
+}
+/* line 197, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col-last .pane-content {
+  margin-top: -14px;
+  margin-bottom: -26px;
+}
+/* line 201, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col-last p {
+  text-transform: initial;
+}
+/* line 205, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col-last .chart_wheel iframe {
+  position: relative;
+  width: 100%;
+}
+
+/* line 28, ../sass/partials/pages/_horoscope.scss */
+#horoscope div#current-block {
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+/* line 33, ../sass/partials/pages/_horoscope.scss */
+#horoscope #current-block {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+/* line 37, ../sass/partials/pages/_horoscope.scss */
+#horoscope #current-block h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 27, ../sass/partials/pages/_horoscope.scss */
+  #horoscope {
+    font-size: 92%;
+  }
+  /* line 44, ../sass/partials/pages/_horoscope.scss */
+  #horoscope #current-block img {
+    width: 28px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 27, ../sass/partials/pages/_horoscope.scss */
+  #horoscope {
+    font-size: 94%;
+  }
+  /* line 50, ../sass/partials/pages/_horoscope.scss */
+  #horoscope #current-block img {
+    width: 31px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 27, ../sass/partials/pages/_horoscope.scss */
+  #horoscope {
+    font-size: 96%;
+  }
+  /* line 56, ../sass/partials/pages/_horoscope.scss */
+  #horoscope #current-block img {
+    width: 34px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 27, ../sass/partials/pages/_horoscope.scss */
+  #horoscope {
+    font-size: 98%;
+  }
+  /* line 62, ../sass/partials/pages/_horoscope.scss */
+  #horoscope #current-block img {
+    width: 37px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 27, ../sass/partials/pages/_horoscope.scss */
+  #horoscope {
+    font-size: 100%;
+  }
+  /* line 68, ../sass/partials/pages/_horoscope.scss */
+  #horoscope #current-block img {
+    width: 40px;
+  }
+}
+
+/* line 78, ../sass/partials/pages/_horoscope.scss */
+#horoscope #horoscope-content {
+  border: 1px solid black;
+  padding: 8px 8px 40px 8px;
+  text-align: justify;
+  background-color: rgba(146, 198, 222, 0.2);
+  float: right;
+}
+/* line 84, ../sass/partials/pages/_horoscope.scss */
+#horoscope #horoscope-content header > h2 {
+  margin-top: -15px;
+}
+/* line 87, ../sass/partials/pages/_horoscope.scss */
+#horoscope #horoscope-content header > h2 > a,
+#horoscope #horoscope-content .pane-title {
+  display: none;
+}
+/* line 91, ../sass/partials/pages/_horoscope.scss */
+#horoscope #horoscope-content .pane-content {
+  margin-top: -14px;
+  margin-bottom: -26px;
+}
+/* line 95, ../sass/partials/pages/_horoscope.scss */
+#horoscope #horoscope-content p {
+  text-transform: initial;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 78, ../sass/partials/pages/_horoscope.scss */
+  #horoscope #horoscope-content {
+    width: calc(98% - 132px);
+    font-size: 96%;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 78, ../sass/partials/pages/_horoscope.scss */
+  #horoscope #horoscope-content {
+    width: calc(98% - 132px);
+    font-size: 97%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 78, ../sass/partials/pages/_horoscope.scss */
+  #horoscope #horoscope-content {
+    width: calc(98% - 132px);
+    font-size: 98%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 78, ../sass/partials/pages/_horoscope.scss */
+  #horoscope #horoscope-content {
+    width: calc(98% - 155px);
+    font-size: 99%;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 78, ../sass/partials/pages/_horoscope.scss */
+  #horoscope #horoscope-content {
+    width: calc(98% - 160px);
+    font-size: 100%;
+  }
+}
+
+/* line 122, ../sass/partials/pages/_horoscope.scss */
+#horoscope #element_1 {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+/* line 128, ../sass/partials/pages/_horoscope.scss */
+.natal-horoscope .moreellipses {
+  display: none;
+}
+/* line 131, ../sass/partials/pages/_horoscope.scss */
+.natal-horoscope a.morelink {
+  margin-top: -1.0em;
+}
+/* line 134, ../sass/partials/pages/_horoscope.scss */
+.natal-horoscope a.less {
+  margin-top: 0.0em;
+}
+/* line 137, ../sass/partials/pages/_horoscope.scss */
+.natal-horoscope span.moreellipses {
+  display: none !important;
+}
+
+/* line 28, ../sass/partials/pages/_interaction.scss */
+#interaction div#current-block {
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+/* line 33, ../sass/partials/pages/_interaction.scss */
+#interaction #current-block {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+/* line 37, ../sass/partials/pages/_interaction.scss */
+#interaction #current-block h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 27, ../sass/partials/pages/_interaction.scss */
+  #interaction {
+    font-size: 92%;
+  }
+  /* line 44, ../sass/partials/pages/_interaction.scss */
+  #interaction #current-block img {
+    width: 28px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 27, ../sass/partials/pages/_interaction.scss */
+  #interaction {
+    font-size: 94%;
+  }
+  /* line 50, ../sass/partials/pages/_interaction.scss */
+  #interaction #current-block img {
+    width: 31px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 27, ../sass/partials/pages/_interaction.scss */
+  #interaction {
+    font-size: 96%;
+  }
+  /* line 56, ../sass/partials/pages/_interaction.scss */
+  #interaction #current-block img {
+    width: 34px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 27, ../sass/partials/pages/_interaction.scss */
+  #interaction {
+    font-size: 98%;
+  }
+  /* line 62, ../sass/partials/pages/_interaction.scss */
+  #interaction #current-block img {
+    width: 37px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 27, ../sass/partials/pages/_interaction.scss */
+  #interaction {
+    font-size: 100%;
+  }
+  /* line 68, ../sass/partials/pages/_interaction.scss */
+  #interaction #current-block img {
+    width: 40px;
+  }
+}
+
+/* line 78, ../sass/partials/pages/_interaction.scss */
+#interaction #interaction-content {
+  border: 1px solid black;
+  padding: 8px 8px 40px 8px;
+  text-align: justify;
+  background-color: rgba(146, 198, 222, 0.2);
+  float: right;
+}
+/* line 84, ../sass/partials/pages/_interaction.scss */
+#interaction #interaction-content header > h2 {
+  margin-top: -15px;
+}
+/* line 87, ../sass/partials/pages/_interaction.scss */
+#interaction #interaction-content header > h2 > a,
+#interaction #interaction-content .pane-title {
+  display: none;
+}
+/* line 91, ../sass/partials/pages/_interaction.scss */
+#interaction #interaction-content .pane-content {
+  margin-top: -14px;
+  margin-bottom: -26px;
+}
+/* line 95, ../sass/partials/pages/_interaction.scss */
+#interaction #interaction-content p {
+  text-transform: initial;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 78, ../sass/partials/pages/_interaction.scss */
+  #interaction #interaction-content {
+    width: calc(98% - 122px);
+    font-size: 96%;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 78, ../sass/partials/pages/_interaction.scss */
+  #interaction #interaction-content {
+    width: calc(98% - 130px);
+    font-size: 97%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 78, ../sass/partials/pages/_interaction.scss */
+  #interaction #interaction-content {
+    width: calc(98% - 140px);
+    font-size: 98%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 78, ../sass/partials/pages/_interaction.scss */
+  #interaction #interaction-content {
+    width: calc(98% - 155px);
+    font-size: 99%;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 78, ../sass/partials/pages/_interaction.scss */
+  #interaction #interaction-content {
+    width: calc(98% - 160px);
+    font-size: 100%;
+  }
+}
+
+/* line 23, ../sass/partials/pages/_major-aspects.scss */
+#major-aspects {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  text-align: justify;
+}
+/* line 26, ../sass/partials/pages/_major-aspects.scss */
+#major-aspects .pane-2 p {
+  font-size: 85%;
+  color: rgba(52, 28, 44, 0.7);
+}
+
+/* line 23, ../sass/partials/pages/_moon-color.scss */
+#swatches {
+  width: calc(100% - 120px);
+  display: inline-block;
+  float: left;
+  background-color: #e0e0e0;
+  margin-left: 0.5em;
+  padding-left: 0.5em;
+}
+/* line 30, ../sass/partials/pages/_moon-color.scss */
+#swatches img {
+  display: inline-block;
+  float: left;
+}
+/* line 34, ../sass/partials/pages/_moon-color.scss */
+#swatches div.group-left {
+  clear: both;
+}
+/* line 37, ../sass/partials/pages/_moon-color.scss */
+#swatches div.group-right {
+  float: left;
+  width: 100%;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 23, ../sass/partials/pages/_moon-color.scss */
+  #swatches {
+    font-size: 87%;
+    width: calc(100% - 120px);
+  }
+  /* line 46, ../sass/partials/pages/_moon-color.scss */
+  #swatches img {
+    width: 40px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 23, ../sass/partials/pages/_moon-color.scss */
+  #swatches {
+    font-size: 87%;
+    width: calc(100% - 120px);
+  }
+  /* line 53, ../sass/partials/pages/_moon-color.scss */
+  #swatches img {
+    width: 45px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 23, ../sass/partials/pages/_moon-color.scss */
+  #swatches {
+    font-size: 87%;
+    width: calc(100% - 130px);
+  }
+  /* line 60, ../sass/partials/pages/_moon-color.scss */
+  #swatches img {
+    width: 50px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 23, ../sass/partials/pages/_moon-color.scss */
+  #swatches {
+    font-size: 87%;
+    width: calc(100% - 140px);
+  }
+  /* line 67, ../sass/partials/pages/_moon-color.scss */
+  #swatches img {
+    width: 60px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 23, ../sass/partials/pages/_moon-color.scss */
+  #swatches {
+    font-size: 87%;
+    width: calc(100% - 150px);
+  }
+  /* line 74, ../sass/partials/pages/_moon-color.scss */
+  #swatches img {
+    width: 70px;
+  }
+}
+
+/* line 86, ../sass/partials/pages/_moon-color.scss */
+#moon-color div#current-block {
+  display: inline-block;
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+/* line 92, ../sass/partials/pages/_moon-color.scss */
+#moon-color #current-block {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+/* line 96, ../sass/partials/pages/_moon-color.scss */
+#moon-color #current-block h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 85, ../sass/partials/pages/_moon-color.scss */
+  #moon-color {
+    font-size: 73%;
+  }
+  /* line 103, ../sass/partials/pages/_moon-color.scss */
+  #moon-color #current-block img {
+    width: 24px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 85, ../sass/partials/pages/_moon-color.scss */
+  #moon-color {
+    font-size: 80%;
+  }
+  /* line 109, ../sass/partials/pages/_moon-color.scss */
+  #moon-color #current-block img {
+    width: 25px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 85, ../sass/partials/pages/_moon-color.scss */
+  #moon-color {
+    font-size: 87%;
+  }
+  /* line 115, ../sass/partials/pages/_moon-color.scss */
+  #moon-color #current-block img {
+    width: 29px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 85, ../sass/partials/pages/_moon-color.scss */
+  #moon-color {
+    font-size: 93%;
+  }
+  /* line 121, ../sass/partials/pages/_moon-color.scss */
+  #moon-color #current-block img {
+    width: 32px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 85, ../sass/partials/pages/_moon-color.scss */
+  #moon-color {
+    font-size: 100%;
+  }
+  /* line 127, ../sass/partials/pages/_moon-color.scss */
+  #moon-color #current-block img {
+    width: 35px;
+  }
+}
+
+/* line 23, ../sass/partials/pages/_natal.scss */
+.natal-table {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  padding-left: 5px;
+}
+/* line 26, ../sass/partials/pages/_natal.scss */
+.natal-table table {
+  width: 100%;
+  padding-left: 5px;
+  border-top-color: #3b3b3b;
+  border-top-width: 2px;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 23, ../sass/partials/pages/_natal.scss */
+  .natal-table {
+    font-size: 55%;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 23, ../sass/partials/pages/_natal.scss */
+  .natal-table {
+    font-size: 56%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 23, ../sass/partials/pages/_natal.scss */
+  .natal-table {
+    font-size: 70%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 23, ../sass/partials/pages/_natal.scss */
+  .natal-table {
+    font-size: 100%;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 23, ../sass/partials/pages/_natal.scss */
+  .natal-table {
+    font-size: 100%;
+  }
+}
+
+/* line 53, ../sass/partials/pages/_natal.scss */
+div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
+  width: 100%;
+}
+
+/* line 60, ../sass/partials/pages/_natal.scss */
+.natal-horoscope {
+  background-color: #e0e0e0;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  text-align: justify;
+  padding: 0px 3px 0px 3px;
+}
+/* line 65, ../sass/partials/pages/_natal.scss */
+.natal-horoscope p {
+  margin-top: -12px;
+}
+/* line 68, ../sass/partials/pages/_natal.scss */
+.natal-horoscope img {
+  margin-top: 12px;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 60, ../sass/partials/pages/_natal.scss */
+  .natal-horoscope {
+    font-size: 60%;
+  }
+  /* line 73, ../sass/partials/pages/_natal.scss */
+  .natal-horoscope img {
+    width: 27px;
+    height: 36px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 60, ../sass/partials/pages/_natal.scss */
+  .natal-horoscope {
+    font-size: 65%;
+  }
+  /* line 80, ../sass/partials/pages/_natal.scss */
+  .natal-horoscope img {
+    width: 28px;
+    height: 38px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 60, ../sass/partials/pages/_natal.scss */
+  .natal-horoscope {
+    font-size: 75%;
+  }
+  /* line 87, ../sass/partials/pages/_natal.scss */
+  .natal-horoscope img {
+    width: 30px;
+    height: 40px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 60, ../sass/partials/pages/_natal.scss */
+  .natal-horoscope {
+    font-size: 100%;
+  }
+  /* line 94, ../sass/partials/pages/_natal.scss */
+  .natal-horoscope img {
+    width: 41px;
+    height: 54px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 60, ../sass/partials/pages/_natal.scss */
+  .natal-horoscope {
+    font-size: 100%;
+  }
+  /* line 101, ../sass/partials/pages/_natal.scss */
+  .natal-horoscope img {
+    width: 41px;
+    height: 54px;
+  }
+}
+
+/* line 107, ../sass/partials/pages/_natal.scss */
+#natal > div > div.panels-flexible-row.panels-flexible-row-18-main-row.clearfix > div > div.panels-flexible-region.panels-flexible-region-18-center.natal-center > div,
+#natal > div > div.panels-flexible-row.panels-flexible-row-18-main-row.clearfix > div > div.panels-flexible-region.panels-flexible-region-18-astro_list_left.panels-flexible-region-last.natal-right > div {
+  padding-right: 0.0em;
+  padding-left: 3px;
+}
+
+/* line 113, ../sass/partials/pages/_natal.scss */
+.natal-horoscope span.morecontent > a {
+  display: inherit !important;
+}
+
+/* line 123, ../sass/partials/pages/_natal.scss */
+.natal-aspects {
+  background-color: #e0e0e0;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  padding: 0px 3px 0px 3px;
+}
+/* line 127, ../sass/partials/pages/_natal.scss */
+.natal-aspects a {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  text-decoration: none;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 123, ../sass/partials/pages/_natal.scss */
+  .natal-aspects {
+    font-size: 60%;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 123, ../sass/partials/pages/_natal.scss */
+  .natal-aspects {
+    font-size: 60%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 123, ../sass/partials/pages/_natal.scss */
+  .natal-aspects {
+    font-size: 65%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 123, ../sass/partials/pages/_natal.scss */
+  .natal-aspects {
+    font-size: 85%;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 123, ../sass/partials/pages/_natal.scss */
+  .natal-aspects {
+    font-size: 100%;
+  }
+}
+
+/* line 23, ../sass/partials/pages/_planets.scss */
+#planet {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+/* line 25, ../sass/partials/pages/_planets.scss */
+#planet li.leaf {
+  padding: 0;
+}
+/* line 28, ../sass/partials/pages/_planets.scss */
+#planet .pane-aggregator-feed-1,
+#planet .pane-aggregator-feed-2,
+#planet .pane-2 {
+  float: left;
+  width: 100%;
+  border: 1px solid rgba(82, 112, 125, 0.8);
+  background-color: rgba(163, 219, 122, 0.2);
+  clear: both;
+  padding: 7px;
+  margin-bottom: 7px;
+}
+/* line 38, ../sass/partials/pages/_planets.scss */
+#planet .pane-aggregator-feed-1 ul,
+#planet .pane-aggregator-feed-2 ul,
+#planet .pane-2 ul {
+  list-style-type: none;
+  list-style: none;
+  margin-left: -39px;
+  margin-top: 4px;
+  margin-bottom: -1px;
+  font-size: 88%;
+  padding-right: 8px;
+}
+/* line 47, ../sass/partials/pages/_planets.scss */
+#planet .pane-aggregator-feed-1 a,
+#planet .pane-aggregator-feed-2 a,
+#planet .pane-2 a {
+  text-decoration: none;
+  color: rgba(52, 28, 44, 0.7);
+}
+/* line 51, ../sass/partials/pages/_planets.scss */
+#planet .pane-aggregator-feed-1 li,
+#planet .pane-aggregator-feed-2 li,
+#planet .pane-2 li {
+  list-style-type: none;
+  list-style: none;
+  padding-bottom: 6px;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 51, ../sass/partials/pages/_planets.scss */
+  #planet .pane-aggregator-feed-1 li,
+  #planet .pane-aggregator-feed-2 li,
+  #planet .pane-2 li {
+    font-size: 72%;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 51, ../sass/partials/pages/_planets.scss */
+  #planet .pane-aggregator-feed-1 li,
+  #planet .pane-aggregator-feed-2 li,
+  #planet .pane-2 li {
+    font-size: 76%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 51, ../sass/partials/pages/_planets.scss */
+  #planet .pane-aggregator-feed-1 li,
+  #planet .pane-aggregator-feed-2 li,
+  #planet .pane-2 li {
+    font-size: 80%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 51, ../sass/partials/pages/_planets.scss */
+  #planet .pane-aggregator-feed-1 li,
+  #planet .pane-aggregator-feed-2 li,
+  #planet .pane-2 li {
+    font-size: 100%;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 51, ../sass/partials/pages/_planets.scss */
+  #planet .pane-aggregator-feed-1 li,
+  #planet .pane-aggregator-feed-2 li,
+  #planet .pane-2 li {
+    font-size: 100%;
+  }
+}
+/* line 71, ../sass/partials/pages/_planets.scss */
+#planet .pane-aggregator-feed-1 div.more-link,
+#planet .pane-aggregator-feed-2 div.more-link,
+#planet .pane-2 div.more-link {
+  color: #92c6de;
+  font-size: 70%;
+  float: left;
+  padding: 7px;
+}
+
+/* line 81, ../sass/partials/pages/_planets.scss */
+#planet div.node-planet {
+  background-color: rgba(146, 198, 222, 0.2);
+  border: 1px solid rgba(82, 112, 125, 0.8);
+  position: relative;
+  top: 34px;
+  text-align: justify;
+  padding: 7px;
+  margin-bottom: 34px;
+}
+
+/* line 28, ../sass/partials/pages/_transits.scss */
+#transits div#current-block {
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+/* line 33, ../sass/partials/pages/_transits.scss */
+#transits #current-block {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+/* line 37, ../sass/partials/pages/_transits.scss */
+#transits #current-block h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 27, ../sass/partials/pages/_transits.scss */
+  #transits {
+    font-size: 73%;
+  }
+  /* line 44, ../sass/partials/pages/_transits.scss */
+  #transits #current-block img {
+    width: 24px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 27, ../sass/partials/pages/_transits.scss */
+  #transits {
+    font-size: 80%;
+  }
+  /* line 50, ../sass/partials/pages/_transits.scss */
+  #transits #current-block img {
+    width: 25px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 27, ../sass/partials/pages/_transits.scss */
+  #transits {
+    font-size: 87%;
+  }
+  /* line 56, ../sass/partials/pages/_transits.scss */
+  #transits #current-block img {
+    width: 29px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 27, ../sass/partials/pages/_transits.scss */
+  #transits {
+    font-size: 93%;
+  }
+  /* line 62, ../sass/partials/pages/_transits.scss */
+  #transits #current-block img {
+    width: 32px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 27, ../sass/partials/pages/_transits.scss */
+  #transits {
+    font-size: 100%;
+  }
+  /* line 68, ../sass/partials/pages/_transits.scss */
+  #transits #current-block img {
+    width: 35px;
+  }
+}
+
+/* line 78, ../sass/partials/pages/_transits.scss */
+#transits #transit-content {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: justify;
+  background-color: rgba(146, 198, 222, 0.2);
+  float: right;
+}
+/* line 84, ../sass/partials/pages/_transits.scss */
+#transits #transit-content header > h2 {
+  margin-top: -15px;
+}
+/* line 87, ../sass/partials/pages/_transits.scss */
+#transits #transit-content header > h2 > a,
+#transits #transit-content .pane-title {
+  display: none;
+}
+/* line 91, ../sass/partials/pages/_transits.scss */
+#transits #transit-content .pane-content {
+  margin-top: -14px;
+  margin-bottom: -26px;
+}
+/* line 95, ../sass/partials/pages/_transits.scss */
+#transits #transit-content p {
+  text-transform: initial;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  /* line 78, ../sass/partials/pages/_transits.scss */
+  #transits #transit-content {
+    width: calc(98% - 122px);
+    font-size: 92%;
+    padding: 5px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 78, ../sass/partials/pages/_transits.scss */
+  #transits #transit-content {
+    width: calc(98% - 130px);
+    font-size: 94%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 78, ../sass/partials/pages/_transits.scss */
+  #transits #transit-content {
+    width: calc(98% - 140px);
+    font-size: 96%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 78, ../sass/partials/pages/_transits.scss */
+  #transits #transit-content {
+    width: calc(98% - 155px);
+    font-size: 98%;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 78, ../sass/partials/pages/_transits.scss */
+  #transits #transit-content {
+    width: calc(98% - 160px);
+    font-size: 100%;
+  }
+}
+
+/* line 123, ../sass/partials/pages/_transits.scss */
+#transits #element_1,
+#transits #element_2 {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+/* line 25, ../sass/partials/layout/_blocks.scss */
+#current-block {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgba(163, 219, 122, 0.2);
+}
+/* line 29, ../sass/partials/layout/_blocks.scss */
+#current-block table > tbody > tr > td {
+  vertical-align: bottom;
+}
+
+/* line 34, ../sass/partials/layout/_blocks.scss */
+.pane-block-6 h2 {
+  display: none;
+}
+
+/* line 6, ../sass/partials/layout/_footer.scss */
+#footer {
+  clear: both;
+  background-color: rgba(244, 244, 135, 0.2);
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  border-top: 3px double rgba(82, 112, 125, 0.8);
+}
+/* line 11, ../sass/partials/layout/_footer.scss */
+#footer table {
+  margin: auto;
+  width: inherit;
+}
+/* line 15, ../sass/partials/layout/_footer.scss */
+#footer h2.pane-title {
+  display: none;
+}
+/* line 19, ../sass/partials/layout/_footer.scss */
+#footer #mini-panel-subdomains > div > div > div.panel-pane.pane-custom.pane-1 {
+  margin-top: 8px;
+}
+/* line 23, ../sass/partials/layout/_footer.scss */
+#footer div.pane-content {
+  padding-left: 5;
+  padding-right: 5;
+}
+/* line 26, ../sass/partials/layout/_footer.scss */
+#footer div.pane-content p {
+  font-size: 90%;
+  color: rgba(52, 28, 44, 0.7);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0px 10px 6px 10px;
+}
+/* line 35, ../sass/partials/layout/_footer.scss */
+#footer div.view-content {
+  clear: both;
+  text-align: center;
+}
+/* line 38, ../sass/partials/layout/_footer.scss */
+#footer div.view-content p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+/* line 45, ../sass/partials/layout/_footer.scss */
+#footer div.views-field.views-field-field-url > div > p > a {
+  font-size: 90%;
+  text-decoration: none;
+  color: rgba(82, 112, 125, 0.8);
+}
+
+/* line 13, ../sass/partials/layout/_header.scss */
+.pane-page-logo {
+  background: #3b3b3b;
+}
+/* line 15, ../sass/partials/layout/_header.scss */
+.pane-page-logo img {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+/*
+.pane-search-form {
+	position: absolute;
+	top: 75px;
+	right: 28px;
+	width: 118px;
+	#edit-submit {
+		position: relative;
+		top: 5px;
+		right: -28px;
+	}
+}
+*/
+/* line 7, ../sass/partials/layout/_navigation.scss */
+#main-menu ul.menu {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 4px;
+  margin-top: 0em;
+  margin-bottom: 8px;
+  text-align: center;
+  background-color: #52707d;
+}
+/* line 17, ../sass/partials/layout/_navigation.scss */
+#main-menu .menu li {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  display: inline-block;
+}
+/* line 21, ../sass/partials/layout/_navigation.scss */
+#main-menu .menu li .leaf {
+  height: 90px;
+}
+/* line 24, ../sass/partials/layout/_navigation.scss */
+#main-menu .menu li .first.leaf {
+  padding-left: 0.5em;
+}
+/* line 27, ../sass/partials/layout/_navigation.scss */
+#main-menu .menu li .last.leaf {
+  padding-right: 0.5em;
+}
+/* line 30, ../sass/partials/layout/_navigation.scss */
+#main-menu .menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 80%;
+}
+/* line 35, ../sass/partials/layout/_navigation.scss */
+#main-menu .menu li a:link {
+  /* unvisited link */
+  color: #FFFFFF;
+}
+/* line 39, ../sass/partials/layout/_navigation.scss */
+#main-menu .menu li a:visited {
+  /* visited link */
+  color: #FFFFFF;
+}
+/* line 43, ../sass/partials/layout/_navigation.scss */
+#main-menu .menu li a:hover {
+  /* mouse over link */
+  color: black;
+}
+/* line 47, ../sass/partials/layout/_navigation.scss */
+#main-menu .menu li a:active {
+  /* selected link */
+  color: #FFF000;
+}
+
+/* line 56, ../sass/partials/layout/_navigation.scss */
+#nav-menu ul.menu {
+  padding: 0px 0px 0px 0px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+/* line 62, ../sass/partials/layout/_navigation.scss */
+#nav-menu .menu li {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+/* line 64, ../sass/partials/layout/_navigation.scss */
+#nav-menu .menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 80%;
+}
+/* line 69, ../sass/partials/layout/_navigation.scss */
+#nav-menu .menu li a:link {
+  /* unvisited link */
+  color: #404040;
+}
+/* line 73, ../sass/partials/layout/_navigation.scss */
+#nav-menu .menu li a:visited {
+  /* visited link */
+  color: #404040;
+}
+/* line 77, ../sass/partials/layout/_navigation.scss */
+#nav-menu .menu li a:hover {
+  /* mouse over link */
+  color: black;
+}
+/* line 81, ../sass/partials/layout/_navigation.scss */
+#nav-menu .menu li a:active {
+  /* selected link */
+  color: white;
+}
+
+/* line 89, ../sass/partials/layout/_navigation.scss */
+#nav-menu div > ul > li {
+  list-style: none;
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /* line 88, ../sass/partials/layout/_navigation.scss */
+  #nav-menu {
+    font-size: 85%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  /* line 88, ../sass/partials/layout/_navigation.scss */
+  #nav-menu {
+    font-size: 92.5%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* line 88, ../sass/partials/layout/_navigation.scss */
+  #nav-menu {
+    font-size: 100%;
+  }
+}

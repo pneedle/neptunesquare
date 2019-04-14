@@ -1,0 +1,36 @@
+name = astro3-aurora-sub
+description =  astro3-aurora-sub theme.
+core = 7.x
+base theme = aurora
+
+; ========================================
+; Regions
+; ========================================
+
+regions[header]       = 'Header'
+regions[main_prefix]  = 'Main Region Prefix'
+regions[content]      = 'Main Region'
+regions[main_suffix]  = 'Main Region Suffix'
+regions[footer]       = 'Footer'
+
+; ========================================
+; Stylesheets
+; ========================================
+
+stylesheets[all][] = 'css/style.css'
+stylesheets[print][] = 'css/print.css'
+
+; ========================================
+; Fonts
+; ========================================
+;
+fonts[typekit_api][] = "museo-sans-condensed#n3"
+fonts[typekit_api][] = "museo-sans-condensed#i3"
+fonts[typekit_api][] = "museo-sans-condensed#n7"
+fonts[typekit_api][] = "museo-sans-condensed#i7"
+
+ ========================================
+; Modernizr
+; ========================================
+
+modernizr[tests][] = css_boxsizing

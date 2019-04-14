@@ -1,0 +1,1597 @@
+html {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: rgba(52, 28, 44, 0.1);
+}
+
+#aspect {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+#aspect .comment_forbidden {
+  display: none;
+}
+
+#astro-list {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+#astro-list li.leaf {
+  padding: 0;
+}
+#astro-list .facet_api {
+  float: left;
+  border: 1px solid rgba(82, 112, 125, 0.8);
+  background-color: rgba(163, 219, 122, 0.2);
+  clear: both;
+}
+#astro-list .facet_api ul {
+  list-style-type: none;
+  list-style: none;
+  margin-left: -35px;
+  margin-top: -3px;
+  margin-bottom: -1px;
+  font-size: 88%;
+}
+#astro-list .facet_api li {
+  list-style-type: none;
+  list-style: none;
+}
+#astro-list .facet_api a {
+  text-decoration: none;
+  color: rgba(52, 28, 44, 0.7);
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #astro-list .facet_api a {
+    font-size: 75%;
+  }
+  #astro-list .facet_api a .facet_api {
+    min-width: 56px;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #astro-list .facet_api a {
+    font-size: 86%;
+  }
+  #astro-list .facet_api a .facet_api {
+    min-width: 60px;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #astro-list .facet_api a {
+    font-size: 93%;
+  }
+  #astro-list .facet_api a .facet_api {
+    min-width: 64px;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #astro-list .facet_api a {
+    font-size: 100%;
+  }
+  #astro-list .facet_api a .facet_api {
+    min-width: 68px;
+  }
+}
+@media (min-width: 776px) {
+  #astro-list .facet_api a {
+    font-size: 100%;
+  }
+  #astro-list .facet_api a .facet_api {
+    min-width: 71px;
+  }
+}
+#astro-list .facet_api a.facetapi-limit-link {
+  color: #92c6de;
+  font-size: 70%;
+}
+#astro-list .facet_api input {
+  display: none;
+}
+#astro-list table {
+  clear: both;
+  display: inline-block;
+}
+#astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
+#astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th {
+  padding-right: 0;
+  font-weight: initial;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 span.pane-title,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 span.pane-title {
+    font-size: 65%;
+  }
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
+    width: 13px;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 span.pane-title,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 span.pane-title {
+    font-size: 73%;
+  }
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
+    width: 14px;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 td {
+    font-size: 85%;
+  }
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
+    width: 17px;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 td {
+    font-size: 96%;
+  }
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
+    width: 23px;
+  }
+}
+@media (min-width: 776px) {
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th
+  td,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th
+  td {
+    font-size: 100%;
+  }
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
+  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
+    width: 25px;
+  }
+}
+
+#birthchart div#current-block {
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+#birthchart #current-block {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+#birthchart #current-block h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #birthchart {
+    font-size: 92%;
+  }
+  #birthchart #current-block {
+    display: none;
+  }
+  #birthchart #current-block img {
+    width: 28px;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #birthchart {
+    font-size: 94%;
+  }
+  #birthchart #current-block {
+    display: none;
+  }
+  #birthchart #current-block img {
+    width: 31px;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #birthchart {
+    font-size: 96%;
+  }
+  #birthchart #current-block img {
+    width: 34px;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #birthchart {
+    font-size: 98%;
+  }
+  #birthchart #current-block img {
+    width: 37px;
+  }
+}
+@media (min-width: 776px) {
+  #birthchart {
+    font-size: 100%;
+  }
+  #birthchart #current-block img {
+    width: 40px;
+  }
+}
+
+#birthchart #astrotheme {
+  border: 1px solid black;
+  background-color: rgba(146, 198, 222, 0.2);
+  float: right;
+}
+#birthchart #astrotheme header > h2 > a,
+#birthchart #astrotheme .pane-title {
+  display: none;
+}
+#birthchart #astrotheme p {
+  text-transform: initial;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #birthchart #astrotheme {
+    width: calc(96% - 0px);
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #birthchart #astrotheme {
+    width: calc(96% - 0px);
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #birthchart #astrotheme {
+    width: calc(96% - 140px);
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #birthchart #astrotheme {
+    width: calc(96% - 155px);
+  }
+}
+@media (min-width: 776px) {
+  #birthchart #astrotheme {
+    width: calc(96% - 160px);
+  }
+}
+
+#astrotheme {
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+  margin: 0px 0;
+  overflow: hidden;
+}
+
+#astrotheme iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #astrotheme iframe {
+    width: 150%;
+    height: 130%;
+    -moz-transform: scale(0.65, 0.65);
+    -webkit-transform: scale(0.65, 0.65);
+    -o-transform: scale(0.65, 0.65);
+    -ms-transform: scale(0.65, 0.65);
+    transform: scale(0.65, 0.65);
+  }
+  #astrotheme iframe #carte_corps > div {
+    margin: inherit;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #astrotheme iframe {
+    width: 120%;
+    height: 120%;
+    -moz-transform: scale(0.75, 0.75);
+    -webkit-transform: scale(0.75, 0.75);
+    -o-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75);
+  }
+  #astrotheme iframe #carte_corps > div {
+    margin: inherit;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #astrotheme iframe {
+    width: 110%;
+    height: 100%;
+    -moz-transform: scale(0.85, 0.85);
+    -webkit-transform: scale(0.85, 0.85);
+    -o-transform: scale(0.85, 0.85);
+    -ms-transform: scale(0.85, 0.85);
+    transform: scale(0.85, 0.85);
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #astrotheme iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 776px) {
+  #astrotheme iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*#carte_corps > div {
+	margin: inherit;
+	width: inherit;
+}
+*/
+#compatibility div#current-block {
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+#compatibility #current-block {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+#compatibility #current-block h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #compatibility {
+    font-size: 92%;
+  }
+  #compatibility #current-block {
+    display: none;
+  }
+  #compatibility #current-block img {
+    width: 28px;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #compatibility {
+    font-size: 94%;
+  }
+  #compatibility #current-block {
+    display: none;
+  }
+  #compatibility #current-block img {
+    width: 31px;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #compatibility {
+    font-size: 96%;
+  }
+  #compatibility #current-block img {
+    width: 34px;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #compatibility {
+    font-size: 98%;
+  }
+  #compatibility #current-block img {
+    width: 37px;
+  }
+}
+@media (min-width: 776px) {
+  #compatibility {
+    font-size: 100%;
+  }
+  #compatibility #current-block img {
+    width: 40px;
+  }
+}
+
+#compatibility #compatibility-content {
+  border: 1px solid black;
+  background-color: rgba(146, 198, 222, 0.2);
+  float: right;
+}
+#compatibility #compatibility-content header > h2 > a,
+#compatibility #compatibility-content .pane-title {
+  display: none;
+}
+#compatibility #compatibility-content p {
+  text-transform: initial;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #compatibility #compatibility-content {
+    width: calc(96% - 0px);
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #compatibility #compatibility-content {
+    width: calc(96% - 0px);
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #compatibility #compatibility-content {
+    width: calc(96% - 140px);
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #compatibility #compatibility-content {
+    width: calc(96% - 155px);
+  }
+}
+@media (min-width: 776px) {
+  #compatibility #compatibility-content {
+    width: calc(96% - 160px);
+  }
+}
+
+#compatibility-content {
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+  margin: 0px 0;
+  overflow: hidden;
+}
+
+#compatibility-content iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #compatibility-content iframe {
+    width: 150%;
+    height: 130%;
+    -moz-transform: scale(0.65, 0.65);
+    -webkit-transform: scale(0.65, 0.65);
+    -o-transform: scale(0.65, 0.65);
+    -ms-transform: scale(0.65, 0.65);
+    transform: scale(0.65, 0.65);
+  }
+  #compatibility-content iframe #carte_corps > div {
+    margin: inherit;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #compatibility-content iframe {
+    width: 120%;
+    height: 120%;
+    -moz-transform: scale(0.75, 0.75);
+    -webkit-transform: scale(0.75, 0.75);
+    -o-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75);
+  }
+  #compatibility-content iframe #carte_corps > div {
+    margin: inherit;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #compatibility-content iframe {
+    width: 110%;
+    height: 100%;
+    -moz-transform: scale(0.85, 0.85);
+    -webkit-transform: scale(0.85, 0.85);
+    -o-transform: scale(0.85, 0.85);
+    -ms-transform: scale(0.85, 0.85);
+    transform: scale(0.85, 0.85);
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #compatibility-content iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 776px) {
+  #compatibility-content iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*#carte_corps > div {
+	margin: inherit;
+	width: inherit;
+}
+*/
+#glossary-list .views-field-body p {
+  color: rgba(52, 28, 44, 0.7);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #glossary-list .views-field-body {
+    font-size: 80%;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #glossary-list .views-field-body {
+    font-size: 90%;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #glossary-list .views-field-body {
+    font-size: 100%;
+  }
+}
+
+#glossary-page {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+#glossary-page div.panel-pane.pane-page-title h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+#glossary-page .pane-node-body {
+  background-color: rgba(163, 219, 122, 0.2);
+  padding: 8px;
+}
+
+#homepage div#planetary-positions {
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  background-color: rgba(163, 219, 122, 0.2);
+}
+#homepage #planetary-positions {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+#homepage #planetary-positions h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #homepage {
+    font-size: 73%;
+  }
+  #homepage #planetary-positions img {
+    width: 23px;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #homepage {
+    font-size: 80%;
+  }
+  #homepage #planetary-positions img {
+    width: 24px;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #homepage {
+    font-size: 87%;
+  }
+  #homepage #planetary-positions img {
+    width: 29px;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #homepage {
+    font-size: 93%;
+  }
+  #homepage #planetary-positions img {
+    width: 32px;
+  }
+}
+@media (min-width: 776px) {
+  #homepage {
+    font-size: 100%;
+  }
+  #homepage #planetary-positions img {
+    width: 35px;
+  }
+}
+
+#homepage iframe {
+  position: relative;
+  display: inline-block;
+  float: left;
+  height: 100%;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #homepage iframe {
+    height: 400px;
+    max-width: 320px;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #homepage iframe {
+    height: 400px;
+    max-width: 320px;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #homepage iframe {
+    height: 410px;
+    max-width: 375px;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #homepage iframe {
+    width: calc(98% - 155px);
+    height: 504px;
+    max-width: 472px;
+  }
+}
+@media (min-width: 776px) {
+  #homepage iframe {
+    width: calc(98% - 160px);
+    height: 800px;
+    max-width: 776px;
+  }
+}
+#homepage .moreellipses {
+  display: none;
+}
+#homepage a.morelink {
+  margin-top: -1.0em;
+}
+#homepage a.less {
+  margin-top: 0.0em;
+}
+#homepage span.moreellipses {
+  display: none !important;
+}
+
+#homepage #astrology-of-the-moment {
+  border: 1px solid black;
+  padding: 8px 8px 34px 8px;
+  text-align: justify;
+  background-color: rgba(146, 198, 222, 0.2);
+  float: right;
+}
+#homepage #astrology-of-the-moment header > h2 {
+  margin-top: -15px;
+}
+#homepage #astrology-of-the-moment header > h2 > a,
+#homepage #astrology-of-the-moment .pane-title {
+  display: none;
+}
+#homepage #astrology-of-the-moment .pane-content {
+  margin-top: -14px;
+  margin-bottom: -26px;
+}
+#homepage #astrology-of-the-moment p {
+  text-transform: initial;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #homepage #astrology-of-the-moment {
+    width: calc(98% - 127px);
+    font-size: 92%;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #homepage #astrology-of-the-moment {
+    width: calc(98% - 135px);
+    font-size: 94%;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #homepage #astrology-of-the-moment {
+    width: calc(98% - 145px);
+    font-size: 96%;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #homepage #astrology-of-the-moment {
+    width: calc(98% - 155px);
+    font-size: 98%;
+  }
+}
+@media (min-width: 776px) {
+  #homepage #astrology-of-the-moment {
+    font-size: 100%;
+  }
+  #homepage #astrology-of-the-moment #chartWheel img {
+    width: 325px;
+  }
+  #homepage #astrology-of-the-moment #astrology-of-the-moment {
+    width: 325px;
+  }
+}
+
+#horoscope div#current-block {
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+#horoscope #current-block {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+#horoscope #current-block h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #horoscope {
+    font-size: 92%;
+  }
+  #horoscope #current-block img {
+    width: 28px;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #horoscope {
+    font-size: 94%;
+  }
+  #horoscope #current-block img {
+    width: 31px;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #horoscope {
+    font-size: 96%;
+  }
+  #horoscope #current-block img {
+    width: 34px;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #horoscope {
+    font-size: 98%;
+  }
+  #horoscope #current-block img {
+    width: 37px;
+  }
+}
+@media (min-width: 776px) {
+  #horoscope {
+    font-size: 100%;
+  }
+  #horoscope #current-block img {
+    width: 40px;
+  }
+}
+
+#horoscope #horoscope-content {
+  border: 1px solid black;
+  padding: 8px 8px 40px 8px;
+  text-align: justify;
+  background-color: rgba(146, 198, 222, 0.2);
+  float: right;
+}
+#horoscope #horoscope-content header > h2 {
+  margin-top: -15px;
+}
+#horoscope #horoscope-content header > h2 > a,
+#horoscope #horoscope-content .pane-title {
+  display: none;
+}
+#horoscope #horoscope-content .pane-content {
+  margin-top: -14px;
+  margin-bottom: -26px;
+}
+#horoscope #horoscope-content p {
+  text-transform: initial;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #horoscope #horoscope-content {
+    width: calc(98% - 132px);
+    font-size: 96%;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #horoscope #horoscope-content {
+    width: calc(98% - 132px);
+    font-size: 97%;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #horoscope #horoscope-content {
+    width: calc(98% - 132px);
+    font-size: 98%;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #horoscope #horoscope-content {
+    width: calc(98% - 155px);
+    font-size: 99%;
+  }
+}
+@media (min-width: 776px) {
+  #horoscope #horoscope-content {
+    width: calc(98% - 160px);
+    font-size: 100%;
+  }
+}
+
+#horoscope #element_1 {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+.natal-horoscope .moreellipses {
+  display: none;
+}
+.natal-horoscope a.morelink {
+  margin-top: -1.0em;
+}
+.natal-horoscope a.less {
+  margin-top: 0.0em;
+}
+.natal-horoscope span.moreellipses {
+  display: none !important;
+}
+
+#interaction div#current-block {
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+#interaction #current-block {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+#interaction #current-block h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #interaction {
+    font-size: 92%;
+  }
+  #interaction #current-block img {
+    width: 28px;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #interaction {
+    font-size: 94%;
+  }
+  #interaction #current-block img {
+    width: 31px;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #interaction {
+    font-size: 96%;
+  }
+  #interaction #current-block img {
+    width: 34px;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #interaction {
+    font-size: 98%;
+  }
+  #interaction #current-block img {
+    width: 37px;
+  }
+}
+@media (min-width: 776px) {
+  #interaction {
+    font-size: 100%;
+  }
+  #interaction #current-block img {
+    width: 40px;
+  }
+}
+
+#interaction #interaction-content {
+  border: 1px solid black;
+  padding: 8px 8px 40px 8px;
+  text-align: justify;
+  background-color: rgba(146, 198, 222, 0.2);
+  float: right;
+}
+#interaction #interaction-content header > h2 {
+  margin-top: -15px;
+}
+#interaction #interaction-content header > h2 > a,
+#interaction #interaction-content .pane-title {
+  display: none;
+}
+#interaction #interaction-content .pane-content {
+  margin-top: -14px;
+  margin-bottom: -26px;
+}
+#interaction #interaction-content p {
+  text-transform: initial;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #interaction #interaction-content {
+    width: calc(98% - 122px);
+    font-size: 96%;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #interaction #interaction-content {
+    width: calc(98% - 130px);
+    font-size: 97%;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #interaction #interaction-content {
+    width: calc(98% - 140px);
+    font-size: 98%;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #interaction #interaction-content {
+    width: calc(98% - 155px);
+    font-size: 99%;
+  }
+}
+@media (min-width: 776px) {
+  #interaction #interaction-content {
+    width: calc(98% - 160px);
+    font-size: 100%;
+  }
+}
+
+#major-aspects {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  text-align: justify;
+}
+#major-aspects .pane-2 p {
+  font-size: 85%;
+  color: rgba(52, 28, 44, 0.7);
+}
+
+#swatches {
+  width: calc(100% - 120px);
+  display: inline-block;
+  float: left;
+  background-color: #e0e0e0;
+  margin-left: 0.5em;
+  padding-left: 0.5em;
+}
+#swatches img {
+  display: inline-block;
+  float: left;
+}
+#swatches div.group-left {
+  clear: both;
+}
+#swatches div.group-right {
+  float: left;
+  width: 100%;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #swatches {
+    font-size: 87%;
+    width: calc(100% - 120px);
+  }
+  #swatches img {
+    width: 40px;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #swatches {
+    font-size: 87%;
+    width: calc(100% - 120px);
+  }
+  #swatches img {
+    width: 45px;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #swatches {
+    font-size: 87%;
+    width: calc(100% - 130px);
+  }
+  #swatches img {
+    width: 50px;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #swatches {
+    font-size: 87%;
+    width: calc(100% - 140px);
+  }
+  #swatches img {
+    width: 60px;
+  }
+}
+@media (min-width: 776px) {
+  #swatches {
+    font-size: 87%;
+    width: calc(100% - 150px);
+  }
+  #swatches img {
+    width: 70px;
+  }
+}
+
+#moon-color div#current-block {
+  display: inline-block;
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+#moon-color #current-block {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+#moon-color #current-block h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #moon-color {
+    font-size: 73%;
+  }
+  #moon-color #current-block img {
+    width: 24px;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #moon-color {
+    font-size: 80%;
+  }
+  #moon-color #current-block img {
+    width: 25px;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #moon-color {
+    font-size: 87%;
+  }
+  #moon-color #current-block img {
+    width: 29px;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #moon-color {
+    font-size: 93%;
+  }
+  #moon-color #current-block img {
+    width: 32px;
+  }
+}
+@media (min-width: 776px) {
+  #moon-color {
+    font-size: 100%;
+  }
+  #moon-color #current-block img {
+    width: 35px;
+  }
+}
+
+.natal-table {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  padding-left: 5px;
+}
+.natal-table table {
+  width: 100%;
+  padding-left: 5px;
+  border-top-color: #3b3b3b;
+  border-top-width: 2px;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  .natal-table {
+    font-size: 55%;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  .natal-table {
+    font-size: 56%;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  .natal-table {
+    font-size: 70%;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  .natal-table {
+    font-size: 100%;
+  }
+}
+@media (min-width: 776px) {
+  .natal-table {
+    font-size: 100%;
+  }
+}
+
+div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
+  width: 100%;
+}
+
+.natal-horoscope {
+  background-color: #e0e0e0;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  text-align: justify;
+  padding: 0px 3px 0px 3px;
+}
+.natal-horoscope p {
+  margin-top: -12px;
+}
+.natal-horoscope img {
+  margin-top: 12px;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  .natal-horoscope {
+    font-size: 60%;
+  }
+  .natal-horoscope img {
+    width: 27px;
+    height: 36px;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  .natal-horoscope {
+    font-size: 65%;
+  }
+  .natal-horoscope img {
+    width: 28px;
+    height: 38px;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  .natal-horoscope {
+    font-size: 75%;
+  }
+  .natal-horoscope img {
+    width: 30px;
+    height: 40px;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  .natal-horoscope {
+    font-size: 100%;
+  }
+  .natal-horoscope img {
+    width: 41px;
+    height: 54px;
+  }
+}
+@media (min-width: 776px) {
+  .natal-horoscope {
+    font-size: 100%;
+  }
+  .natal-horoscope img {
+    width: 41px;
+    height: 54px;
+  }
+}
+
+#natal > div > div.panels-flexible-row.panels-flexible-row-18-main-row.clearfix > div > div.panels-flexible-region.panels-flexible-region-18-center.natal-center > div,
+#natal > div > div.panels-flexible-row.panels-flexible-row-18-main-row.clearfix > div > div.panels-flexible-region.panels-flexible-region-18-astro_list_left.panels-flexible-region-last.natal-right > div {
+  padding-right: 0.0em;
+  padding-left: 3px;
+}
+
+.natal-horoscope span.morecontent > a {
+  display: inherit !important;
+}
+
+.natal-aspects {
+  background-color: #e0e0e0;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  padding: 0px 3px 0px 3px;
+}
+.natal-aspects a {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  text-decoration: none;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  .natal-aspects {
+    font-size: 60%;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  .natal-aspects {
+    font-size: 60%;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  .natal-aspects {
+    font-size: 65%;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  .natal-aspects {
+    font-size: 85%;
+  }
+}
+@media (min-width: 776px) {
+  .natal-aspects {
+    font-size: 100%;
+  }
+}
+
+#planet {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+#planet li.leaf {
+  padding: 0;
+}
+#planet .pane-aggregator-feed-1,
+#planet .pane-aggregator-feed-2,
+#planet .pane-2 {
+  float: left;
+  width: 100%;
+  border: 1px solid rgba(82, 112, 125, 0.8);
+  background-color: rgba(163, 219, 122, 0.2);
+  clear: both;
+  padding: 7px;
+  margin-bottom: 7px;
+}
+#planet .pane-aggregator-feed-1 ul,
+#planet .pane-aggregator-feed-2 ul,
+#planet .pane-2 ul {
+  list-style-type: none;
+  list-style: none;
+  margin-left: -39px;
+  margin-top: 4px;
+  margin-bottom: -1px;
+  font-size: 88%;
+  padding-right: 8px;
+}
+#planet .pane-aggregator-feed-1 a,
+#planet .pane-aggregator-feed-2 a,
+#planet .pane-2 a {
+  text-decoration: none;
+  color: rgba(52, 28, 44, 0.7);
+}
+#planet .pane-aggregator-feed-1 li,
+#planet .pane-aggregator-feed-2 li,
+#planet .pane-2 li {
+  list-style-type: none;
+  list-style: none;
+  padding-bottom: 6px;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #planet .pane-aggregator-feed-1 li,
+  #planet .pane-aggregator-feed-2 li,
+  #planet .pane-2 li {
+    font-size: 72%;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #planet .pane-aggregator-feed-1 li,
+  #planet .pane-aggregator-feed-2 li,
+  #planet .pane-2 li {
+    font-size: 76%;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #planet .pane-aggregator-feed-1 li,
+  #planet .pane-aggregator-feed-2 li,
+  #planet .pane-2 li {
+    font-size: 80%;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #planet .pane-aggregator-feed-1 li,
+  #planet .pane-aggregator-feed-2 li,
+  #planet .pane-2 li {
+    font-size: 100%;
+  }
+}
+@media (min-width: 776px) {
+  #planet .pane-aggregator-feed-1 li,
+  #planet .pane-aggregator-feed-2 li,
+  #planet .pane-2 li {
+    font-size: 100%;
+  }
+}
+#planet .pane-aggregator-feed-1 div.more-link,
+#planet .pane-aggregator-feed-2 div.more-link,
+#planet .pane-2 div.more-link {
+  color: #92c6de;
+  font-size: 70%;
+  float: left;
+  padding: 7px;
+}
+
+#planet div.node-planet {
+  background-color: rgba(146, 198, 222, 0.2);
+  border: 1px solid rgba(82, 112, 125, 0.8);
+  position: relative;
+  top: 34px;
+  text-align: justify;
+  padding: 7px;
+  margin-bottom: 34px;
+}
+
+#transits div#current-block {
+  float: left;
+  box-sizing: initial;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+#transits #current-block {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+#transits #current-block h2.pane-title {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #transits {
+    font-size: 73%;
+  }
+  #transits #current-block img {
+    width: 24px;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #transits {
+    font-size: 80%;
+  }
+  #transits #current-block img {
+    width: 25px;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #transits {
+    font-size: 87%;
+  }
+  #transits #current-block img {
+    width: 29px;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #transits {
+    font-size: 93%;
+  }
+  #transits #current-block img {
+    width: 32px;
+  }
+}
+@media (min-width: 776px) {
+  #transits {
+    font-size: 100%;
+  }
+  #transits #current-block img {
+    width: 35px;
+  }
+}
+
+#transits #transit-content {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: justify;
+  background-color: rgba(146, 198, 222, 0.2);
+  float: right;
+}
+#transits #transit-content header > h2 {
+  margin-top: -15px;
+}
+#transits #transit-content header > h2 > a,
+#transits #transit-content .pane-title {
+  display: none;
+}
+#transits #transit-content .pane-content {
+  margin-top: -14px;
+  margin-bottom: -26px;
+}
+#transits #transit-content p {
+  text-transform: initial;
+}
+@media (min-width: 0px) and (max-width: 319px) {
+  #transits #transit-content {
+    width: calc(98% - 122px);
+    font-size: 92%;
+    padding: 5px;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #transits #transit-content {
+    width: calc(98% - 130px);
+    font-size: 94%;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #transits #transit-content {
+    width: calc(98% - 140px);
+    font-size: 96%;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #transits #transit-content {
+    width: calc(98% - 155px);
+    font-size: 98%;
+  }
+}
+@media (min-width: 776px) {
+  #transits #transit-content {
+    width: calc(98% - 160px);
+    font-size: 100%;
+  }
+}
+
+#transits #element_1,
+#transits #element_2 {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+#current-block {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgba(163, 219, 122, 0.2);
+}
+#current-block table > tbody > tr > td {
+  vertical-align: bottom;
+}
+
+.pane-block-6 h2 {
+  display: none;
+}
+
+#footer {
+  clear: both;
+  background-color: rgba(244, 244, 135, 0.2);
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  border-top: 3px double rgba(82, 112, 125, 0.8);
+}
+#footer table {
+  margin: auto;
+  width: inherit;
+}
+#footer h2.pane-title {
+  display: none;
+}
+#footer #mini-panel-subdomains > div > div > div.panel-pane.pane-custom.pane-1 {
+  margin-top: 8px;
+}
+#footer div.pane-content {
+  padding-left: 5;
+  padding-right: 5;
+}
+#footer div.pane-content p {
+  font-size: 90%;
+  color: rgba(52, 28, 44, 0.7);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0px 10px 6px 10px;
+}
+#footer div.view-content {
+  clear: both;
+  text-align: center;
+}
+#footer div.view-content p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+#footer div.views-field.views-field-field-url > div > p > a {
+  font-size: 90%;
+  text-decoration: none;
+  color: rgba(82, 112, 125, 0.8);
+}
+
+.pane-page-logo {
+  background: #3b3b3b;
+}
+.pane-page-logo img {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+/*
+.pane-search-form {
+	position: absolute;
+	top: 75px;
+	right: 28px;
+	width: 118px;
+	#edit-submit {
+		position: relative;
+		top: 5px;
+		right: -28px;
+	}
+}
+*/
+#main-menu ul.menu {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 4px;
+  margin-top: 0em;
+  margin-bottom: 8px;
+  text-align: center;
+  background-color: #52707d;
+}
+#main-menu .menu li {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  display: inline-block;
+}
+#main-menu .menu li .leaf {
+  height: 90px;
+}
+#main-menu .menu li .first.leaf {
+  padding-left: 0.5em;
+}
+#main-menu .menu li .last.leaf {
+  padding-right: 0.5em;
+}
+#main-menu .menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 80%;
+}
+#main-menu .menu li a:link {
+  /* unvisited link */
+  color: #FFFFFF;
+}
+#main-menu .menu li a:visited {
+  /* visited link */
+  color: #FFFFFF;
+}
+#main-menu .menu li a:hover {
+  /* mouse over link */
+  color: black;
+}
+#main-menu .menu li a:active {
+  /* selected link */
+  color: #FFF000;
+}
+
+#nav-menu ul.menu {
+  padding: 0px 0px 0px 0px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+#nav-menu .menu li {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+#nav-menu .menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 80%;
+}
+#nav-menu .menu li a:link {
+  /* unvisited link */
+  color: #404040;
+}
+#nav-menu .menu li a:visited {
+  /* visited link */
+  color: #404040;
+}
+#nav-menu .menu li a:hover {
+  /* mouse over link */
+  color: black;
+}
+#nav-menu .menu li a:active {
+  /* selected link */
+  color: white;
+}
+
+#nav-menu div > ul > li {
+  list-style: none;
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  #nav-menu {
+    font-size: 85%;
+  }
+}
+@media (min-width: 375px) and (max-width: 471px) {
+  #nav-menu {
+    font-size: 92.5%;
+  }
+}
+@media (min-width: 472px) and (max-width: 775px) {
+  #nav-menu {
+    font-size: 100%;
+  }
+}

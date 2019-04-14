@@ -1,0 +1,132 @@
+////////////////////////
+// Style Guide Partials
+//
+// Your Style Guide
+// Build sub folders and partials in this folder, with everything being imported, in cascading order, into this file.
+//
+// All Style Guide selectors should go in here, regardless of layout or design (but separating the two in here is a good idea).
+////////////////////////
+@import 'breakpoint';
+//////////////////////////////
+// CSS Resets
+//
+// Choose your CSS Reset method:
+//  If you'd like a hard reset, uncomment `compass/reset`.
+//  If you'd prefer a soft reset, uncomment `normalize`
+//////////////////////////////
+// @import 'compass/reset';
+// @import 'normalize';
+
+///////////////////////////////
+//  COLOR SWATCHES
+///////////////////////////////
+#swatches {
+	width: calc(100% - 120px);
+	display: inline-block;
+	float: left;
+	background-color: $light-gray;
+	margin-left: 0.5em;
+	padding-left: 0.5em;
+	img {
+		display: inline-block;
+		float: left;
+	}
+	div.group-left {
+		clear: both;
+	}
+	div.group-right {
+		float: left;
+		width: 100%;
+		padding-left:0.5em;
+		padding-right: 0.5em;
+	}
+	@include breakpoint($bkpt-xsmall) {
+			font-size: 87%;
+			width: calc(100% - 120px);
+			img {
+				width: 40px;
+			}
+		}
+	@include breakpoint($bkpt-small) {
+			font-size: 87%;
+			width: calc(100% - 120px);
+			img {
+				width: 45px;
+			}
+		}
+	@include breakpoint($bkpt-medium) {
+		font-size: 87%;
+		width: calc(100% - 130px);
+		img {
+			width: 50px;
+		}
+	}
+	@include breakpoint($bkpt-large) {
+			font-size: 87%;
+			width: calc(100% - 140px);
+			img {
+				width: 60px;
+			}
+		}
+	@include breakpoint($bkpt-xlarge) {
+			font-size: 87%;
+			width: calc(100% - 150px);
+			img {
+				width: 70px;
+			}
+		}
+	
+}
+
+
+///////////////////////////////
+//  CURRENT-BLOCK
+///////////////////////////////
+#moon-color {
+	div#current-block {
+		display: inline-block;
+		float: left;
+		box-sizing: initial;
+		font-family: $arial-narrow;
+	}
+	#current-block {
+		border: 1px solid black;
+		padding: 5px;
+		text-align: center;
+		h2.pane-title {
+			display: none;
+		}
+	}
+
+	@include breakpoint($bkpt-xsmall) {
+		font-size: 73%;
+		#current-block img {
+			width: 24px;
+		}
+	}
+	@include breakpoint($bkpt-small) {
+		font-size: 80%;
+		#current-block img {
+			width: 25px;
+		}
+	}
+	@include breakpoint($bkpt-medium) {
+		font-size: 87%;
+		#current-block img {
+			width: 29px;
+		}
+	}
+	@include breakpoint($bkpt-large) {
+		font-size: 93%;
+		#current-block img {
+			width: 32px;
+		}
+	}
+	@include breakpoint($bkpt-xlarge) {
+		font-size: 100%;
+		#current-block img {
+			width: 35px;
+		}
+	}
+}
+

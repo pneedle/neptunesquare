@@ -1,0 +1,13 @@
+# RewriteBase /~pneedle/drupal
+RewriteEngine On
+
+RewriteBase /neptunesquare
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.*)$ index.php/$1 [NC,QSA,L]
+
+# Rewrite current-style URLs of the form 'index.php?q=x'.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+

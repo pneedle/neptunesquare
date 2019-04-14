@@ -1,0 +1,104 @@
+@import "breakpoint";
+
+//////////////////////////////////////////////////////////////////
+// NAVIGATION
+//////////////////////////////////////////////////////////////////
+#main-menu {
+	ul.menu {
+		padding-top: 0px;
+		padding-left: 0px;
+		padding-bottom: 4px;
+		margin-top: 0em; // keeps menubar flush against banner
+		margin-bottom: 8px;
+		text-align: center;
+		background-color: #52707d;
+	}
+
+	.menu li {
+		font-family: $arial-narrow;
+		display: inline-block;
+//		padding: 0em 0.25em 0em 0.25em; // top-right-bottom-left TRBL (trouble)
+		.leaf {
+			height: 90px;
+		}
+		.first.leaf {
+			padding-left: 0.5em;
+		}
+		.last.leaf {
+			padding-right: 0.5em;
+		}
+		a {
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 80%;
+		}
+		a:link {  /* unvisited link */
+		    color: #FFFFFF;
+//		    background-color: $light-violet;
+		}
+		a:visited {  /* visited link */
+		    color: #FFFFFF;
+//		    background-color: $light-green;
+		}
+		a:hover {  /* mouse over link */
+		    color: black;
+//		    background-color: $light-blue;
+		}
+		a:active {  /* selected link */
+		    color: #FFF000;
+//		    background-color: $violet;
+		}
+	}
+}
+
+
+#nav-menu {
+	ul.menu {
+		padding: 0px 0px 0px 0px;  //TRBL
+		margin-top: -10px;
+		margin-bottom: 5px;
+	}
+
+	.menu li {
+		font-family: $arial-narrow;
+		a {
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 80%;
+		}
+		a:link {  /* unvisited link */
+		    color: #404040;
+//		    background-color: $light-yellow;
+		}
+		a:visited {  /* visited link */
+		    color: #404040;
+//		    background-color: $light-green;
+		}
+		a:hover {  /* mouse over link */
+		    color: black;
+//		    background-color: $light-blue;
+		}
+		a:active {  /* selected link */
+		    color: white;
+//		    background-color: $violet;
+		}
+	}
+}
+
+#nav-menu {  // remove bullet points in the nav-menu
+	div > ul > li {
+		list-style: none;
+	}
+	@include breakpoint($bkpt-small) {
+//		width: 150px;
+		font-size: 85%;
+	}
+	@include breakpoint($bkpt-medium) {
+//		width: 160px;
+		font-size: 92.5%;
+	}
+	@include breakpoint($bkpt-large) {
+		font-size: 100%;
+	}
+}
+

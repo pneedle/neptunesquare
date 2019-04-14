@@ -1,0 +1,135 @@
+////////////////////////
+// Style Guide Partials
+////////////////////////
+@import 'breakpoint';
+///////////////////////////////
+//  FACETAPI
+///////////////////////////////
+#astro-list {
+		font-family: $arial-narrow;
+		li.leaf {
+			padding: 0;
+		}
+	.facet_api {
+		float: left;
+		border: 1px solid $blue;
+		background-color: $light-green;
+		clear: both;
+		ul {
+			list-style-type: none; 
+			list-style: none;
+			margin-left: -35px;
+			margin-top: -3px;
+			margin-bottom: -1px;
+			font-size: 88%;
+		}
+		li {
+			list-style-type: none;
+			list-style: none;
+		}
+		a {
+			text-decoration: none;
+			color: $violet;
+			@include breakpoint($bkpt-xsmall) {
+				font-size: 75%;
+				.facet_api {
+					min-width: 56px;
+				}
+			}
+			@include breakpoint($bkpt-small) {
+				font-size: 86%;
+				.facet_api {
+					min-width: 60px;
+				}
+			}
+			@include breakpoint($bkpt-medium) {
+				font-size: 93%;
+				.facet_api {
+					min-width: 64px;
+				}
+			}
+			@include breakpoint($bkpt-large) {
+				font-size: 100%;
+				.facet_api {
+					min-width: 68px;
+				}
+			}
+			@include breakpoint($bkpt-xlarge) {
+				font-size: 100%;
+				.facet_api {
+					min-width: 71px;
+				}
+			}
+		}
+		a.facetapi-limit-link {  // show more
+			color: $dark-blue;
+			font-size: 70%;
+		}
+		input {
+			display: none;
+		}
+	}
+	table {
+		clear: both;
+//		width: 540px;
+		display: inline-block;
+	}
+	
+///////////////////////////////
+//  ASTRO-LIST
+///////////////////////////////
+	div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1,
+	div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 {
+		th {
+			padding-right: 0;
+			font-weight: initial;
+		}
+		@include breakpoint($bkpt-xsmall) {
+			th,
+			td,
+			span.pane-title {
+				font-size: 65%;
+			}
+			img {
+				width: 13px;
+			}
+		}
+		@include breakpoint($bkpt-small) {
+			th,
+			td,
+			span.pane-title {
+				font-size: 73%;
+			}
+			img {
+				width: 14px;
+			}
+		}
+		@include breakpoint($bkpt-medium) {
+			th,
+			td {
+				font-size: 85%;
+			}
+			img {
+				width: 17px;
+			}
+		}
+		@include breakpoint($bkpt-large) {
+			th,
+			td {
+				font-size: 96%;
+			}
+			img {
+				width: 23px;
+			}
+		}
+		@include breakpoint($bkpt-xlarge) {
+			th
+			td {
+				font-size: 100%;
+			}
+			img {
+				width: 25px;
+			}
+		}
+	}
+}

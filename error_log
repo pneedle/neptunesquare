@@ -1,0 +1,4 @@
+[12-Jun-2013 15:25:26] PHP Fatal error:  Cannot redeclare angle() (previously declared in /home2/pneedle/public_html/astro3.643dp.com/sites/all/modules/custom/natal/functions.php:5) in /home2/pneedle/public_html/astro3.643dp.com/sites/all/modules/custom/natal/functions.php on line 37
+[14-Oct-2014 13:34:16 America/New_York] PHP Warning:  Unterminated comment starting line 2 in /home2/pneedle/public_html/astro3.643dp.com/sites/all/modules/contrib/ds/modules/ds_format/ds_format.module(66) : eval()'d code on line 2
+[17-Oct-2014 12:26:38 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[17-Oct-2014 12:26:53 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0

@@ -1,0 +1,13 @@
+////////////////////////
+// Style Guide Partials
+////////////////////////
+@import 'breakpoint';
+///////////////////////////////
+//  ASPECT
+///////////////////////////////
+#aspect {
+	font-family: $arial-narrow;
+	.comment_forbidden {
+		display: none;
+	}
+}
