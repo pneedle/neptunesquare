@@ -109,7 +109,6 @@
 		font-family: $arial-narrow;
 		border: 1px solid black;
 		padding: 5px;
-		width: 35%;
 		h2.pane-title {
 			font-size: 1.0em;
 			font-weight: normal;
@@ -173,7 +172,7 @@
 //  ASTROLOGY OF THE MOMENT
 ///////////////////////////////
 #homepage {
-	.panel-col-last {
+	.panel-col {
 		width: 63%;
 		float: right;
 		border: 1px solid black;

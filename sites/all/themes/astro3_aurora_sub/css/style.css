@@ -757,9 +757,8 @@ $bkpt-xlarge: 776px;
   font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   border: 1px solid black;
   padding: 5px;
-  width: 35%;
 }
-/* line 113, ../sass/partials/pages/_homepage.scss */
+/* line 112, ../sass/partials/pages/_homepage.scss */
 #homepage .panel-col-first h2.pane-title {
   font-size: 1.0em;
   font-weight: normal;
@@ -770,20 +769,20 @@ $bkpt-xlarge: 776px;
     clear: both;
   }
 }
-/* line 121, ../sass/partials/pages/_homepage.scss */
+/* line 120, ../sass/partials/pages/_homepage.scss */
 #homepage #planetary-positions {
   width: 100%;
 }
-/* line 125, ../sass/partials/pages/_homepage.scss */
+/* line 124, ../sass/partials/pages/_homepage.scss */
 #homepage #frontpage-feed {
   width: 100%;
   background-color: rgba(244, 244, 135, 0.2);
 }
-/* line 132, ../sass/partials/pages/_homepage.scss */
+/* line 131, ../sass/partials/pages/_homepage.scss */
 #homepage li.leaf {
   padding: 0;
 }
-/* line 135, ../sass/partials/pages/_homepage.scss */
+/* line 134, ../sass/partials/pages/_homepage.scss */
 #homepage .pane-aggregator-feed-1,
 #homepage .pane-aggregator-feed-2,
 #homepage .pane-2 {
@@ -794,7 +793,7 @@ $bkpt-xlarge: 776px;
   padding: 3px;
   margin-bottom: 7px;
 }
-/* line 144, ../sass/partials/pages/_homepage.scss */
+/* line 143, ../sass/partials/pages/_homepage.scss */
 #homepage .pane-aggregator-feed-1 ul,
 #homepage .pane-aggregator-feed-2 ul,
 #homepage .pane-2 ul {
@@ -806,14 +805,14 @@ $bkpt-xlarge: 776px;
   font-size: 88%;
   padding-right: 8px;
 }
-/* line 153, ../sass/partials/pages/_homepage.scss */
+/* line 152, ../sass/partials/pages/_homepage.scss */
 #homepage .pane-aggregator-feed-1 a,
 #homepage .pane-aggregator-feed-2 a,
 #homepage .pane-2 a {
   text-decoration: none;
   color: rgba(52, 28, 44, 0.7);
 }
-/* line 157, ../sass/partials/pages/_homepage.scss */
+/* line 156, ../sass/partials/pages/_homepage.scss */
 #homepage .pane-aggregator-feed-1 li,
 #homepage .pane-aggregator-feed-2 li,
 #homepage .pane-2 li {
@@ -822,7 +821,7 @@ $bkpt-xlarge: 776px;
   padding-bottom: 6px;
   font-size: 100%;
 }
-/* line 163, ../sass/partials/pages/_homepage.scss */
+/* line 162, ../sass/partials/pages/_homepage.scss */
 #homepage .pane-aggregator-feed-1 div.more-link,
 #homepage .pane-aggregator-feed-2 div.more-link,
 #homepage .pane-2 div.more-link {
@@ -832,8 +831,8 @@ $bkpt-xlarge: 776px;
   padding: 7px;
 }
 
-/* line 176, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-last {
+/* line 175, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col {
   width: 63%;
   float: right;
   border: 1px solid black;
@@ -843,37 +842,37 @@ $bkpt-xlarge: 776px;
   font-size: 85%;
 }
 @media (min-width: 577px) and (max-width: 768px) {
-  /* line 176, ../sass/partials/pages/_homepage.scss */
-  #homepage .panel-col-last {
+  /* line 175, ../sass/partials/pages/_homepage.scss */
+  #homepage .panel-col {
     width: 61%;
   }
 }
 @media (min-width: 0px) and (max-width: 576px) {
-  /* line 176, ../sass/partials/pages/_homepage.scss */
-  #homepage .panel-col-last {
+  /* line 175, ../sass/partials/pages/_homepage.scss */
+  #homepage .panel-col {
     width: 59%;
   }
 }
-/* line 190, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-last header > h2 {
+/* line 189, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col header > h2 {
   margin-top: -15px;
 }
-/* line 193, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-last header > h2 > a,
-#homepage .panel-col-last .pane-title {
+/* line 192, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col header > h2 > a,
+#homepage .panel-col .pane-title {
   display: none;
 }
-/* line 197, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-last .pane-content {
+/* line 196, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col .pane-content {
   margin-top: -14px;
   margin-bottom: -26px;
 }
-/* line 201, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-last p {
+/* line 200, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col p {
   text-transform: initial;
 }
-/* line 205, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-last .chart_wheel iframe {
+/* line 204, ../sass/partials/pages/_homepage.scss */
+#homepage .panel-col .chart_wheel iframe {
   position: relative;
   width: 100%;
 }
