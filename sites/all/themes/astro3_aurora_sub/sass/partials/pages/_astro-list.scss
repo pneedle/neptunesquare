@@ -30,12 +30,6 @@
 		a {
 			text-decoration: none;
 			color: $violet;
-			@include breakpoint($bkpt-xsmall) {
-				font-size: 75%;
-				.facet_api {
-					min-width: 56px;
-				}
-			}
 			@include breakpoint($bkpt-small) {
 				font-size: 86%;
 				.facet_api {
@@ -83,16 +77,6 @@
 		th {
 			padding-right: 0;
 			font-weight: initial;
-		}
-		@include breakpoint($bkpt-xsmall) {
-			th,
-			td,
-			span.pane-title {
-				font-size: 65%;
-			}
-			img {
-				width: 13px;
-			}
 		}
 		@include breakpoint($bkpt-small) {
 			th,

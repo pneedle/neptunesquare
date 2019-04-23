@@ -39,12 +39,6 @@
 		}
 	}
 
-	@include breakpoint($bkpt-xsmall) {
-		font-size: 73%;
-		#current-block img {
-			width: 24px;
-		}
-	}
 	@include breakpoint($bkpt-small) {
 		font-size: 80%;
 		#current-block img {
@@ -94,11 +88,6 @@
 		}
 		p {
 			text-transform: initial;
-		}
-		@include breakpoint($bkpt-xsmall) {
-			width: calc(98% - 122px);
-			font-size: 92%;
-			padding: 5px;
 		}
 		@include breakpoint($bkpt-small) {
 			width: calc(98% - 130px);

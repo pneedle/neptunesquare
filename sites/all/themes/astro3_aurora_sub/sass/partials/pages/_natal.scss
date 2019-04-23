@@ -29,9 +29,6 @@
 		border-top-color: $darker-gray;
 		border-top-width: 2px;
 	}
-	@include breakpoint($bkpt-xsmall) {
-		font-size: 55%;
-	}
 	@include breakpoint($bkpt-small) {
 		font-size: 56%;
 	}
@@ -67,13 +64,6 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
 	}
 	img {
 		margin-top: 12px;
-	}
-	@include breakpoint($bkpt-xsmall) {
-		font-size: 60%;
-		img {
-			width: 27px;
-			height: 36px;
-		}
 	}
 	@include breakpoint($bkpt-small) {
 		font-size: 65%;
@@ -127,9 +117,6 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
 	a {
 		font-family: $arial-narrow;
 		text-decoration: none;
-	}
-	@include breakpoint($bkpt-xsmall) {
-		font-size: 60%;
 	}
 	@include breakpoint($bkpt-small) {
 		font-size: 60%;
