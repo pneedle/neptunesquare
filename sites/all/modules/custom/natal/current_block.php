@@ -2,8 +2,8 @@
 
 require_once 'sites/all/modules/custom/natal/functions.php';
 $today = date("M. j, Y, g:i a"); // M = Jan
-echo $x = "Planetary positions for: <br />" . $today;
-
+$x = '<span style="color:rgb(57,51,127);font-size:30px">Planetary positions for: <br />' . $today;
+echo $x;
 $P = array("Sun  ","Moon  ","Mercury","Venus","Mars","Jupiter","Saturn","Uranus","Neptune","Pluto","Moon's Node  ");
 $p = array("sun","moon","mercury","venus","mars","jupiter","saturn","uranus","neptune","pluto","nnode");
 for ($i=0; $i<11; $i++) {

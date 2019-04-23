@@ -1,15 +1,13 @@
-$bkpt-xsmall: 0px 576px;
+// Small devices
+$bkpt-small: 0px 500px;
 
-// Small devices (landscape phones, 576px and up)
-$bkpt-small: 577px 768px;
+// Medium devices (tablets, 501px and up)
+$bkpt-medium: 501px 700px;
 
-// Medium devices (tablets, 768px and up)
-$bkpt-medium: 769px 992px;
+// Large devices (desktops, 701px and up)
+$bkpt-large: 701px 1200px;
 
-// Large devices (desktops, 992px and up)
-$bkpt-large: 993px 1200px;
-
-// Extra large devices (large desktops, 1200px and up)
+// Extra large devices (large desktops, 1201px and up)
 $bkpt-xlarge: 1201px;
 
 

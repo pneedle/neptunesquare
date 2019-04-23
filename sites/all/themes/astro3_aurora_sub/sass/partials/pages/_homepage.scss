@@ -20,20 +20,30 @@
 ///////////////////////////////
 //  HOMEPAGE
 ///////////////////////////////
-
-#homepage > section.aurora-sample-section.aurora-section-second > div.panel-pane.pane-block.pane-block-8.chart_wheel {
-	clear: both;
-}
+#homepage {
+	font-family: $arial-narrow;
+	p {
+		text-transform: initial;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	p {
+		font-size: 14px;
+	}
 
 ///////////////////////////////
 //  CHART WHEEL
 ///////////////////////////////
-#homepage {
-	.chart_wheel {
+#chart_wheel {
 		iframe {
 			position: relative;
 			display: inline-block;
 			margin-bottom: 30px;
+
 		}
 		.moreellipses {
 			display: none;
@@ -48,145 +58,67 @@
 				display: none !important;
 		}
 	}
+#chart-wheel > div > div > iframe {
+	width: -webkit-fill-available;
+	min-height: 400px !important;
 }
+
 
 ///////////////////////////////
 //  PLANETARAY POSITIONS
 ///////////////////////////////
-#homepage {
-	div#planetary-positions {
-		float: left;
-		//width: 33%;
-		box-sizing: initial;
-		font-family: $arial-narrow;
-		background-color: $light-green;
-	}
 	#planetary-positions {
+		width: 41%;
+		display: inline-block;
+		float: left;
+		box-sizing: initial;
+		background-color: $light-green;
 		border: 1px solid black;
-		padding: 5px;
 		text-align: center;
 		margin-bottom: 10px;
-		font-size: 100%;
 		h2.pane-title {
 			display: none;
 		}
-	}
-
-	@include breakpoint($bkpt-xsmall) {
-		#planetary-positions img {
+	
+	@include breakpoint($bkpt-small) {
+		width: 41%;
+		img {
 			width: 33px;
 		}
 	}
-	@include breakpoint($bkpt-small) {
-		#planetary-positions img {
-			width: 34px;
-		}
-	}
-	@include breakpoint($bkpt-medium) {
-		#planetary-positions img {
+	@include breakpoint($bkpt-medium) {  // Medium devices (tablets, 501px and up)
+		width: 36%;
+		img {
 			width: 39px;
 		}
 	}
-	@include breakpoint($bkpt-large) {
-		#planetary-positions img {
+	@include breakpoint($bkpt-large) {  // Large devices (desktops, 701px and up)
+		width: 25%;
+		img {
 			width: 42px;
 		}
 	}
-	@include breakpoint($bkpt-xlarge) {
-		#planetary-positions img {
+	@include breakpoint($bkpt-xlarge) { // Extra large devices (large desktops, 1201px and up)
+		width: 25%;
+		img {
 			width: 45px;
 		}
 	}
 }
 
 ///////////////////////////////
-//  FEED
+//  MOON COLOR OF THE DAY
 ///////////////////////////////
-#homepage {
-	.panel-col-first {
-		float: left;
-		box-sizing: initial;
-		font-family: $arial-narrow;
-		border: 1px solid black;
-		padding: 5px;
-		width: 35%;
-		h2.pane-title {
-			font-size: 1.0em;
-			font-weight: normal;
-		}
-		@include breakpoint($bkpt-medium) {
-			clear: both;
-		}
-	}
-	#planetary-positions {
-		width: 100%;
-	}
-
-	#frontpage-feed {
-		width: 100%;
-		background-color: $light-yellow;
-	}
-
-
-	font-family: $arial-narrow;
-	li.leaf {
-		padding: 0;
-	}
-	.pane-aggregator-feed-1,
-	.pane-aggregator-feed-2,
-	.pane-2 {
-		float: left;
-		border: 1px solid $blue;
-		background-color: $light-green;
+	#moon-color-of-the-day {
 		clear: both;
-		padding: 3px;
-		margin-bottom: 7px;
-		ul {
-			list-style-type: none; 
-			list-style: none;
-			margin-left: -39px;
-			margin-top: 4px;
-			margin-bottom: -1px;
-			font-size: 88%;
-			padding-right: 8px;
-		}
-		a {
-			text-decoration: none;
-			color: $violet;
-		}
-		li {
-			list-style-type: none;
-			list-style: none;
-			padding-bottom: 6px;
-			font-size: 100%;
-		}
-		div.more-link {  // show more
-			color: $dark-blue;
-			font-size: 90%;
-			float: left;
-			padding: 7px;
-		}
-	}
-}
-
-///////////////////////////////
-//  ASTROLOGY OF THE MOMENT
-///////////////////////////////
-#homepage {
-	.panel-col-last {
-		width: 63%;
-		float: right;
+		float: left;
+		width: 41%;
+		display: inline-block;
 		border: 1px solid black;
-		padding: 8px 8px 34px 8px;  // TRBL
+		padding: 4px 4px 31px 5px;  // TRBL
 		text-align: justify;
-		background-color: $light-blue;
+		background-color: $light-green;
 		font-size: 85%;
-		@include breakpoint($bkpt-small) {
-			width: 61%;
-		}
-		@include breakpoint($bkpt-xsmall) {
-			width: 59%;
-		}
 		header > h2 {
 			margin-top: -15px;
 		} 	
@@ -195,18 +127,86 @@
 			display: none;
 		}
 		.pane-content {
-			margin-top: -14px;
 			margin-bottom: -26px;
 		}
 		p {
 			text-transform: initial;
 		}
-		.chart_wheel {
-			iframe {
-				position: relative;
-				width: 100%;
+
+		@include breakpoint($bkpt-small) {
+			width: 41%;
+			img {
+				width: 33px;
+			}
+		}
+		@include breakpoint($bkpt-medium) {  // (tablets, 501px and up)
+			width: 36%;
+			img {
+				width: 39px;
+			}
+		}
+		@include breakpoint($bkpt-large) {  // (desktops, 701px and up)
+			width: 25%;
+			img {
+				width: 42px;
+			}
+		}
+		@include breakpoint($bkpt-xlarge) { // (large desktops, 1201px and up)
+			width: 25%;
+			img {
+				width: 45px;
 			}
 		}
 	}
-}
 
+///////////////////////////////
+//  ASTROLOGY OF THE MOMENT
+///////////////////////////////
+	#astrology-of-the-moment {
+		width: 55%;
+		display: inline-block;
+		border: 1px solid black;
+		padding: 4px 4px 31px 5px;  // TRBL
+		text-align: justify;
+		background-color: $light-blue;
+		font-size: 85%;
+		header > h2 > a,
+		.pane-title {
+			display: none;
+		}
+		.pane-content {
+			margin-top: -14px;
+			margin-bottom: -26px;
+		}
+
+		@include breakpoint($bkpt-small) {
+			width: 55%;
+			font-size:16px;
+			img {
+				width: 33px;
+			}
+		}
+		@include breakpoint($bkpt-medium) {
+		 width: 60%;
+			font-size:18px;
+			img {
+				width: 39px;
+			}
+		}
+		@include breakpoint($bkpt-large) {
+			width: 66%;
+			font-size:20px;
+			img {
+				width: 42px;
+			}
+		}
+		@include breakpoint($bkpt-xlarge) {
+		  width: 66%;
+			font-size:20px;
+			img {
+				width: 45px;
+			}
+		}
+	}
+
+}

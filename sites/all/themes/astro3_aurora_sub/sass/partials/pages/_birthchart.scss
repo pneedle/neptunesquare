@@ -38,15 +38,6 @@
 			display: none;
 		}
 	}
-	@include breakpoint($bkpt-xsmall) {
-		#current-block {
-			display: none;
-		}
-		font-size: 92%;
-		#current-block img {
-			width: 28px;
-		}
-	}
 	@include breakpoint($bkpt-small) {
 		#current-block {
 			display: none;
@@ -92,10 +83,6 @@
 		p {
 			text-transform: initial;
 		}
-		@include breakpoint($bkpt-xsmall) {
-//			width: calc(96% - 122px);
-			width: calc(96% - 0px);
-		}
 		@include breakpoint($bkpt-small) {
 //			width: calc(96% - 130px);
 			width: calc(96% - 0px);
@@ -125,18 +112,6 @@
   top: 0;
   left: 0;
 
-	@include breakpoint($bkpt-xsmall) {
-	  width: 150%;
-	  height: 130%;
-	  -moz-transform: scale(0.65, 0.65); 
-	  -webkit-transform: scale(0.65, 0.65); 
-	  -o-transform: scale(0.65, 0.65);
-	  -ms-transform: scale(0.65, 0.65);
-	  transform: scale(0.65, 0.65); 
-		#carte_corps > div {
-			margin: inherit;
-		}
-	}
 	@include breakpoint($bkpt-small) {
 	  width: 120%;
 		height: 120%;

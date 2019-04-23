@@ -52,9 +52,6 @@
 			list-style-type: none;
 			list-style: none;
 			padding-bottom: 6px;
-			@include breakpoint($bkpt-xsmall) {
-				font-size: 72%;
-			}
 			@include breakpoint($bkpt-small) {
 				font-size: 76%;
 			}

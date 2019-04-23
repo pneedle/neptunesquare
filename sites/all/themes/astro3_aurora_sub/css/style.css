@@ -73,42 +73,32 @@ $bkpt-xlarge: 776px;
   text-decoration: none;
   color: rgba(52, 28, 44, 0.7);
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 30, ../sass/partials/pages/_astro-list.scss */
-  #astro-list .facet_api a {
-    font-size: 75%;
-  }
-  /* line 35, ../sass/partials/pages/_astro-list.scss */
-  #astro-list .facet_api a .facet_api {
-    min-width: 56px;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 30, ../sass/partials/pages/_astro-list.scss */
   #astro-list .facet_api a {
     font-size: 86%;
   }
-  /* line 41, ../sass/partials/pages/_astro-list.scss */
+  /* line 35, ../sass/partials/pages/_astro-list.scss */
   #astro-list .facet_api a .facet_api {
     min-width: 60px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 30, ../sass/partials/pages/_astro-list.scss */
   #astro-list .facet_api a {
     font-size: 93%;
   }
-  /* line 47, ../sass/partials/pages/_astro-list.scss */
+  /* line 41, ../sass/partials/pages/_astro-list.scss */
   #astro-list .facet_api a .facet_api {
     min-width: 64px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 30, ../sass/partials/pages/_astro-list.scss */
   #astro-list .facet_api a {
     font-size: 100%;
   }
-  /* line 53, ../sass/partials/pages/_astro-list.scss */
+  /* line 47, ../sass/partials/pages/_astro-list.scss */
   #astro-list .facet_api a .facet_api {
     min-width: 68px;
   }
@@ -118,49 +108,33 @@ $bkpt-xlarge: 776px;
   #astro-list .facet_api a {
     font-size: 100%;
   }
-  /* line 59, ../sass/partials/pages/_astro-list.scss */
+  /* line 53, ../sass/partials/pages/_astro-list.scss */
   #astro-list .facet_api a .facet_api {
     min-width: 71px;
   }
 }
-/* line 64, ../sass/partials/pages/_astro-list.scss */
+/* line 58, ../sass/partials/pages/_astro-list.scss */
 #astro-list .facet_api a.facetapi-limit-link {
   color: #92c6de;
   font-size: 70%;
 }
-/* line 68, ../sass/partials/pages/_astro-list.scss */
+/* line 62, ../sass/partials/pages/_astro-list.scss */
 #astro-list .facet_api input {
   display: none;
 }
-/* line 72, ../sass/partials/pages/_astro-list.scss */
+/* line 66, ../sass/partials/pages/_astro-list.scss */
 #astro-list table {
   clear: both;
   display: inline-block;
 }
-/* line 83, ../sass/partials/pages/_astro-list.scss */
+/* line 77, ../sass/partials/pages/_astro-list.scss */
 #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
 #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th {
   padding-right: 0;
   font-weight: initial;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 88, ../sass/partials/pages/_astro-list.scss */
-  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
-  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
-  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 span.pane-title,
-  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th,
-  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 td,
-  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 span.pane-title {
-    font-size: 65%;
-  }
-  /* line 93, ../sass/partials/pages/_astro-list.scss */
-  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
-  #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
-    width: 13px;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 98, ../sass/partials/pages/_astro-list.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 82, ../sass/partials/pages/_astro-list.scss */
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 span.pane-title,
@@ -169,49 +143,49 @@ $bkpt-xlarge: 776px;
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 span.pane-title {
     font-size: 73%;
   }
-  /* line 103, ../sass/partials/pages/_astro-list.scss */
+  /* line 87, ../sass/partials/pages/_astro-list.scss */
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
     width: 14px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 108, ../sass/partials/pages/_astro-list.scss */
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 92, ../sass/partials/pages/_astro-list.scss */
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 td {
     font-size: 85%;
   }
-  /* line 112, ../sass/partials/pages/_astro-list.scss */
+  /* line 96, ../sass/partials/pages/_astro-list.scss */
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
     width: 17px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* line 117, ../sass/partials/pages/_astro-list.scss */
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 101, ../sass/partials/pages/_astro-list.scss */
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 td {
     font-size: 96%;
   }
-  /* line 121, ../sass/partials/pages/_astro-list.scss */
+  /* line 105, ../sass/partials/pages/_astro-list.scss */
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
     width: 23px;
   }
 }
 @media (min-width: 1201px) {
-  /* line 126, ../sass/partials/pages/_astro-list.scss */
+  /* line 110, ../sass/partials/pages/_astro-list.scss */
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th
   td,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 th
   td {
     font-size: 100%;
   }
-  /* line 130, ../sass/partials/pages/_astro-list.scss */
+  /* line 114, ../sass/partials/pages/_astro-list.scss */
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 img,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-public-panel-pane-2 img {
     width: 25px;
@@ -234,10 +208,10 @@ $bkpt-xlarge: 776px;
 #birthchart #current-block h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 576px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 27, ../sass/partials/pages/_birthchart.scss */
   #birthchart {
-    font-size: 92%;
+    font-size: 94%;
   }
   /* line 42, ../sass/partials/pages/_birthchart.scss */
   #birthchart #current-block {
@@ -245,39 +219,25 @@ $bkpt-xlarge: 776px;
   }
   /* line 46, ../sass/partials/pages/_birthchart.scss */
   #birthchart #current-block img {
-    width: 28px;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 27, ../sass/partials/pages/_birthchart.scss */
-  #birthchart {
-    font-size: 94%;
-  }
-  /* line 51, ../sass/partials/pages/_birthchart.scss */
-  #birthchart #current-block {
-    display: none;
-  }
-  /* line 55, ../sass/partials/pages/_birthchart.scss */
-  #birthchart #current-block img {
     width: 31px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 27, ../sass/partials/pages/_birthchart.scss */
   #birthchart {
     font-size: 96%;
   }
-  /* line 61, ../sass/partials/pages/_birthchart.scss */
+  /* line 52, ../sass/partials/pages/_birthchart.scss */
   #birthchart #current-block img {
     width: 34px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 27, ../sass/partials/pages/_birthchart.scss */
   #birthchart {
     font-size: 98%;
   }
-  /* line 67, ../sass/partials/pages/_birthchart.scss */
+  /* line 58, ../sass/partials/pages/_birthchart.scss */
   #birthchart #current-block img {
     width: 37px;
   }
@@ -287,59 +247,53 @@ $bkpt-xlarge: 776px;
   #birthchart {
     font-size: 100%;
   }
-  /* line 73, ../sass/partials/pages/_birthchart.scss */
+  /* line 64, ../sass/partials/pages/_birthchart.scss */
   #birthchart #current-block img {
     width: 40px;
   }
 }
 
-/* line 83, ../sass/partials/pages/_birthchart.scss */
+/* line 74, ../sass/partials/pages/_birthchart.scss */
 #birthchart #astrotheme {
   border: 1px solid black;
   background-color: rgba(146, 198, 222, 0.2);
   float: right;
 }
-/* line 87, ../sass/partials/pages/_birthchart.scss */
+/* line 78, ../sass/partials/pages/_birthchart.scss */
 #birthchart #astrotheme header > h2 > a,
 #birthchart #astrotheme .pane-title {
   display: none;
 }
-/* line 92, ../sass/partials/pages/_birthchart.scss */
+/* line 83, ../sass/partials/pages/_birthchart.scss */
 #birthchart #astrotheme p {
   text-transform: initial;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 83, ../sass/partials/pages/_birthchart.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 74, ../sass/partials/pages/_birthchart.scss */
   #birthchart #astrotheme {
     width: calc(96% - 0px);
   }
 }
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 83, ../sass/partials/pages/_birthchart.scss */
-  #birthchart #astrotheme {
-    width: calc(96% - 0px);
-  }
-}
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 83, ../sass/partials/pages/_birthchart.scss */
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 74, ../sass/partials/pages/_birthchart.scss */
   #birthchart #astrotheme {
     width: calc(96% - 140px);
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* line 83, ../sass/partials/pages/_birthchart.scss */
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 74, ../sass/partials/pages/_birthchart.scss */
   #birthchart #astrotheme {
     width: calc(96% - 155px);
   }
 }
 @media (min-width: 1201px) {
-  /* line 83, ../sass/partials/pages/_birthchart.scss */
+  /* line 74, ../sass/partials/pages/_birthchart.scss */
   #birthchart #astrotheme {
     width: calc(96% - 160px);
   }
 }
 
-/* line 115, ../sass/partials/pages/_birthchart.scss */
+/* line 102, ../sass/partials/pages/_birthchart.scss */
 #astrotheme {
   position: relative;
   padding-bottom: 50%;
@@ -348,7 +302,7 @@ $bkpt-xlarge: 776px;
   overflow: hidden;
 }
 
-/* line 123, ../sass/partials/pages/_birthchart.scss */
+/* line 110, ../sass/partials/pages/_birthchart.scss */
 #astrotheme iframe {
   position: absolute;
   top: 0;
@@ -359,24 +313,8 @@ $bkpt-xlarge: 776px;
   -ms-transform-origin: top left;
   transform-origin: top left;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 123, ../sass/partials/pages/_birthchart.scss */
-  #astrotheme iframe {
-    width: 150%;
-    height: 130%;
-    -moz-transform: scale(0.65, 0.65);
-    -webkit-transform: scale(0.65, 0.65);
-    -o-transform: scale(0.65, 0.65);
-    -ms-transform: scale(0.65, 0.65);
-    transform: scale(0.65, 0.65);
-  }
-  /* line 136, ../sass/partials/pages/_birthchart.scss */
-  #astrotheme iframe #carte_corps > div {
-    margin: inherit;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 123, ../sass/partials/pages/_birthchart.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 110, ../sass/partials/pages/_birthchart.scss */
   #astrotheme iframe {
     width: 120%;
     height: 120%;
@@ -386,13 +324,13 @@ $bkpt-xlarge: 776px;
     -ms-transform: scale(0.75, 0.75);
     transform: scale(0.75, 0.75);
   }
-  /* line 148, ../sass/partials/pages/_birthchart.scss */
+  /* line 123, ../sass/partials/pages/_birthchart.scss */
   #astrotheme iframe #carte_corps > div {
     margin: inherit;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 123, ../sass/partials/pages/_birthchart.scss */
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 110, ../sass/partials/pages/_birthchart.scss */
   #astrotheme iframe {
     width: 110%;
     height: 100%;
@@ -403,15 +341,15 @@ $bkpt-xlarge: 776px;
     transform: scale(0.85, 0.85);
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* line 123, ../sass/partials/pages/_birthchart.scss */
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 110, ../sass/partials/pages/_birthchart.scss */
   #astrotheme iframe {
     width: 100%;
     height: 100%;
   }
 }
 @media (min-width: 1201px) {
-  /* line 123, ../sass/partials/pages/_birthchart.scss */
+  /* line 110, ../sass/partials/pages/_birthchart.scss */
   #astrotheme iframe {
     width: 100%;
     height: 100%;
@@ -439,10 +377,10 @@ $bkpt-xlarge: 776px;
 #compatibility #current-block h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 576px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 27, ../sass/partials/pages/_compatibility.scss */
   #compatibility {
-    font-size: 92%;
+    font-size: 94%;
   }
   /* line 42, ../sass/partials/pages/_compatibility.scss */
   #compatibility #current-block {
@@ -450,39 +388,25 @@ $bkpt-xlarge: 776px;
   }
   /* line 46, ../sass/partials/pages/_compatibility.scss */
   #compatibility #current-block img {
-    width: 28px;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 27, ../sass/partials/pages/_compatibility.scss */
-  #compatibility {
-    font-size: 94%;
-  }
-  /* line 51, ../sass/partials/pages/_compatibility.scss */
-  #compatibility #current-block {
-    display: none;
-  }
-  /* line 55, ../sass/partials/pages/_compatibility.scss */
-  #compatibility #current-block img {
     width: 31px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 27, ../sass/partials/pages/_compatibility.scss */
   #compatibility {
     font-size: 96%;
   }
-  /* line 61, ../sass/partials/pages/_compatibility.scss */
+  /* line 52, ../sass/partials/pages/_compatibility.scss */
   #compatibility #current-block img {
     width: 34px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 27, ../sass/partials/pages/_compatibility.scss */
   #compatibility {
     font-size: 98%;
   }
-  /* line 67, ../sass/partials/pages/_compatibility.scss */
+  /* line 58, ../sass/partials/pages/_compatibility.scss */
   #compatibility #current-block img {
     width: 37px;
   }
@@ -492,59 +416,53 @@ $bkpt-xlarge: 776px;
   #compatibility {
     font-size: 100%;
   }
-  /* line 73, ../sass/partials/pages/_compatibility.scss */
+  /* line 64, ../sass/partials/pages/_compatibility.scss */
   #compatibility #current-block img {
     width: 40px;
   }
 }
 
-/* line 83, ../sass/partials/pages/_compatibility.scss */
+/* line 74, ../sass/partials/pages/_compatibility.scss */
 #compatibility #compatibility-content {
   border: 1px solid black;
   background-color: rgba(146, 198, 222, 0.2);
   float: right;
 }
-/* line 87, ../sass/partials/pages/_compatibility.scss */
+/* line 78, ../sass/partials/pages/_compatibility.scss */
 #compatibility #compatibility-content header > h2 > a,
 #compatibility #compatibility-content .pane-title {
   display: none;
 }
-/* line 92, ../sass/partials/pages/_compatibility.scss */
+/* line 83, ../sass/partials/pages/_compatibility.scss */
 #compatibility #compatibility-content p {
   text-transform: initial;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 83, ../sass/partials/pages/_compatibility.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 74, ../sass/partials/pages/_compatibility.scss */
   #compatibility #compatibility-content {
     width: calc(96% - 0px);
   }
 }
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 83, ../sass/partials/pages/_compatibility.scss */
-  #compatibility #compatibility-content {
-    width: calc(96% - 0px);
-  }
-}
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 83, ../sass/partials/pages/_compatibility.scss */
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 74, ../sass/partials/pages/_compatibility.scss */
   #compatibility #compatibility-content {
     width: calc(96% - 140px);
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* line 83, ../sass/partials/pages/_compatibility.scss */
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 74, ../sass/partials/pages/_compatibility.scss */
   #compatibility #compatibility-content {
     width: calc(96% - 155px);
   }
 }
 @media (min-width: 1201px) {
-  /* line 83, ../sass/partials/pages/_compatibility.scss */
+  /* line 74, ../sass/partials/pages/_compatibility.scss */
   #compatibility #compatibility-content {
     width: calc(96% - 160px);
   }
 }
 
-/* line 115, ../sass/partials/pages/_compatibility.scss */
+/* line 102, ../sass/partials/pages/_compatibility.scss */
 #compatibility-content {
   position: relative;
   padding-bottom: 50%;
@@ -553,7 +471,7 @@ $bkpt-xlarge: 776px;
   overflow: hidden;
 }
 
-/* line 123, ../sass/partials/pages/_compatibility.scss */
+/* line 110, ../sass/partials/pages/_compatibility.scss */
 #compatibility-content iframe {
   position: absolute;
   top: 0;
@@ -564,24 +482,8 @@ $bkpt-xlarge: 776px;
   -ms-transform-origin: top left;
   transform-origin: top left;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 123, ../sass/partials/pages/_compatibility.scss */
-  #compatibility-content iframe {
-    width: 150%;
-    height: 130%;
-    -moz-transform: scale(0.65, 0.65);
-    -webkit-transform: scale(0.65, 0.65);
-    -o-transform: scale(0.65, 0.65);
-    -ms-transform: scale(0.65, 0.65);
-    transform: scale(0.65, 0.65);
-  }
-  /* line 136, ../sass/partials/pages/_compatibility.scss */
-  #compatibility-content iframe #carte_corps > div {
-    margin: inherit;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 123, ../sass/partials/pages/_compatibility.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 110, ../sass/partials/pages/_compatibility.scss */
   #compatibility-content iframe {
     width: 120%;
     height: 120%;
@@ -591,13 +493,13 @@ $bkpt-xlarge: 776px;
     -ms-transform: scale(0.75, 0.75);
     transform: scale(0.75, 0.75);
   }
-  /* line 148, ../sass/partials/pages/_compatibility.scss */
+  /* line 123, ../sass/partials/pages/_compatibility.scss */
   #compatibility-content iframe #carte_corps > div {
     margin: inherit;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 123, ../sass/partials/pages/_compatibility.scss */
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 110, ../sass/partials/pages/_compatibility.scss */
   #compatibility-content iframe {
     width: 110%;
     height: 100%;
@@ -608,15 +510,15 @@ $bkpt-xlarge: 776px;
     transform: scale(0.85, 0.85);
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* line 123, ../sass/partials/pages/_compatibility.scss */
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 110, ../sass/partials/pages/_compatibility.scss */
   #compatibility-content iframe {
     width: 100%;
     height: 100%;
   }
 }
 @media (min-width: 1201px) {
-  /* line 123, ../sass/partials/pages/_compatibility.scss */
+  /* line 110, ../sass/partials/pages/_compatibility.scss */
   #compatibility-content iframe {
     width: 100%;
     height: 100%;
@@ -634,19 +536,19 @@ $bkpt-xlarge: 776px;
   padding-left: 5px;
   padding-right: 5px;
 }
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 25, ../sass/partials/pages/_glossary.scss */
   #glossary-list .views-field-body {
     font-size: 80%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 25, ../sass/partials/pages/_glossary.scss */
   #glossary-list .views-field-body {
     font-size: 90%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 25, ../sass/partials/pages/_glossary.scss */
   #glossary-list .views-field-body {
     font-size: 100%;
@@ -668,214 +570,240 @@ $bkpt-xlarge: 776px;
   padding: 8px;
 }
 
-/* line 24, ../sass/partials/pages/_homepage.scss */
-#homepage > section.aurora-sample-section.aurora-section-second > div.panel-pane.pane-block.pane-block-8.chart_wheel {
-  clear: both;
+/* line 23, ../sass/partials/pages/_homepage.scss */
+#homepage {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-
-/* line 33, ../sass/partials/pages/_homepage.scss */
-#homepage .chart_wheel iframe {
+/* line 25, ../sass/partials/pages/_homepage.scss */
+#homepage p {
+  text-transform: initial;
+}
+/* line 28, ../sass/partials/pages/_homepage.scss */
+#homepage h2 {
+  font-size: 20px;
+}
+/* line 31, ../sass/partials/pages/_homepage.scss */
+#homepage h3 {
+  font-size: 16px;
+}
+/* line 34, ../sass/partials/pages/_homepage.scss */
+#homepage p {
+  font-size: 14px;
+}
+/* line 42, ../sass/partials/pages/_homepage.scss */
+#homepage #chart_wheel iframe {
   position: relative;
   display: inline-block;
   margin-bottom: 30px;
 }
-/* line 38, ../sass/partials/pages/_homepage.scss */
-#homepage .chart_wheel .moreellipses {
+/* line 48, ../sass/partials/pages/_homepage.scss */
+#homepage #chart_wheel .moreellipses {
   display: none;
 }
-/* line 41, ../sass/partials/pages/_homepage.scss */
-#homepage .chart_wheel a.morelink {
+/* line 51, ../sass/partials/pages/_homepage.scss */
+#homepage #chart_wheel a.morelink {
   margin-top: -1.0em;
 }
-/* line 44, ../sass/partials/pages/_homepage.scss */
-#homepage .chart_wheel a.less {
+/* line 54, ../sass/partials/pages/_homepage.scss */
+#homepage #chart_wheel a.less {
   margin-top: 0.0em;
 }
-/* line 47, ../sass/partials/pages/_homepage.scss */
-#homepage .chart_wheel span.moreellipses {
+/* line 57, ../sass/partials/pages/_homepage.scss */
+#homepage #chart_wheel span.moreellipses {
   display: none !important;
 }
-
-/* line 57, ../sass/partials/pages/_homepage.scss */
-#homepage div#planetary-positions {
-  float: left;
-  box-sizing: initial;
-  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  background-color: rgba(163, 219, 122, 0.2);
-}
-/* line 64, ../sass/partials/pages/_homepage.scss */
-#homepage #planetary-positions {
-  border: 1px solid black;
-  padding: 5px;
-  text-align: center;
-  margin-bottom: 10px;
-  font-size: 100%;
+/* line 61, ../sass/partials/pages/_homepage.scss */
+#homepage #chart-wheel > div > div > iframe {
+  width: -webkit-fill-available;
+  min-height: 400px !important;
 }
 /* line 70, ../sass/partials/pages/_homepage.scss */
+#homepage #planetary-positions {
+  width: 41%;
+  display: inline-block;
+  float: left;
+  box-sizing: initial;
+  background-color: rgba(163, 219, 122, 0.2);
+  border: 1px solid black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* line 79, ../sass/partials/pages/_homepage.scss */
 #homepage #planetary-positions h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 76, ../sass/partials/pages/_homepage.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 70, ../sass/partials/pages/_homepage.scss */
+  #homepage #planetary-positions {
+    width: 41%;
+  }
+  /* line 85, ../sass/partials/pages/_homepage.scss */
   #homepage #planetary-positions img {
     width: 33px;
   }
 }
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 81, ../sass/partials/pages/_homepage.scss */
-  #homepage #planetary-positions img {
-    width: 34px;
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 70, ../sass/partials/pages/_homepage.scss */
+  #homepage #planetary-positions {
+    width: 36%;
   }
-}
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 86, ../sass/partials/pages/_homepage.scss */
+  /* line 91, ../sass/partials/pages/_homepage.scss */
   #homepage #planetary-positions img {
     width: 39px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* line 91, ../sass/partials/pages/_homepage.scss */
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 70, ../sass/partials/pages/_homepage.scss */
+  #homepage #planetary-positions {
+    width: 25%;
+  }
+  /* line 97, ../sass/partials/pages/_homepage.scss */
   #homepage #planetary-positions img {
     width: 42px;
   }
 }
 @media (min-width: 1201px) {
-  /* line 96, ../sass/partials/pages/_homepage.scss */
+  /* line 70, ../sass/partials/pages/_homepage.scss */
+  #homepage #planetary-positions {
+    width: 25%;
+  }
+  /* line 103, ../sass/partials/pages/_homepage.scss */
   #homepage #planetary-positions img {
     width: 45px;
   }
 }
-
-/* line 105, ../sass/partials/pages/_homepage.scss */
-#homepage {
-  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-}
-/* line 106, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-first {
+/* line 112, ../sass/partials/pages/_homepage.scss */
+#homepage #moon-color-of-the-day {
+  clear: both;
   float: left;
-  box-sizing: initial;
-  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  width: 41%;
+  display: inline-block;
   border: 1px solid black;
-  padding: 5px;
-  width: 35%;
+  padding: 4px 4px 31px 5px;
+  text-align: justify;
+  background-color: rgba(163, 219, 122, 0.2);
+  font-size: 85%;
 }
-/* line 113, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-first h2.pane-title {
-  font-size: 1.0em;
-  font-weight: normal;
-}
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 106, ../sass/partials/pages/_homepage.scss */
-  #homepage .panel-col-first {
-    clear: both;
-  }
-}
-/* line 121, ../sass/partials/pages/_homepage.scss */
-#homepage #planetary-positions {
-  width: 100%;
+/* line 122, ../sass/partials/pages/_homepage.scss */
+#homepage #moon-color-of-the-day header > h2 {
+  margin-top: -15px;
 }
 /* line 125, ../sass/partials/pages/_homepage.scss */
-#homepage #frontpage-feed {
-  width: 100%;
-  background-color: rgba(244, 244, 135, 0.2);
+#homepage #moon-color-of-the-day header > h2 > a,
+#homepage #moon-color-of-the-day .pane-title {
+  display: none;
+}
+/* line 129, ../sass/partials/pages/_homepage.scss */
+#homepage #moon-color-of-the-day .pane-content {
+  margin-bottom: -26px;
 }
 /* line 132, ../sass/partials/pages/_homepage.scss */
-#homepage li.leaf {
-  padding: 0;
+#homepage #moon-color-of-the-day p {
+  text-transform: initial;
 }
-/* line 135, ../sass/partials/pages/_homepage.scss */
-#homepage .pane-aggregator-feed-1,
-#homepage .pane-aggregator-feed-2,
-#homepage .pane-2 {
-  float: left;
-  border: 1px solid rgba(82, 112, 125, 0.8);
-  background-color: rgba(163, 219, 122, 0.2);
-  clear: both;
-  padding: 3px;
-  margin-bottom: 7px;
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 112, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day {
+    width: 41%;
+  }
+  /* line 138, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day img {
+    width: 33px;
+  }
 }
-/* line 144, ../sass/partials/pages/_homepage.scss */
-#homepage .pane-aggregator-feed-1 ul,
-#homepage .pane-aggregator-feed-2 ul,
-#homepage .pane-2 ul {
-  list-style-type: none;
-  list-style: none;
-  margin-left: -39px;
-  margin-top: 4px;
-  margin-bottom: -1px;
-  font-size: 88%;
-  padding-right: 8px;
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 112, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day {
+    width: 36%;
+  }
+  /* line 144, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day img {
+    width: 39px;
+  }
 }
-/* line 153, ../sass/partials/pages/_homepage.scss */
-#homepage .pane-aggregator-feed-1 a,
-#homepage .pane-aggregator-feed-2 a,
-#homepage .pane-2 a {
-  text-decoration: none;
-  color: rgba(52, 28, 44, 0.7);
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 112, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day {
+    width: 25%;
+  }
+  /* line 150, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day img {
+    width: 42px;
+  }
 }
-/* line 157, ../sass/partials/pages/_homepage.scss */
-#homepage .pane-aggregator-feed-1 li,
-#homepage .pane-aggregator-feed-2 li,
-#homepage .pane-2 li {
-  list-style-type: none;
-  list-style: none;
-  padding-bottom: 6px;
-  font-size: 100%;
+@media (min-width: 1201px) {
+  /* line 112, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day {
+    width: 25%;
+  }
+  /* line 156, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day img {
+    width: 45px;
+  }
 }
-/* line 163, ../sass/partials/pages/_homepage.scss */
-#homepage .pane-aggregator-feed-1 div.more-link,
-#homepage .pane-aggregator-feed-2 div.more-link,
-#homepage .pane-2 div.more-link {
-  color: #92c6de;
-  font-size: 90%;
-  float: left;
-  padding: 7px;
-}
-
-/* line 176, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-last {
-  width: 63%;
-  float: right;
+/* line 165, ../sass/partials/pages/_homepage.scss */
+#homepage #astrology-of-the-moment {
+  width: 55%;
+  display: inline-block;
   border: 1px solid black;
-  padding: 8px 8px 34px 8px;
+  padding: 4px 4px 31px 5px;
   text-align: justify;
   background-color: rgba(146, 198, 222, 0.2);
   font-size: 85%;
 }
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 176, ../sass/partials/pages/_homepage.scss */
-  #homepage .panel-col-last {
-    width: 61%;
-  }
-}
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 176, ../sass/partials/pages/_homepage.scss */
-  #homepage .panel-col-last {
-    width: 59%;
-  }
-}
-/* line 190, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-last header > h2 {
-  margin-top: -15px;
-}
-/* line 193, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-last header > h2 > a,
-#homepage .panel-col-last .pane-title {
+/* line 173, ../sass/partials/pages/_homepage.scss */
+#homepage #astrology-of-the-moment header > h2 > a,
+#homepage #astrology-of-the-moment .pane-title {
   display: none;
 }
-/* line 197, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-last .pane-content {
+/* line 177, ../sass/partials/pages/_homepage.scss */
+#homepage #astrology-of-the-moment .pane-content {
   margin-top: -14px;
   margin-bottom: -26px;
 }
-/* line 201, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-last p {
-  text-transform: initial;
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 165, ../sass/partials/pages/_homepage.scss */
+  #homepage #astrology-of-the-moment {
+    width: 55%;
+    font-size: 16px;
+  }
+  /* line 185, ../sass/partials/pages/_homepage.scss */
+  #homepage #astrology-of-the-moment img {
+    width: 33px;
+  }
 }
-/* line 205, ../sass/partials/pages/_homepage.scss */
-#homepage .panel-col-last .chart_wheel iframe {
-  position: relative;
-  width: 100%;
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 165, ../sass/partials/pages/_homepage.scss */
+  #homepage #astrology-of-the-moment {
+    width: 60%;
+    font-size: 18px;
+  }
+  /* line 192, ../sass/partials/pages/_homepage.scss */
+  #homepage #astrology-of-the-moment img {
+    width: 39px;
+  }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 165, ../sass/partials/pages/_homepage.scss */
+  #homepage #astrology-of-the-moment {
+    width: 66%;
+    font-size: 20px;
+  }
+  /* line 199, ../sass/partials/pages/_homepage.scss */
+  #homepage #astrology-of-the-moment img {
+    width: 42px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 165, ../sass/partials/pages/_homepage.scss */
+  #homepage #astrology-of-the-moment {
+    width: 66%;
+    font-size: 20px;
+  }
+  /* line 206, ../sass/partials/pages/_homepage.scss */
+  #homepage #astrology-of-the-moment img {
+    width: 45px;
+  }
 }
 
 /* line 28, ../sass/partials/pages/_horoscope.scss */
@@ -894,42 +822,32 @@ $bkpt-xlarge: 776px;
 #horoscope #current-block h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 27, ../sass/partials/pages/_horoscope.scss */
-  #horoscope {
-    font-size: 92%;
-  }
-  /* line 44, ../sass/partials/pages/_horoscope.scss */
-  #horoscope #current-block img {
-    width: 28px;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 27, ../sass/partials/pages/_horoscope.scss */
   #horoscope {
     font-size: 94%;
   }
-  /* line 50, ../sass/partials/pages/_horoscope.scss */
+  /* line 44, ../sass/partials/pages/_horoscope.scss */
   #horoscope #current-block img {
     width: 31px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 27, ../sass/partials/pages/_horoscope.scss */
   #horoscope {
     font-size: 96%;
   }
-  /* line 56, ../sass/partials/pages/_horoscope.scss */
+  /* line 50, ../sass/partials/pages/_horoscope.scss */
   #horoscope #current-block img {
     width: 34px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 27, ../sass/partials/pages/_horoscope.scss */
   #horoscope {
     font-size: 98%;
   }
-  /* line 62, ../sass/partials/pages/_horoscope.scss */
+  /* line 56, ../sass/partials/pages/_horoscope.scss */
   #horoscope #current-block img {
     width: 37px;
   }
@@ -939,13 +857,13 @@ $bkpt-xlarge: 776px;
   #horoscope {
     font-size: 100%;
   }
-  /* line 68, ../sass/partials/pages/_horoscope.scss */
+  /* line 62, ../sass/partials/pages/_horoscope.scss */
   #horoscope #current-block img {
     width: 40px;
   }
 }
 
-/* line 78, ../sass/partials/pages/_horoscope.scss */
+/* line 72, ../sass/partials/pages/_horoscope.scss */
 #horoscope #horoscope-content {
   border: 1px solid black;
   padding: 8px 8px 40px 8px;
@@ -953,78 +871,71 @@ $bkpt-xlarge: 776px;
   background-color: rgba(146, 198, 222, 0.2);
   float: right;
 }
-/* line 84, ../sass/partials/pages/_horoscope.scss */
+/* line 78, ../sass/partials/pages/_horoscope.scss */
 #horoscope #horoscope-content header > h2 {
   margin-top: -15px;
 }
-/* line 87, ../sass/partials/pages/_horoscope.scss */
+/* line 81, ../sass/partials/pages/_horoscope.scss */
 #horoscope #horoscope-content header > h2 > a,
 #horoscope #horoscope-content .pane-title {
   display: none;
 }
-/* line 91, ../sass/partials/pages/_horoscope.scss */
+/* line 85, ../sass/partials/pages/_horoscope.scss */
 #horoscope #horoscope-content .pane-content {
   margin-top: -14px;
   margin-bottom: -26px;
 }
-/* line 95, ../sass/partials/pages/_horoscope.scss */
+/* line 89, ../sass/partials/pages/_horoscope.scss */
 #horoscope #horoscope-content p {
   text-transform: initial;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 78, ../sass/partials/pages/_horoscope.scss */
-  #horoscope #horoscope-content {
-    width: calc(98% - 132px);
-    font-size: 96%;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 78, ../sass/partials/pages/_horoscope.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 72, ../sass/partials/pages/_horoscope.scss */
   #horoscope #horoscope-content {
     width: calc(98% - 132px);
     font-size: 97%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 78, ../sass/partials/pages/_horoscope.scss */
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 72, ../sass/partials/pages/_horoscope.scss */
   #horoscope #horoscope-content {
     width: calc(98% - 132px);
     font-size: 98%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* line 78, ../sass/partials/pages/_horoscope.scss */
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 72, ../sass/partials/pages/_horoscope.scss */
   #horoscope #horoscope-content {
     width: calc(98% - 155px);
     font-size: 99%;
   }
 }
 @media (min-width: 1201px) {
-  /* line 78, ../sass/partials/pages/_horoscope.scss */
+  /* line 72, ../sass/partials/pages/_horoscope.scss */
   #horoscope #horoscope-content {
     width: calc(98% - 160px);
     font-size: 100%;
   }
 }
 
-/* line 122, ../sass/partials/pages/_horoscope.scss */
+/* line 112, ../sass/partials/pages/_horoscope.scss */
 #horoscope #element_1 {
   font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
-/* line 128, ../sass/partials/pages/_horoscope.scss */
+/* line 118, ../sass/partials/pages/_horoscope.scss */
 .natal-horoscope .moreellipses {
   display: none;
 }
-/* line 131, ../sass/partials/pages/_horoscope.scss */
+/* line 121, ../sass/partials/pages/_horoscope.scss */
 .natal-horoscope a.morelink {
   margin-top: -1.0em;
 }
-/* line 134, ../sass/partials/pages/_horoscope.scss */
+/* line 124, ../sass/partials/pages/_horoscope.scss */
 .natal-horoscope a.less {
   margin-top: 0.0em;
 }
-/* line 137, ../sass/partials/pages/_horoscope.scss */
+/* line 127, ../sass/partials/pages/_horoscope.scss */
 .natal-horoscope span.moreellipses {
   display: none !important;
 }
@@ -1045,42 +956,32 @@ $bkpt-xlarge: 776px;
 #interaction #current-block h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 27, ../sass/partials/pages/_interaction.scss */
-  #interaction {
-    font-size: 92%;
-  }
-  /* line 44, ../sass/partials/pages/_interaction.scss */
-  #interaction #current-block img {
-    width: 28px;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 27, ../sass/partials/pages/_interaction.scss */
   #interaction {
     font-size: 94%;
   }
-  /* line 50, ../sass/partials/pages/_interaction.scss */
+  /* line 44, ../sass/partials/pages/_interaction.scss */
   #interaction #current-block img {
     width: 31px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 27, ../sass/partials/pages/_interaction.scss */
   #interaction {
     font-size: 96%;
   }
-  /* line 56, ../sass/partials/pages/_interaction.scss */
+  /* line 50, ../sass/partials/pages/_interaction.scss */
   #interaction #current-block img {
     width: 34px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 27, ../sass/partials/pages/_interaction.scss */
   #interaction {
     font-size: 98%;
   }
-  /* line 62, ../sass/partials/pages/_interaction.scss */
+  /* line 56, ../sass/partials/pages/_interaction.scss */
   #interaction #current-block img {
     width: 37px;
   }
@@ -1090,13 +991,13 @@ $bkpt-xlarge: 776px;
   #interaction {
     font-size: 100%;
   }
-  /* line 68, ../sass/partials/pages/_interaction.scss */
+  /* line 62, ../sass/partials/pages/_interaction.scss */
   #interaction #current-block img {
     width: 40px;
   }
 }
 
-/* line 78, ../sass/partials/pages/_interaction.scss */
+/* line 72, ../sass/partials/pages/_interaction.scss */
 #interaction #interaction-content {
   border: 1px solid black;
   padding: 8px 8px 40px 8px;
@@ -1104,54 +1005,47 @@ $bkpt-xlarge: 776px;
   background-color: rgba(146, 198, 222, 0.2);
   float: right;
 }
-/* line 84, ../sass/partials/pages/_interaction.scss */
+/* line 78, ../sass/partials/pages/_interaction.scss */
 #interaction #interaction-content header > h2 {
   margin-top: -15px;
 }
-/* line 87, ../sass/partials/pages/_interaction.scss */
+/* line 81, ../sass/partials/pages/_interaction.scss */
 #interaction #interaction-content header > h2 > a,
 #interaction #interaction-content .pane-title {
   display: none;
 }
-/* line 91, ../sass/partials/pages/_interaction.scss */
+/* line 85, ../sass/partials/pages/_interaction.scss */
 #interaction #interaction-content .pane-content {
   margin-top: -14px;
   margin-bottom: -26px;
 }
-/* line 95, ../sass/partials/pages/_interaction.scss */
+/* line 89, ../sass/partials/pages/_interaction.scss */
 #interaction #interaction-content p {
   text-transform: initial;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 78, ../sass/partials/pages/_interaction.scss */
-  #interaction #interaction-content {
-    width: calc(98% - 122px);
-    font-size: 96%;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 78, ../sass/partials/pages/_interaction.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 72, ../sass/partials/pages/_interaction.scss */
   #interaction #interaction-content {
     width: calc(98% - 130px);
     font-size: 97%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 78, ../sass/partials/pages/_interaction.scss */
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 72, ../sass/partials/pages/_interaction.scss */
   #interaction #interaction-content {
     width: calc(98% - 140px);
     font-size: 98%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* line 78, ../sass/partials/pages/_interaction.scss */
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 72, ../sass/partials/pages/_interaction.scss */
   #interaction #interaction-content {
     width: calc(98% - 155px);
     font-size: 99%;
   }
 }
 @media (min-width: 1201px) {
-  /* line 78, ../sass/partials/pages/_interaction.scss */
+  /* line 72, ../sass/partials/pages/_interaction.scss */
   #interaction #interaction-content {
     width: calc(98% - 160px);
     font-size: 100%;
@@ -1194,7 +1088,7 @@ $bkpt-xlarge: 776px;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
-@media (min-width: 0px) and (max-width: 576px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 23, ../sass/partials/pages/_moon-color.scss */
   #swatches {
     font-size: 87%;
@@ -1202,38 +1096,27 @@ $bkpt-xlarge: 776px;
   }
   /* line 46, ../sass/partials/pages/_moon-color.scss */
   #swatches img {
-    width: 40px;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 23, ../sass/partials/pages/_moon-color.scss */
-  #swatches {
-    font-size: 87%;
-    width: calc(100% - 120px);
-  }
-  /* line 53, ../sass/partials/pages/_moon-color.scss */
-  #swatches img {
     width: 45px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 23, ../sass/partials/pages/_moon-color.scss */
   #swatches {
     font-size: 87%;
     width: calc(100% - 130px);
   }
-  /* line 60, ../sass/partials/pages/_moon-color.scss */
+  /* line 53, ../sass/partials/pages/_moon-color.scss */
   #swatches img {
     width: 50px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 23, ../sass/partials/pages/_moon-color.scss */
   #swatches {
     font-size: 87%;
     width: calc(100% - 140px);
   }
-  /* line 67, ../sass/partials/pages/_moon-color.scss */
+  /* line 60, ../sass/partials/pages/_moon-color.scss */
   #swatches img {
     width: 60px;
   }
@@ -1244,75 +1127,65 @@ $bkpt-xlarge: 776px;
     font-size: 87%;
     width: calc(100% - 150px);
   }
-  /* line 74, ../sass/partials/pages/_moon-color.scss */
+  /* line 67, ../sass/partials/pages/_moon-color.scss */
   #swatches img {
     width: 70px;
   }
 }
 
-/* line 86, ../sass/partials/pages/_moon-color.scss */
+/* line 79, ../sass/partials/pages/_moon-color.scss */
 #moon-color div#current-block {
   display: inline-block;
   float: left;
   box-sizing: initial;
   font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-/* line 92, ../sass/partials/pages/_moon-color.scss */
+/* line 85, ../sass/partials/pages/_moon-color.scss */
 #moon-color #current-block {
   border: 1px solid black;
   padding: 5px;
   text-align: center;
 }
-/* line 96, ../sass/partials/pages/_moon-color.scss */
+/* line 89, ../sass/partials/pages/_moon-color.scss */
 #moon-color #current-block h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 85, ../sass/partials/pages/_moon-color.scss */
-  #moon-color {
-    font-size: 73%;
-  }
-  /* line 103, ../sass/partials/pages/_moon-color.scss */
-  #moon-color #current-block img {
-    width: 24px;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 85, ../sass/partials/pages/_moon-color.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 78, ../sass/partials/pages/_moon-color.scss */
   #moon-color {
     font-size: 80%;
   }
-  /* line 109, ../sass/partials/pages/_moon-color.scss */
+  /* line 96, ../sass/partials/pages/_moon-color.scss */
   #moon-color #current-block img {
     width: 25px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 85, ../sass/partials/pages/_moon-color.scss */
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 78, ../sass/partials/pages/_moon-color.scss */
   #moon-color {
     font-size: 87%;
   }
-  /* line 115, ../sass/partials/pages/_moon-color.scss */
+  /* line 102, ../sass/partials/pages/_moon-color.scss */
   #moon-color #current-block img {
     width: 29px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* line 85, ../sass/partials/pages/_moon-color.scss */
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 78, ../sass/partials/pages/_moon-color.scss */
   #moon-color {
     font-size: 93%;
   }
-  /* line 121, ../sass/partials/pages/_moon-color.scss */
+  /* line 108, ../sass/partials/pages/_moon-color.scss */
   #moon-color #current-block img {
     width: 32px;
   }
 }
 @media (min-width: 1201px) {
-  /* line 85, ../sass/partials/pages/_moon-color.scss */
+  /* line 78, ../sass/partials/pages/_moon-color.scss */
   #moon-color {
     font-size: 100%;
   }
-  /* line 127, ../sass/partials/pages/_moon-color.scss */
+  /* line 114, ../sass/partials/pages/_moon-color.scss */
   #moon-color #current-block img {
     width: 35px;
   }
@@ -1330,25 +1203,19 @@ $bkpt-xlarge: 776px;
   border-top-color: #3b3b3b;
   border-top-width: 2px;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 23, ../sass/partials/pages/_natal.scss */
-  .natal-table {
-    font-size: 55%;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 23, ../sass/partials/pages/_natal.scss */
   .natal-table {
     font-size: 56%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 23, ../sass/partials/pages/_natal.scss */
   .natal-table {
     font-size: 70%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 23, ../sass/partials/pages/_natal.scss */
   .natal-table {
     font-size: 100%;
@@ -1361,131 +1228,114 @@ $bkpt-xlarge: 776px;
   }
 }
 
-/* line 53, ../sass/partials/pages/_natal.scss */
+/* line 50, ../sass/partials/pages/_natal.scss */
 div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
   width: 100%;
 }
 
-/* line 60, ../sass/partials/pages/_natal.scss */
+/* line 57, ../sass/partials/pages/_natal.scss */
 .natal-horoscope {
   background-color: #e0e0e0;
   font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   text-align: justify;
   padding: 0px 3px 0px 3px;
 }
-/* line 65, ../sass/partials/pages/_natal.scss */
+/* line 62, ../sass/partials/pages/_natal.scss */
 .natal-horoscope p {
   margin-top: -12px;
 }
-/* line 68, ../sass/partials/pages/_natal.scss */
+/* line 65, ../sass/partials/pages/_natal.scss */
 .natal-horoscope img {
   margin-top: 12px;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 60, ../sass/partials/pages/_natal.scss */
-  .natal-horoscope {
-    font-size: 60%;
-  }
-  /* line 73, ../sass/partials/pages/_natal.scss */
-  .natal-horoscope img {
-    width: 27px;
-    height: 36px;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 60, ../sass/partials/pages/_natal.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 57, ../sass/partials/pages/_natal.scss */
   .natal-horoscope {
     font-size: 65%;
   }
-  /* line 80, ../sass/partials/pages/_natal.scss */
+  /* line 70, ../sass/partials/pages/_natal.scss */
   .natal-horoscope img {
     width: 28px;
     height: 38px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 60, ../sass/partials/pages/_natal.scss */
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 57, ../sass/partials/pages/_natal.scss */
   .natal-horoscope {
     font-size: 75%;
   }
-  /* line 87, ../sass/partials/pages/_natal.scss */
+  /* line 77, ../sass/partials/pages/_natal.scss */
   .natal-horoscope img {
     width: 30px;
     height: 40px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* line 60, ../sass/partials/pages/_natal.scss */
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 57, ../sass/partials/pages/_natal.scss */
   .natal-horoscope {
     font-size: 100%;
   }
-  /* line 94, ../sass/partials/pages/_natal.scss */
+  /* line 84, ../sass/partials/pages/_natal.scss */
   .natal-horoscope img {
     width: 41px;
     height: 54px;
   }
 }
 @media (min-width: 1201px) {
-  /* line 60, ../sass/partials/pages/_natal.scss */
+  /* line 57, ../sass/partials/pages/_natal.scss */
   .natal-horoscope {
     font-size: 100%;
   }
-  /* line 101, ../sass/partials/pages/_natal.scss */
+  /* line 91, ../sass/partials/pages/_natal.scss */
   .natal-horoscope img {
     width: 41px;
     height: 54px;
   }
 }
 
-/* line 107, ../sass/partials/pages/_natal.scss */
+/* line 97, ../sass/partials/pages/_natal.scss */
 #natal > div > div.panels-flexible-row.panels-flexible-row-18-main-row.clearfix > div > div.panels-flexible-region.panels-flexible-region-18-center.natal-center > div,
 #natal > div > div.panels-flexible-row.panels-flexible-row-18-main-row.clearfix > div > div.panels-flexible-region.panels-flexible-region-18-astro_list_left.panels-flexible-region-last.natal-right > div {
   padding-right: 0.0em;
   padding-left: 3px;
 }
 
-/* line 113, ../sass/partials/pages/_natal.scss */
+/* line 103, ../sass/partials/pages/_natal.scss */
 .natal-horoscope span.morecontent > a {
   display: inherit !important;
 }
 
-/* line 123, ../sass/partials/pages/_natal.scss */
+/* line 113, ../sass/partials/pages/_natal.scss */
 .natal-aspects {
   background-color: #e0e0e0;
   font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   padding: 0px 3px 0px 3px;
 }
-/* line 127, ../sass/partials/pages/_natal.scss */
+/* line 117, ../sass/partials/pages/_natal.scss */
 .natal-aspects a {
   font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   text-decoration: none;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 123, ../sass/partials/pages/_natal.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 113, ../sass/partials/pages/_natal.scss */
   .natal-aspects {
     font-size: 60%;
   }
 }
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 123, ../sass/partials/pages/_natal.scss */
-  .natal-aspects {
-    font-size: 60%;
-  }
-}
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 123, ../sass/partials/pages/_natal.scss */
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 113, ../sass/partials/pages/_natal.scss */
   .natal-aspects {
     font-size: 65%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* line 123, ../sass/partials/pages/_natal.scss */
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 113, ../sass/partials/pages/_natal.scss */
   .natal-aspects {
     font-size: 85%;
   }
 }
 @media (min-width: 1201px) {
-  /* line 123, ../sass/partials/pages/_natal.scss */
+  /* line 113, ../sass/partials/pages/_natal.scss */
   .natal-aspects {
     font-size: 100%;
   }
@@ -1538,15 +1388,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
   list-style: none;
   padding-bottom: 6px;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 51, ../sass/partials/pages/_planets.scss */
-  #planet .pane-aggregator-feed-1 li,
-  #planet .pane-aggregator-feed-2 li,
-  #planet .pane-2 li {
-    font-size: 72%;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 51, ../sass/partials/pages/_planets.scss */
   #planet .pane-aggregator-feed-1 li,
   #planet .pane-aggregator-feed-2 li,
@@ -1554,7 +1396,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
     font-size: 76%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 51, ../sass/partials/pages/_planets.scss */
   #planet .pane-aggregator-feed-1 li,
   #planet .pane-aggregator-feed-2 li,
@@ -1562,7 +1404,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
     font-size: 80%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 51, ../sass/partials/pages/_planets.scss */
   #planet .pane-aggregator-feed-1 li,
   #planet .pane-aggregator-feed-2 li,
@@ -1578,7 +1420,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
     font-size: 100%;
   }
 }
-/* line 71, ../sass/partials/pages/_planets.scss */
+/* line 68, ../sass/partials/pages/_planets.scss */
 #planet .pane-aggregator-feed-1 div.more-link,
 #planet .pane-aggregator-feed-2 div.more-link,
 #planet .pane-2 div.more-link {
@@ -1588,7 +1430,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
   padding: 7px;
 }
 
-/* line 81, ../sass/partials/pages/_planets.scss */
+/* line 78, ../sass/partials/pages/_planets.scss */
 #planet div.node-planet {
   background-color: rgba(146, 198, 222, 0.2);
   border: 1px solid rgba(82, 112, 125, 0.8);
@@ -1615,42 +1457,32 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
 #transits #current-block h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 27, ../sass/partials/pages/_transits.scss */
-  #transits {
-    font-size: 73%;
-  }
-  /* line 44, ../sass/partials/pages/_transits.scss */
-  #transits #current-block img {
-    width: 24px;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 27, ../sass/partials/pages/_transits.scss */
   #transits {
     font-size: 80%;
   }
-  /* line 50, ../sass/partials/pages/_transits.scss */
+  /* line 44, ../sass/partials/pages/_transits.scss */
   #transits #current-block img {
     width: 25px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 27, ../sass/partials/pages/_transits.scss */
   #transits {
     font-size: 87%;
   }
-  /* line 56, ../sass/partials/pages/_transits.scss */
+  /* line 50, ../sass/partials/pages/_transits.scss */
   #transits #current-block img {
     width: 29px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 27, ../sass/partials/pages/_transits.scss */
   #transits {
     font-size: 93%;
   }
-  /* line 62, ../sass/partials/pages/_transits.scss */
+  /* line 56, ../sass/partials/pages/_transits.scss */
   #transits #current-block img {
     width: 32px;
   }
@@ -1660,13 +1492,13 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
   #transits {
     font-size: 100%;
   }
-  /* line 68, ../sass/partials/pages/_transits.scss */
+  /* line 62, ../sass/partials/pages/_transits.scss */
   #transits #current-block img {
     width: 35px;
   }
 }
 
-/* line 78, ../sass/partials/pages/_transits.scss */
+/* line 72, ../sass/partials/pages/_transits.scss */
 #transits #transit-content {
   border: 1px solid black;
   padding: 8px;
@@ -1674,62 +1506,54 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
   background-color: rgba(146, 198, 222, 0.2);
   float: right;
 }
-/* line 84, ../sass/partials/pages/_transits.scss */
+/* line 78, ../sass/partials/pages/_transits.scss */
 #transits #transit-content header > h2 {
   margin-top: -15px;
 }
-/* line 87, ../sass/partials/pages/_transits.scss */
+/* line 81, ../sass/partials/pages/_transits.scss */
 #transits #transit-content header > h2 > a,
 #transits #transit-content .pane-title {
   display: none;
 }
-/* line 91, ../sass/partials/pages/_transits.scss */
+/* line 85, ../sass/partials/pages/_transits.scss */
 #transits #transit-content .pane-content {
   margin-top: -14px;
   margin-bottom: -26px;
 }
-/* line 95, ../sass/partials/pages/_transits.scss */
+/* line 89, ../sass/partials/pages/_transits.scss */
 #transits #transit-content p {
   text-transform: initial;
 }
-@media (min-width: 0px) and (max-width: 576px) {
-  /* line 78, ../sass/partials/pages/_transits.scss */
-  #transits #transit-content {
-    width: calc(98% - 122px);
-    font-size: 92%;
-    padding: 5px;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 78, ../sass/partials/pages/_transits.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 72, ../sass/partials/pages/_transits.scss */
   #transits #transit-content {
     width: calc(98% - 130px);
     font-size: 94%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 78, ../sass/partials/pages/_transits.scss */
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 72, ../sass/partials/pages/_transits.scss */
   #transits #transit-content {
     width: calc(98% - 140px);
     font-size: 96%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* line 78, ../sass/partials/pages/_transits.scss */
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 72, ../sass/partials/pages/_transits.scss */
   #transits #transit-content {
     width: calc(98% - 155px);
     font-size: 98%;
   }
 }
 @media (min-width: 1201px) {
-  /* line 78, ../sass/partials/pages/_transits.scss */
+  /* line 72, ../sass/partials/pages/_transits.scss */
   #transits #transit-content {
     width: calc(98% - 160px);
     font-size: 100%;
   }
 }
 
-/* line 123, ../sass/partials/pages/_transits.scss */
+/* line 112, ../sass/partials/pages/_transits.scss */
 #transits #element_1,
 #transits #element_2 {
   font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
@@ -1877,64 +1701,4 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
 #main-menu .menu li a:active {
   /* selected link */
   color: #FFF000;
-}
-
-/* line 56, ../sass/partials/layout/_navigation.scss */
-#nav-menu ul.menu {
-  padding: 0px 0px 0px 0px;
-  margin-top: -10px;
-  margin-bottom: 5px;
-}
-/* line 62, ../sass/partials/layout/_navigation.scss */
-#nav-menu .menu li {
-  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-}
-/* line 64, ../sass/partials/layout/_navigation.scss */
-#nav-menu .menu li a {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 80%;
-}
-/* line 69, ../sass/partials/layout/_navigation.scss */
-#nav-menu .menu li a:link {
-  /* unvisited link */
-  color: #404040;
-}
-/* line 73, ../sass/partials/layout/_navigation.scss */
-#nav-menu .menu li a:visited {
-  /* visited link */
-  color: #404040;
-}
-/* line 77, ../sass/partials/layout/_navigation.scss */
-#nav-menu .menu li a:hover {
-  /* mouse over link */
-  color: black;
-}
-/* line 81, ../sass/partials/layout/_navigation.scss */
-#nav-menu .menu li a:active {
-  /* selected link */
-  color: white;
-}
-
-/* line 89, ../sass/partials/layout/_navigation.scss */
-#nav-menu div > ul > li {
-  list-style: none;
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  /* line 88, ../sass/partials/layout/_navigation.scss */
-  #nav-menu {
-    font-size: 85%;
-  }
-}
-@media (min-width: 769px) and (max-width: 992px) {
-  /* line 88, ../sass/partials/layout/_navigation.scss */
-  #nav-menu {
-    font-size: 92.5%;
-  }
-}
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* line 88, ../sass/partials/layout/_navigation.scss */
-  #nav-menu {
-    font-size: 100%;
-  }
 }
