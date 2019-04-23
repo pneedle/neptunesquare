@@ -324,23 +324,29 @@ $b = array($sunB,$moonB,$mercuryB,$venusB,$marsB,$jupiterB,$saturnB,$uranusB,$ne
 			$numeric_angle = round(abs(($a[$i] - $b[$j])),1); // calculates the daily_daliy aspects (leaving out 0 degrees)
 			if (($aspect != NULL) && ($nid != $daily_id) && ($i != 10)) {
 				$angle = ' (angle: ' . round(abs(($a[$i] - $b[$j])),1) . '&#176;)';
-					$glyph1 = '<img src="sites/default/files/glyphs/' . $p[$i] . '.jpg" style="width:41px;height:54px" >';
-					$glyph2 = '<img src="sites/default/files/glyphs/' . $aspect . '.jpg" style="width:41px;height:54px" >';
-					$glyph3 = '<img src="sites/default/files/glyphs/' . $p[$j] . '.jpg" style="width:41px;height:54px" ><br />';
-					echo $glyph1 . " " . $glyph2 . " " . $glyph3;
+					$glyph1 = '<img src="sites/default/files/glyphs/' . $p[$i] . '.jpg" >';
+					//style="width:41px;height:54px" >';
+					$glyph2 = '<img src="sites/default/files/glyphs/' . $aspect . '.jpg" >';
+					  //style="width:41px;height:54px" >';
+					$glyph3 = '<img src="sites/default/files/glyphs/' . $p[$j] . '.jpg" >';
+					  //style="width:41px;height:54px" ><br />';
+					echo $glyph1 . " " . $glyph2 . " " . $glyph3 . "<br />";
 					$title = 'Transiting ' . ucwords($p[$i]) . ' ' . $aspect . ' natal ' . ucwords($p[$j]) ;
-					echo '<span style="color:rgb(57,51,127);font-size:20px;font-weight:bold">' . $title . '</span>' . $angle . '<br />';
+					echo '<span style="color:rgb(57,51,127);font-weight:bold">' . $title . '</span><br />' . $angle . '<br />';
 					$condition1 = $p[$i] . '_' . $p[$j] . '_' . $aspect;
 					transit($condition1);
 			}
 			if (($aspect != NULL) && ($nid == $daily_id) && ($numeric_angle != 0) && ($i < $j)) { // lists transits for today (daily_daily)
 				$angle = ' (angle: ' . round(abs(($a[$i] - $b[$j])),1) . '&#176;)';
-					$glyph1 = '<img src="sites/default/files/glyphs/' . $p[$i] . '.jpg" style="width:41px;height:54px" >';
-					$glyph2 = '<img src="sites/default/files/glyphs/' . $aspect . '.jpg" style="width:41px;height:54px" >';
-					$glyph3 = '<img src="sites/default/files/glyphs/' . $p[$j] . '.jpg" style="width:41px;height:54px" ><br />';
-					echo $glyph1 . " " . $glyph2 . " " . $glyph3;
+					$glyph1 = '<img src="sites/default/files/glyphs/' . $p[$i] . '.jpg" >';
+					//style="width:41px;height:54px" >';
+					$glyph2 = '<img src="sites/default/files/glyphs/' . $aspect . '.jpg" >';
+					  //style="width:41px;height:54px" >';
+					$glyph3 = '<img src="sites/default/files/glyphs/' . $p[$j] . '.jpg" >';
+					  //style="width:41px;height:54px" ><br />';
+					echo $glyph1 . " " . $glyph2 . " " . $glyph3 . "<br />";
 					$title = ucwords($p[$i]) . ' ' . $aspect . ' ' . ucwords($p[$j]) ;
-					echo '<span style="color:rgb(57,51,127);font-size:20px;font-weight:bold">' . $title . '</span>' . $angle . '<br />';
+					echo '<span style="color:rgb(57,51,127);font-weight:bold">' . $title . '</span><br />' . $angle . '<br />';
 					$condition1 = $p[$i] . '_' . $p[$j] . '_' . $aspect;
 					transit($condition1);
 			} 

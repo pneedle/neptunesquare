@@ -1,7 +1,7 @@
 @import "breakpoint";
 
 //////////////////////////////////////////////////////////////////
-// NAVIGATION
+// MENU-NAVIGATION
 //////////////////////////////////////////////////////////////////
 #main-menu {
 	ul.menu {
@@ -48,57 +48,6 @@
 		    color: #FFF000;
 //		    background-color: $violet;
 		}
-	}
-}
-
-
-#nav-menu {
-	ul.menu {
-		padding: 0px 0px 0px 0px;  //TRBL
-		margin-top: -10px;
-		margin-bottom: 5px;
-	}
-
-	.menu li {
-		font-family: $arial-narrow;
-		a {
-			text-transform: uppercase;
-			text-decoration: none;
-			font-size: 80%;
-		}
-		a:link {  /* unvisited link */
-		    color: #404040;
-//		    background-color: $light-yellow;
-		}
-		a:visited {  /* visited link */
-		    color: #404040;
-//		    background-color: $light-green;
-		}
-		a:hover {  /* mouse over link */
-		    color: black;
-//		    background-color: $light-blue;
-		}
-		a:active {  /* selected link */
-		    color: white;
-//		    background-color: $violet;
-		}
-	}
-}
-
-#nav-menu {  // remove bullet points in the nav-menu
-	div > ul > li {
-		list-style: none;
-	}
-	@include breakpoint($bkpt-small) {
-//		width: 150px;
-		font-size: 85%;
-	}
-	@include breakpoint($bkpt-medium) {
-//		width: 160px;
-		font-size: 92.5%;
-	}
-	@include breakpoint($bkpt-large) {
-		font-size: 100%;
 	}
 }
 
