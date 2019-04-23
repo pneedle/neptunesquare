@@ -22,6 +22,18 @@
 ///////////////////////////////
 #homepage {
 	font-family: $arial-narrow;
+	p {
+		text-transform: initial;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	p {
+		font-size: 14px;
+	}
 
 ///////////////////////////////
 //  CHART WHEEL
@@ -69,21 +81,25 @@
 		}
 	
 	@include breakpoint($bkpt-small) {
+		width: 41%;
 		img {
 			width: 33px;
 		}
 	}
-	@include breakpoint($bkpt-medium) {
+	@include breakpoint($bkpt-medium) {  // Medium devices (tablets, 501px and up)
+		width: 36%;
 		img {
 			width: 39px;
 		}
 	}
-	@include breakpoint($bkpt-large) {
+	@include breakpoint($bkpt-large) {  // Large devices (desktops, 701px and up)
+		width: 25%;
 		img {
 			width: 42px;
 		}
 	}
-	@include breakpoint($bkpt-xlarge) {
+	@include breakpoint($bkpt-xlarge) { // Extra large devices (large desktops, 1201px and up)
+		width: 25%;
 		img {
 			width: 45px;
 		}
@@ -116,6 +132,31 @@
 		p {
 			text-transform: initial;
 		}
+
+		@include breakpoint($bkpt-small) {
+			width: 41%;
+			img {
+				width: 33px;
+			}
+		}
+		@include breakpoint($bkpt-medium) {  // (tablets, 501px and up)
+			width: 36%;
+			img {
+				width: 39px;
+			}
+		}
+		@include breakpoint($bkpt-large) {  // (desktops, 701px and up)
+			width: 25%;
+			img {
+				width: 42px;
+			}
+		}
+		@include breakpoint($bkpt-xlarge) { // (large desktops, 1201px and up)
+			width: 25%;
+			img {
+				width: 45px;
+			}
+		}
 	}
 
 ///////////////////////////////
@@ -129,9 +170,6 @@
 		text-align: justify;
 		background-color: $light-blue;
 		font-size: 85%;
-		header > h2 {
-			margin-top: -15px;
-		} 	
 		header > h2 > a,
 		.pane-title {
 			display: none;
@@ -140,81 +178,34 @@
 			margin-top: -14px;
 			margin-bottom: -26px;
 		}
-		p {
-			text-transform: initial;
-		}
 
 		@include breakpoint($bkpt-small) {
+			width: 55%;
 			font-size:16px;
 			img {
 				width: 33px;
 			}
 		}
 		@include breakpoint($bkpt-medium) {
+		 width: 60%;
 			font-size:18px;
 			img {
 				width: 39px;
 			}
 		}
 		@include breakpoint($bkpt-large) {
+			width: 66%;
 			font-size:20px;
 			img {
 				width: 42px;
 			}
 		}
 		@include breakpoint($bkpt-xlarge) {
+		  width: 66%;
 			font-size:20px;
 			img {
 				width: 45px;
 			}
-		}
-	}
-
-///////////////////////////////
-//  FEED
-///////////////////////////////
-	#frontpage-feed {
-		display: inline-block;
-		float: left;
-		width: 48%;
-		background-color: $light-yellow;
-	}
-
-	li.leaf {
-		padding: 0;
-	}
-	.pane-aggregator-feed-1,
-	.pane-aggregator-feed-2,
-	.pane-2 {
-		border: 1px solid $blue;
-		background-color: $light-green;
-		padding: 3px;
-		margin-bottom: 7px;
-		ul {
-			list-style-type: none; 
-			list-style: none;
-			margin-left: -39px;
-			margin-top: 4px;
-			margin-bottom: 25px;
-			font-size: 88%;
-			padding-right: 8px;
-		}
-		a {
-			text-decoration: none;
-			color: $violet;
-		}
-		li {
-			list-style-type: none;
-			list-style: none;
-			padding-bottom: 6px;
-			font-size: 100%;
-		}
-		div.more-link {  // show more
-			color: $dark-violet;
-			font-size: 90%;
-			float: left;
-			padding: 7px;
-			margin-top: -30px;
 		}
 	}
 

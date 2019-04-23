@@ -574,34 +574,50 @@ $bkpt-xlarge: 776px;
 #homepage {
   font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-/* line 30, ../sass/partials/pages/_homepage.scss */
+/* line 25, ../sass/partials/pages/_homepage.scss */
+#homepage p {
+  text-transform: initial;
+}
+/* line 28, ../sass/partials/pages/_homepage.scss */
+#homepage h2 {
+  font-size: 20px;
+}
+/* line 31, ../sass/partials/pages/_homepage.scss */
+#homepage h3 {
+  font-size: 16px;
+}
+/* line 34, ../sass/partials/pages/_homepage.scss */
+#homepage p {
+  font-size: 14px;
+}
+/* line 42, ../sass/partials/pages/_homepage.scss */
 #homepage #chart_wheel iframe {
   position: relative;
   display: inline-block;
   margin-bottom: 30px;
 }
-/* line 36, ../sass/partials/pages/_homepage.scss */
+/* line 48, ../sass/partials/pages/_homepage.scss */
 #homepage #chart_wheel .moreellipses {
   display: none;
 }
-/* line 39, ../sass/partials/pages/_homepage.scss */
+/* line 51, ../sass/partials/pages/_homepage.scss */
 #homepage #chart_wheel a.morelink {
   margin-top: -1.0em;
 }
-/* line 42, ../sass/partials/pages/_homepage.scss */
+/* line 54, ../sass/partials/pages/_homepage.scss */
 #homepage #chart_wheel a.less {
   margin-top: 0.0em;
 }
-/* line 45, ../sass/partials/pages/_homepage.scss */
+/* line 57, ../sass/partials/pages/_homepage.scss */
 #homepage #chart_wheel span.moreellipses {
   display: none !important;
 }
-/* line 49, ../sass/partials/pages/_homepage.scss */
+/* line 61, ../sass/partials/pages/_homepage.scss */
 #homepage #chart-wheel > div > div > iframe {
   width: -webkit-fill-available;
   min-height: 400px !important;
 }
-/* line 58, ../sass/partials/pages/_homepage.scss */
+/* line 70, ../sass/partials/pages/_homepage.scss */
 #homepage #planetary-positions {
   width: 41%;
   display: inline-block;
@@ -612,35 +628,51 @@ $bkpt-xlarge: 776px;
   text-align: center;
   margin-bottom: 10px;
 }
-/* line 67, ../sass/partials/pages/_homepage.scss */
+/* line 79, ../sass/partials/pages/_homepage.scss */
 #homepage #planetary-positions h2.pane-title {
   display: none;
 }
 @media (min-width: 0px) and (max-width: 500px) {
-  /* line 72, ../sass/partials/pages/_homepage.scss */
+  /* line 70, ../sass/partials/pages/_homepage.scss */
+  #homepage #planetary-positions {
+    width: 41%;
+  }
+  /* line 85, ../sass/partials/pages/_homepage.scss */
   #homepage #planetary-positions img {
     width: 33px;
   }
 }
 @media (min-width: 501px) and (max-width: 700px) {
-  /* line 77, ../sass/partials/pages/_homepage.scss */
+  /* line 70, ../sass/partials/pages/_homepage.scss */
+  #homepage #planetary-positions {
+    width: 36%;
+  }
+  /* line 91, ../sass/partials/pages/_homepage.scss */
   #homepage #planetary-positions img {
     width: 39px;
   }
 }
 @media (min-width: 701px) and (max-width: 1200px) {
-  /* line 82, ../sass/partials/pages/_homepage.scss */
+  /* line 70, ../sass/partials/pages/_homepage.scss */
+  #homepage #planetary-positions {
+    width: 25%;
+  }
+  /* line 97, ../sass/partials/pages/_homepage.scss */
   #homepage #planetary-positions img {
     width: 42px;
   }
 }
 @media (min-width: 1201px) {
-  /* line 87, ../sass/partials/pages/_homepage.scss */
+  /* line 70, ../sass/partials/pages/_homepage.scss */
+  #homepage #planetary-positions {
+    width: 25%;
+  }
+  /* line 103, ../sass/partials/pages/_homepage.scss */
   #homepage #planetary-positions img {
     width: 45px;
   }
 }
-/* line 96, ../sass/partials/pages/_homepage.scss */
+/* line 112, ../sass/partials/pages/_homepage.scss */
 #homepage #moon-color-of-the-day {
   clear: both;
   float: left;
@@ -652,24 +684,64 @@ $bkpt-xlarge: 776px;
   background-color: rgba(163, 219, 122, 0.2);
   font-size: 85%;
 }
-/* line 106, ../sass/partials/pages/_homepage.scss */
+/* line 122, ../sass/partials/pages/_homepage.scss */
 #homepage #moon-color-of-the-day header > h2 {
   margin-top: -15px;
 }
-/* line 109, ../sass/partials/pages/_homepage.scss */
+/* line 125, ../sass/partials/pages/_homepage.scss */
 #homepage #moon-color-of-the-day header > h2 > a,
 #homepage #moon-color-of-the-day .pane-title {
   display: none;
 }
-/* line 113, ../sass/partials/pages/_homepage.scss */
+/* line 129, ../sass/partials/pages/_homepage.scss */
 #homepage #moon-color-of-the-day .pane-content {
   margin-bottom: -26px;
 }
-/* line 116, ../sass/partials/pages/_homepage.scss */
+/* line 132, ../sass/partials/pages/_homepage.scss */
 #homepage #moon-color-of-the-day p {
   text-transform: initial;
 }
-/* line 124, ../sass/partials/pages/_homepage.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 112, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day {
+    width: 41%;
+  }
+  /* line 138, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day img {
+    width: 33px;
+  }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 112, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day {
+    width: 36%;
+  }
+  /* line 144, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day img {
+    width: 39px;
+  }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 112, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day {
+    width: 25%;
+  }
+  /* line 150, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day img {
+    width: 42px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 112, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day {
+    width: 25%;
+  }
+  /* line 156, ../sass/partials/pages/_homepage.scss */
+  #homepage #moon-color-of-the-day img {
+    width: 45px;
+  }
+}
+/* line 165, ../sass/partials/pages/_homepage.scss */
 #homepage #astrology-of-the-moment {
   width: 55%;
   display: inline-block;
@@ -679,121 +751,59 @@ $bkpt-xlarge: 776px;
   background-color: rgba(146, 198, 222, 0.2);
   font-size: 85%;
 }
-/* line 132, ../sass/partials/pages/_homepage.scss */
-#homepage #astrology-of-the-moment header > h2 {
-  margin-top: -15px;
-}
-/* line 135, ../sass/partials/pages/_homepage.scss */
+/* line 173, ../sass/partials/pages/_homepage.scss */
 #homepage #astrology-of-the-moment header > h2 > a,
 #homepage #astrology-of-the-moment .pane-title {
   display: none;
 }
-/* line 139, ../sass/partials/pages/_homepage.scss */
+/* line 177, ../sass/partials/pages/_homepage.scss */
 #homepage #astrology-of-the-moment .pane-content {
   margin-top: -14px;
   margin-bottom: -26px;
 }
-/* line 143, ../sass/partials/pages/_homepage.scss */
-#homepage #astrology-of-the-moment p {
-  text-transform: initial;
-}
 @media (min-width: 0px) and (max-width: 500px) {
-  /* line 124, ../sass/partials/pages/_homepage.scss */
+  /* line 165, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment {
+    width: 55%;
     font-size: 16px;
   }
-  /* line 149, ../sass/partials/pages/_homepage.scss */
+  /* line 185, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment img {
     width: 33px;
   }
 }
 @media (min-width: 501px) and (max-width: 700px) {
-  /* line 124, ../sass/partials/pages/_homepage.scss */
+  /* line 165, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment {
+    width: 60%;
     font-size: 18px;
   }
-  /* line 155, ../sass/partials/pages/_homepage.scss */
+  /* line 192, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment img {
     width: 39px;
   }
 }
 @media (min-width: 701px) and (max-width: 1200px) {
-  /* line 124, ../sass/partials/pages/_homepage.scss */
+  /* line 165, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment {
+    width: 66%;
     font-size: 20px;
   }
-  /* line 161, ../sass/partials/pages/_homepage.scss */
+  /* line 199, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment img {
     width: 42px;
   }
 }
 @media (min-width: 1201px) {
-  /* line 124, ../sass/partials/pages/_homepage.scss */
+  /* line 165, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment {
+    width: 66%;
     font-size: 20px;
   }
-  /* line 167, ../sass/partials/pages/_homepage.scss */
+  /* line 206, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment img {
     width: 45px;
   }
-}
-/* line 176, ../sass/partials/pages/_homepage.scss */
-#homepage #frontpage-feed {
-  display: inline-block;
-  float: left;
-  width: 48%;
-  background-color: rgba(244, 244, 135, 0.2);
-}
-/* line 183, ../sass/partials/pages/_homepage.scss */
-#homepage li.leaf {
-  padding: 0;
-}
-/* line 186, ../sass/partials/pages/_homepage.scss */
-#homepage .pane-aggregator-feed-1,
-#homepage .pane-aggregator-feed-2,
-#homepage .pane-2 {
-  border: 1px solid rgba(82, 112, 125, 0.8);
-  background-color: rgba(163, 219, 122, 0.2);
-  padding: 3px;
-  margin-bottom: 7px;
-}
-/* line 193, ../sass/partials/pages/_homepage.scss */
-#homepage .pane-aggregator-feed-1 ul,
-#homepage .pane-aggregator-feed-2 ul,
-#homepage .pane-2 ul {
-  list-style-type: none;
-  list-style: none;
-  margin-left: -39px;
-  margin-top: 4px;
-  margin-bottom: 25px;
-  font-size: 88%;
-  padding-right: 8px;
-}
-/* line 202, ../sass/partials/pages/_homepage.scss */
-#homepage .pane-aggregator-feed-1 a,
-#homepage .pane-aggregator-feed-2 a,
-#homepage .pane-2 a {
-  text-decoration: none;
-  color: rgba(52, 28, 44, 0.7);
-}
-/* line 206, ../sass/partials/pages/_homepage.scss */
-#homepage .pane-aggregator-feed-1 li,
-#homepage .pane-aggregator-feed-2 li,
-#homepage .pane-2 li {
-  list-style-type: none;
-  list-style: none;
-  padding-bottom: 6px;
-  font-size: 100%;
-}
-/* line 212, ../sass/partials/pages/_homepage.scss */
-#homepage .pane-aggregator-feed-1 div.more-link,
-#homepage .pane-aggregator-feed-2 div.more-link,
-#homepage .pane-2 div.more-link {
-  color: darkviolet;
-  font-size: 90%;
-  float: left;
-  padding: 7px;
-  margin-top: -30px;
 }
 
 /* line 28, ../sass/partials/pages/_horoscope.scss */
