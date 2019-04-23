@@ -73,7 +73,7 @@ $bkpt-xlarge: 776px;
   text-decoration: none;
   color: rgba(52, 28, 44, 0.7);
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 30, ../sass/partials/pages/_astro-list.scss */
   #astro-list .facet_api a {
     font-size: 86%;
@@ -83,7 +83,7 @@ $bkpt-xlarge: 776px;
     min-width: 60px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 30, ../sass/partials/pages/_astro-list.scss */
   #astro-list .facet_api a {
     font-size: 93%;
@@ -93,7 +93,7 @@ $bkpt-xlarge: 776px;
     min-width: 64px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 30, ../sass/partials/pages/_astro-list.scss */
   #astro-list .facet_api a {
     font-size: 100%;
@@ -133,7 +133,7 @@ $bkpt-xlarge: 776px;
   padding-right: 0;
   font-weight: initial;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 82, ../sass/partials/pages/_astro-list.scss */
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
@@ -149,7 +149,7 @@ $bkpt-xlarge: 776px;
     width: 14px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 92, ../sass/partials/pages/_astro-list.scss */
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
@@ -163,7 +163,7 @@ $bkpt-xlarge: 776px;
     width: 17px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 101, ../sass/partials/pages/_astro-list.scss */
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 th,
   #astro-list div.panel-pane.pane-views-panes.pane-astro-list-private-panel-pane-1 td,
@@ -208,7 +208,7 @@ $bkpt-xlarge: 776px;
 #birthchart #current-block h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 27, ../sass/partials/pages/_birthchart.scss */
   #birthchart {
     font-size: 94%;
@@ -222,7 +222,7 @@ $bkpt-xlarge: 776px;
     width: 31px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 27, ../sass/partials/pages/_birthchart.scss */
   #birthchart {
     font-size: 96%;
@@ -232,7 +232,7 @@ $bkpt-xlarge: 776px;
     width: 34px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 27, ../sass/partials/pages/_birthchart.scss */
   #birthchart {
     font-size: 98%;
@@ -268,19 +268,19 @@ $bkpt-xlarge: 776px;
 #birthchart #astrotheme p {
   text-transform: initial;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 74, ../sass/partials/pages/_birthchart.scss */
   #birthchart #astrotheme {
     width: calc(96% - 0px);
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 74, ../sass/partials/pages/_birthchart.scss */
   #birthchart #astrotheme {
     width: calc(96% - 140px);
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 74, ../sass/partials/pages/_birthchart.scss */
   #birthchart #astrotheme {
     width: calc(96% - 155px);
@@ -313,7 +313,7 @@ $bkpt-xlarge: 776px;
   -ms-transform-origin: top left;
   transform-origin: top left;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 110, ../sass/partials/pages/_birthchart.scss */
   #astrotheme iframe {
     width: 120%;
@@ -329,7 +329,7 @@ $bkpt-xlarge: 776px;
     margin: inherit;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 110, ../sass/partials/pages/_birthchart.scss */
   #astrotheme iframe {
     width: 110%;
@@ -341,7 +341,7 @@ $bkpt-xlarge: 776px;
     transform: scale(0.85, 0.85);
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 110, ../sass/partials/pages/_birthchart.scss */
   #astrotheme iframe {
     width: 100%;
@@ -377,7 +377,7 @@ $bkpt-xlarge: 776px;
 #compatibility #current-block h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 27, ../sass/partials/pages/_compatibility.scss */
   #compatibility {
     font-size: 94%;
@@ -391,7 +391,7 @@ $bkpt-xlarge: 776px;
     width: 31px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 27, ../sass/partials/pages/_compatibility.scss */
   #compatibility {
     font-size: 96%;
@@ -401,7 +401,7 @@ $bkpt-xlarge: 776px;
     width: 34px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 27, ../sass/partials/pages/_compatibility.scss */
   #compatibility {
     font-size: 98%;
@@ -437,19 +437,19 @@ $bkpt-xlarge: 776px;
 #compatibility #compatibility-content p {
   text-transform: initial;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 74, ../sass/partials/pages/_compatibility.scss */
   #compatibility #compatibility-content {
     width: calc(96% - 0px);
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 74, ../sass/partials/pages/_compatibility.scss */
   #compatibility #compatibility-content {
     width: calc(96% - 140px);
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 74, ../sass/partials/pages/_compatibility.scss */
   #compatibility #compatibility-content {
     width: calc(96% - 155px);
@@ -482,7 +482,7 @@ $bkpt-xlarge: 776px;
   -ms-transform-origin: top left;
   transform-origin: top left;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 110, ../sass/partials/pages/_compatibility.scss */
   #compatibility-content iframe {
     width: 120%;
@@ -498,7 +498,7 @@ $bkpt-xlarge: 776px;
     margin: inherit;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 110, ../sass/partials/pages/_compatibility.scss */
   #compatibility-content iframe {
     width: 110%;
@@ -510,7 +510,7 @@ $bkpt-xlarge: 776px;
     transform: scale(0.85, 0.85);
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 110, ../sass/partials/pages/_compatibility.scss */
   #compatibility-content iframe {
     width: 100%;
@@ -536,19 +536,19 @@ $bkpt-xlarge: 776px;
   padding-left: 5px;
   padding-right: 5px;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 25, ../sass/partials/pages/_glossary.scss */
   #glossary-list .views-field-body {
     font-size: 80%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 25, ../sass/partials/pages/_glossary.scss */
   #glossary-list .views-field-body {
     font-size: 90%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 25, ../sass/partials/pages/_glossary.scss */
   #glossary-list .views-field-body {
     font-size: 100%;
@@ -616,6 +616,30 @@ $bkpt-xlarge: 776px;
 #homepage #planetary-positions h2.pane-title {
   display: none;
 }
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 73, ../sass/partials/pages/_homepage.scss */
+  #homepage img {
+    width: 33px;
+  }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 78, ../sass/partials/pages/_homepage.scss */
+  #homepage img {
+    width: 39px;
+  }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 83, ../sass/partials/pages/_homepage.scss */
+  #homepage img {
+    width: 42px;
+  }
+}
+@media (min-width: 1201px) {
+  /* line 88, ../sass/partials/pages/_homepage.scss */
+  #homepage img {
+    width: 45px;
+  }
+}
 /* line 96, ../sass/partials/pages/_homepage.scss */
 #homepage #moon-color-of-the-day {
   clear: both;
@@ -647,7 +671,7 @@ $bkpt-xlarge: 776px;
 }
 /* line 124, ../sass/partials/pages/_homepage.scss */
 #homepage #astrology-of-the-moment {
-  width: 56%;
+  width: 55%;
   display: inline-block;
   border: 1px solid black;
   padding: 4px 4px 31px 5px;
@@ -748,7 +772,7 @@ $bkpt-xlarge: 776px;
 #horoscope #current-block h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 27, ../sass/partials/pages/_horoscope.scss */
   #horoscope {
     font-size: 94%;
@@ -758,7 +782,7 @@ $bkpt-xlarge: 776px;
     width: 31px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 27, ../sass/partials/pages/_horoscope.scss */
   #horoscope {
     font-size: 96%;
@@ -768,7 +792,7 @@ $bkpt-xlarge: 776px;
     width: 34px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 27, ../sass/partials/pages/_horoscope.scss */
   #horoscope {
     font-size: 98%;
@@ -815,21 +839,21 @@ $bkpt-xlarge: 776px;
 #horoscope #horoscope-content p {
   text-transform: initial;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 72, ../sass/partials/pages/_horoscope.scss */
   #horoscope #horoscope-content {
     width: calc(98% - 132px);
     font-size: 97%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 72, ../sass/partials/pages/_horoscope.scss */
   #horoscope #horoscope-content {
     width: calc(98% - 132px);
     font-size: 98%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 72, ../sass/partials/pages/_horoscope.scss */
   #horoscope #horoscope-content {
     width: calc(98% - 155px);
@@ -882,7 +906,7 @@ $bkpt-xlarge: 776px;
 #interaction #current-block h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 27, ../sass/partials/pages/_interaction.scss */
   #interaction {
     font-size: 94%;
@@ -892,7 +916,7 @@ $bkpt-xlarge: 776px;
     width: 31px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 27, ../sass/partials/pages/_interaction.scss */
   #interaction {
     font-size: 96%;
@@ -902,7 +926,7 @@ $bkpt-xlarge: 776px;
     width: 34px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 27, ../sass/partials/pages/_interaction.scss */
   #interaction {
     font-size: 98%;
@@ -949,21 +973,21 @@ $bkpt-xlarge: 776px;
 #interaction #interaction-content p {
   text-transform: initial;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 72, ../sass/partials/pages/_interaction.scss */
   #interaction #interaction-content {
     width: calc(98% - 130px);
     font-size: 97%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 72, ../sass/partials/pages/_interaction.scss */
   #interaction #interaction-content {
     width: calc(98% - 140px);
     font-size: 98%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 72, ../sass/partials/pages/_interaction.scss */
   #interaction #interaction-content {
     width: calc(98% - 155px);
@@ -1014,7 +1038,7 @@ $bkpt-xlarge: 776px;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 23, ../sass/partials/pages/_moon-color.scss */
   #swatches {
     font-size: 87%;
@@ -1025,7 +1049,7 @@ $bkpt-xlarge: 776px;
     width: 45px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 23, ../sass/partials/pages/_moon-color.scss */
   #swatches {
     font-size: 87%;
@@ -1036,7 +1060,7 @@ $bkpt-xlarge: 776px;
     width: 50px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 23, ../sass/partials/pages/_moon-color.scss */
   #swatches {
     font-size: 87%;
@@ -1076,7 +1100,7 @@ $bkpt-xlarge: 776px;
 #moon-color #current-block h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 78, ../sass/partials/pages/_moon-color.scss */
   #moon-color {
     font-size: 80%;
@@ -1086,7 +1110,7 @@ $bkpt-xlarge: 776px;
     width: 25px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 78, ../sass/partials/pages/_moon-color.scss */
   #moon-color {
     font-size: 87%;
@@ -1096,7 +1120,7 @@ $bkpt-xlarge: 776px;
     width: 29px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 78, ../sass/partials/pages/_moon-color.scss */
   #moon-color {
     font-size: 93%;
@@ -1129,19 +1153,19 @@ $bkpt-xlarge: 776px;
   border-top-color: #3b3b3b;
   border-top-width: 2px;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 23, ../sass/partials/pages/_natal.scss */
   .natal-table {
     font-size: 56%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 23, ../sass/partials/pages/_natal.scss */
   .natal-table {
     font-size: 70%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 23, ../sass/partials/pages/_natal.scss */
   .natal-table {
     font-size: 100%;
@@ -1174,7 +1198,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
 .natal-horoscope img {
   margin-top: 12px;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 57, ../sass/partials/pages/_natal.scss */
   .natal-horoscope {
     font-size: 65%;
@@ -1185,7 +1209,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
     height: 38px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 57, ../sass/partials/pages/_natal.scss */
   .natal-horoscope {
     font-size: 75%;
@@ -1196,7 +1220,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
     height: 40px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 57, ../sass/partials/pages/_natal.scss */
   .natal-horoscope {
     font-size: 100%;
@@ -1242,19 +1266,19 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
   font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   text-decoration: none;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 113, ../sass/partials/pages/_natal.scss */
   .natal-aspects {
     font-size: 60%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 113, ../sass/partials/pages/_natal.scss */
   .natal-aspects {
     font-size: 65%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 113, ../sass/partials/pages/_natal.scss */
   .natal-aspects {
     font-size: 85%;
@@ -1314,7 +1338,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
   list-style: none;
   padding-bottom: 6px;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 51, ../sass/partials/pages/_planets.scss */
   #planet .pane-aggregator-feed-1 li,
   #planet .pane-aggregator-feed-2 li,
@@ -1322,7 +1346,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
     font-size: 76%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 51, ../sass/partials/pages/_planets.scss */
   #planet .pane-aggregator-feed-1 li,
   #planet .pane-aggregator-feed-2 li,
@@ -1330,7 +1354,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
     font-size: 80%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 51, ../sass/partials/pages/_planets.scss */
   #planet .pane-aggregator-feed-1 li,
   #planet .pane-aggregator-feed-2 li,
@@ -1383,7 +1407,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
 #transits #current-block h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 27, ../sass/partials/pages/_transits.scss */
   #transits {
     font-size: 80%;
@@ -1393,7 +1417,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
     width: 25px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 27, ../sass/partials/pages/_transits.scss */
   #transits {
     font-size: 87%;
@@ -1403,7 +1427,7 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
     width: 29px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 27, ../sass/partials/pages/_transits.scss */
   #transits {
     font-size: 93%;
@@ -1450,21 +1474,21 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
 #transits #transit-content p {
   text-transform: initial;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 72, ../sass/partials/pages/_transits.scss */
   #transits #transit-content {
     width: calc(98% - 130px);
     font-size: 94%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 72, ../sass/partials/pages/_transits.scss */
   #transits #transit-content {
     width: calc(98% - 140px);
     font-size: 96%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 72, ../sass/partials/pages/_transits.scss */
   #transits #transit-content {
     width: calc(98% - 155px);
@@ -1670,19 +1694,19 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
 #nav-menu div > ul > li {
   list-style: none;
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 500px) {
   /* line 88, ../sass/partials/layout/_navigation.scss */
   #nav-menu {
     font-size: 85%;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 501px) and (max-width: 700px) {
   /* line 88, ../sass/partials/layout/_navigation.scss */
   #nav-menu {
     font-size: 92.5%;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   /* line 88, ../sass/partials/layout/_navigation.scss */
   #nav-menu {
     font-size: 100%;

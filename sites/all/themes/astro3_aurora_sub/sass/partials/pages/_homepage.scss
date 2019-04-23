@@ -70,23 +70,23 @@
 	}
 
 	@include breakpoint($bkpt-small) {
-		#planetary-positions img {
-			//width: 34px;
+		img {
+			width: 33px;
 		}
 	}
 	@include breakpoint($bkpt-medium) {
-		#planetary-positions img {
-			//width: 39px;
+		img {
+			width: 39px;
 		}
 	}
 	@include breakpoint($bkpt-large) {
-		#planetary-positions img {
-			//width: 42px;
+		img {
+			width: 42px;
 		}
 	}
 	@include breakpoint($bkpt-xlarge) {
-		#planetary-positions img {
-			//width: 45px;
+		img {
+			width: 45px;
 		}
 	}
 
@@ -122,7 +122,7 @@
 //  ASTROLOGY OF THE MOMENT
 ///////////////////////////////
 	#astrology-of-the-moment {
-		width: 56%;
+		width: 55%;
 		display: inline-block;
 		border: 1px solid black;
 		padding: 4px 4px 31px 5px;  // TRBL
