@@ -60,7 +60,18 @@
 	}
 #chart-wheel > div > div > iframe {
 	width: -webkit-fill-available;
-	min-height: 400px !important;
+	@include breakpoint($bkpt-small) {
+		min-height: 400px !important;
+	}
+	@include breakpoint($bkpt-medium) {  // Medium devices (tablets, 501px and up)
+		min-height: 450px !important;
+	}
+	@include breakpoint($bkpt-large) {  // Large devices (desktops, 701px and up)
+		min-height: 500px !important;
+	}
+	@include breakpoint($bkpt-xlarge) { // Extra large devices (large desktops, 1201px and up)
+		min-height: 550px !important;
+	}
 }
 
 
