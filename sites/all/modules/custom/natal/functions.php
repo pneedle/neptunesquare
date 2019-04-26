@@ -395,4 +395,10 @@ function planet1_planet2_opposite($angle1, $angle2, $planet1, $planet2) {
 	return $result;
 }
 
+function p_url() {
+	global $puzzler_url;
+	$puzzler_url = "../neptunesquare/sites/all/includes/";
+	echo $puzzler_url;
+}
+
 ?>
