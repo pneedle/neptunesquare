@@ -1,8 +1,4 @@
 <?php
-<<<<<<< HEAD
-p_url();
-=======
->>>>>>> add-bio-taxonomy
 
 // get the current path of the taxonomy term
 $url = current_path();
