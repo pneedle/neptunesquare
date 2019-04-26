@@ -4,6 +4,7 @@
 // puzzler prefix - in case the path for the host server changes
 global $puzzler_prefix = "../neptunesquare/";
 
+
 // absoulute degree calculations
 function angle($s, $d, $m) {
 	$degree = round(($d + ($m / 60)),1);
