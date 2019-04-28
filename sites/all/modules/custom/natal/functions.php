@@ -2,8 +2,8 @@
 // This file is the place to store all basic functions
 
 // puzzler prefix - in case the path for the host server changes
-global $puzzler_prefix = "../neptunesquare/";
-
+global $puzzler_prefix;
+$puzzler_prefix = "../neptunesquare/";
 
 // absoulute degree calculations
 function angle($s, $d, $m) {
