@@ -171,6 +171,21 @@
 	}
 
 ///////////////////////////////
+//  GENUS/SPECIES
+///////////////////////////////
+	#frontpage-genus-species {
+		clear: both;
+		float: left;
+		width: 25%;
+		display: inline-block;
+		border: 1px solid black;
+		padding: 4px 4px 31px 5px;  // TRBL
+		text-align: justify;
+		background-color: $light-green;
+		font-size: 85%;
+	}
+
+///////////////////////////////
 //  ASTROLOGY OF THE MOMENT
 ///////////////////////////////
 	#astrology-of-the-moment {

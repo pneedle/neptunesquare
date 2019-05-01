@@ -765,6 +765,18 @@ $bkpt-xlarge: 776px;
   }
 }
 /* line 176, ../sass/partials/pages/_homepage.scss */
+#homepage #frontpage-genus-species {
+  clear: both;
+  float: left;
+  width: 25%;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 4px 4px 31px 5px;
+  text-align: justify;
+  background-color: rgba(163, 219, 122, 0.2);
+  font-size: 85%;
+}
+/* line 191, ../sass/partials/pages/_homepage.scss */
 #homepage #astrology-of-the-moment {
   width: 55%;
   display: inline-block;
@@ -774,56 +786,56 @@ $bkpt-xlarge: 776px;
   background-color: rgba(146, 198, 222, 0.2);
   font-size: 85%;
 }
-/* line 184, ../sass/partials/pages/_homepage.scss */
+/* line 199, ../sass/partials/pages/_homepage.scss */
 #homepage #astrology-of-the-moment header > h2 > a,
 #homepage #astrology-of-the-moment .pane-title {
   display: none;
 }
-/* line 188, ../sass/partials/pages/_homepage.scss */
+/* line 203, ../sass/partials/pages/_homepage.scss */
 #homepage #astrology-of-the-moment .pane-content {
   margin-top: -14px;
   margin-bottom: -26px;
 }
 @media (min-width: 0px) and (max-width: 500px) {
-  /* line 176, ../sass/partials/pages/_homepage.scss */
+  /* line 191, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment {
     width: 55%;
     font-size: 16px;
   }
-  /* line 196, ../sass/partials/pages/_homepage.scss */
+  /* line 211, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment img {
     width: 33px;
   }
 }
 @media (min-width: 501px) and (max-width: 700px) {
-  /* line 176, ../sass/partials/pages/_homepage.scss */
+  /* line 191, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment {
     width: 60%;
     font-size: 18px;
   }
-  /* line 203, ../sass/partials/pages/_homepage.scss */
+  /* line 218, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment img {
     width: 39px;
   }
 }
 @media (min-width: 701px) and (max-width: 1200px) {
-  /* line 176, ../sass/partials/pages/_homepage.scss */
+  /* line 191, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment {
     width: 66%;
     font-size: 20px;
   }
-  /* line 210, ../sass/partials/pages/_homepage.scss */
+  /* line 225, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment img {
     width: 42px;
   }
 }
 @media (min-width: 1201px) {
-  /* line 176, ../sass/partials/pages/_homepage.scss */
+  /* line 191, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment {
     width: 66%;
     font-size: 20px;
   }
-  /* line 217, ../sass/partials/pages/_homepage.scss */
+  /* line 232, ../sass/partials/pages/_homepage.scss */
   #homepage #astrology-of-the-moment img {
     width: 45px;
   }
