@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Code for the custom_feature_animalia feature.
+ * Code for the custom-feature-animalia feature.
  */
 
 include_once 'custom_feature_animalia.features.inc';
