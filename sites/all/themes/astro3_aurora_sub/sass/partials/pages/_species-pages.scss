@@ -6,8 +6,9 @@
 ////////////////////////////////////////////////////////
 // PLANTAE-FUNGI-ANIMALIA-BACTERIA SPECIES PAGES
 ////////////////////////////////////////////////////////
-.panel-2col-bricks {
+#plantae-layout {
 	font-family: $arial-narrow;
+
 	.pane-node-title {
 		h2 {
 			display: none;
@@ -138,11 +139,10 @@
 			margin-bottom: 7px;
 		}
 	}
-}
+
 ////////////////////////////////////////////////////////
 // MIN-WIDTH 601PX - DESKTOP
 ////////////////////////////////////////////////////////
-.panel-2col-bricks {
 	@media only screen and (min-width: 601px) {
 		div.pane-taxonomy,          // plantae
 		div.pane-animalia-taxonomy, // animalia
@@ -159,4 +159,5 @@
 			margin-bottom: 7px;
 		}
 	}
+
 }
