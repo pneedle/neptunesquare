@@ -7,8 +7,8 @@
 // PLANTAE-FUNGI-ANIMALIA-BACTERIA SPECIES PAGES
 ////////////////////////////////////////////////////////
 #plantae-layout {
-	font-family: $arial-narrow;
 
+	font-family: $arial-narrow;
 	.pane-node-title {
 		h2 {
 			display: none;
@@ -39,9 +39,11 @@
 		.field-items {
 			text-transform: uppercase;
 			color: blue;
-			a {
-//				text-decoration: none; 
-			}
+		}
+	}
+	div:nth-child(2) > div.panel-panel.panel-col-first > div > div.panel-pane.pane-panels-mini.pane-identifying-features {
+		h2 {
+			margin: 0;
 		}
 	}
 	.pane-taxonomy,
@@ -51,6 +53,9 @@
 	.pane-node-field-species-image-animalia {
 		width: 100%;
 		float: left;
+		h2.pane-title {
+			margin: 0;
+		}
 	}
 	.wikipedia {
 		background-color: $light-green;
@@ -121,43 +126,30 @@
 	}
 
 ////////////////////////////////////////////////////////
-// MAX-WIDTH 600PX - mobile
+// SET BACKGROUND COLOR
 ////////////////////////////////////////////////////////
-	@media only screen and (max-width: 600px) {
-		div.pane-taxonomy,          // plantae
-		div.pane-animalia-taxonomy, // animalia
-		div.pane-bacteria-taxonomy, // bacteria
-		div.pane-clone-of-taxonomy, // fungi
-		div.pane-identifying-features,
-		div.pane-therapeutic {
-			background-color: $light-yellow;
-			border: 2px solid $light-blue;
-			float: left;
-			width: 100%;
-			font-size: 90%;
-			clear: both;
-			margin-bottom: 7px;
-		}
+	div.pane-taxonomy,          // plantae
+	div.pane-animalia-taxonomy, // animalia
+	div.pane-bacteria-taxonomy, // bacteria
+	div.pane-clone-of-taxonomy, // fungi
+	div.pane-identifying-features,
+	div.pane-therapeutic {
+		background-color: $light-yellow;
+		border: 2px solid $light-blue;
+		float: left;
+		width: 100%;
+		clear: both;
+		margin-bottom: 7px;
 	}
 
 ////////////////////////////////////////////////////////
-// MIN-WIDTH 601PX - DESKTOP
+// SET FONT SIZE
 ////////////////////////////////////////////////////////
+	@media only screen and (max-width: 600px) {
+					font-size: 90%;
+	}
 	@media only screen and (min-width: 601px) {
-		div.pane-taxonomy,          // plantae
-		div.pane-animalia-taxonomy, // animalia
-		div.pane-bacteria-taxonomy, // bacteria
-		div.pane-clone-of-taxonomy, // fungi
-		div.pane-identifying-features,
-		div.pane-therapeutic {
-			background-color: $light-yellow;
-			border: 2px solid $light-blue;
-			float: left;
-			width: 100%;
-			font-size: 100%;
-			clear: both;
-			margin-bottom: 7px;
-		}
+					font-size: 100%;
 	}
 
 }
