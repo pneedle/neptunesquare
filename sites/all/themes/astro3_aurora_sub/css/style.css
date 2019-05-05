@@ -1087,6 +1087,176 @@ $bkpt-xlarge: 776px;
   }
 }
 
+/* line 24, ../sass/partials/pages/_kpcofgs.scss */
+.aurora-section-third h2,
+.kpcofg-title h1 {
+  margin-top: 0px;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 24, ../sass/partials/pages/_kpcofgs.scss */
+  .aurora-section-third h2,
+  .kpcofg-title h1 {
+    font-size: 90%;
+    width: inherit;
+  }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 24, ../sass/partials/pages/_kpcofgs.scss */
+  .aurora-section-third h2,
+  .kpcofg-title h1 {
+    font-size: 95%;
+    width: inherit;
+  }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 24, ../sass/partials/pages/_kpcofgs.scss */
+  .aurora-section-third h2,
+  .kpcofg-title h1 {
+    font-size: 100%;
+    width: inherit;
+  }
+}
+
+/* line 45, ../sass/partials/pages/_kpcofgs.scss */
+th.views-field.views-field-title.active a,
+th.views-field.views-field-title a,
+td.views-field.views-field-title.active a {
+  text-decoration: none;
+  color: rgba(52, 28, 44, 0.7);
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+/* line 52, ../sass/partials/pages/_kpcofgs.scss */
+.pane-taxonomy-term-description {
+  background-color: rgba(163, 219, 122, 0.2);
+}
+
+/* line 56, ../sass/partials/pages/_kpcofgs.scss */
+.views-field-field-species-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 61, ../sass/partials/pages/_kpcofgs.scss */
+.taxonomy-term-description {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  text-align: justify;
+  padding: 7px;
+}
+/* line 65, ../sass/partials/pages/_kpcofgs.scss */
+.taxonomy-term-description a {
+  color: #92c6de;
+  text-decoration: none;
+  padding-left: 7px;
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 61, ../sass/partials/pages/_kpcofgs.scss */
+  .taxonomy-term-description {
+    font-size: 80%;
+  }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 61, ../sass/partials/pages/_kpcofgs.scss */
+  .taxonomy-term-description {
+    font-size: 90%;
+  }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 61, ../sass/partials/pages/_kpcofgs.scss */
+  .taxonomy-term-description {
+    font-size: 100%;
+  }
+}
+/* line 81, ../sass/partials/pages/_kpcofgs.scss */
+.taxonomy-term-description strong {
+  font-weight: inherit;
+  text-transform: uppercase;
+}
+/* line 85, ../sass/partials/pages/_kpcofgs.scss */
+.taxonomy-term-description p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 93, ../sass/partials/pages/_kpcofgs.scss */
+#kpcofg #taxonomy-title span {
+  font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(244, 244, 135, 0.2);
+}
+
+/* line 104, ../sass/partials/pages/_kpcofgs.scss */
+#kpcofg td.views-field.views-field-nothing,
+#kpcofg .views-field-body {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 108, ../sass/partials/pages/_kpcofgs.scss */
+#kpcofg td.views-field.views-field-nothing p,
+#kpcofg .views-field-body p {
+  color: rgba(52, 28, 44, 0.7);
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 104, ../sass/partials/pages/_kpcofgs.scss */
+  #kpcofg td.views-field.views-field-nothing,
+  #kpcofg .views-field-body {
+    font-size: 80%;
+  }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+  /* line 104, ../sass/partials/pages/_kpcofgs.scss */
+  #kpcofg td.views-field.views-field-nothing,
+  #kpcofg .views-field-body {
+    font-size: 90%;
+  }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+  /* line 104, ../sass/partials/pages/_kpcofgs.scss */
+  #kpcofg td.views-field.views-field-nothing,
+  #kpcofg .views-field-body {
+    font-size: 100%;
+  }
+}
+
+/* line 122, ../sass/partials/pages/_kpcofgs.scss */
+td.views-field.views-field-nothing > p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 127, ../sass/partials/pages/_kpcofgs.scss */
+#kpcofg td.views-field.views-field-body {
+  width: 90%;
+}
+/* line 129, ../sass/partials/pages/_kpcofgs.scss */
+#kpcofg td.views-field.views-field-body p.rtejustify {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+/* line 137, ../sass/partials/pages/_kpcofgs.scss */
+#kpcofg td.views-field.views-field-field-species-image,
+#kpcofg td.views-field.views-field-field-species-image-bacteria,
+#kpcofg td.views-field.views-field-field-species-image-animalia-1,
+#kpcofg td.views-field.views-field-field-image-species-fungal {
+  width: 20%;
+}
+
+/* line 146, ../sass/partials/pages/_kpcofgs.scss */
+#kpcofg th.views-field.views-field-field-image.views-field-field-image {
+  display: none;
+}
+
+/* line 152, ../sass/partials/pages/_kpcofgs.scss */
+#kpcofg .panels-flexible-region-inside {
+  padding-left: 0;
+}
+
 /* line 23, ../sass/partials/pages/_major-aspects.scss */
 #major-aspects {
   font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
