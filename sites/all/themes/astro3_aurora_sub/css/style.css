@@ -1647,14 +1647,17 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
 }
 
 /* line 9, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout,
 #plantae-layout {
   font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-/* line 13, ../sass/partials/pages/_species-pages.scss */
+/* line 14, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout .pane-node-title h2,
 #plantae-layout .pane-node-title h2 {
   display: none;
 }
-/* line 16, ../sass/partials/pages/_species-pages.scss */
+/* line 17, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout .pane-node-title a,
 #plantae-layout .pane-node-title a {
   color: #92c6de;
   text-transform: uppercase;
@@ -1662,11 +1665,17 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
   font-weight: normal;
   font-size: 150%;
 }
-/* line 25, ../sass/partials/pages/_species-pages.scss */
+/* line 26, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout div.pane-entity-field h2,
 #plantae-layout div.pane-entity-field h2 {
   display: none;
 }
-/* line 29, ../sass/partials/pages/_species-pages.scss */
+/* line 30, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout #mini-panel-taxonomy,
+#animalia-layout #mini-panel-clone_of_taxonomy,
+#animalia-layout #mini-panel-animalia_taxonomy,
+#animalia-layout #mini-panel-bacteria_taxonomy,
+#animalia-layout #mini-panel-identifying_features,
 #plantae-layout #mini-panel-taxonomy,
 #plantae-layout #mini-panel-clone_of_taxonomy,
 #plantae-layout #mini-panel-animalia_taxonomy,
@@ -1674,7 +1683,12 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
 #plantae-layout #mini-panel-identifying_features {
   padding-bottom: 7px;
 }
-/* line 35, ../sass/partials/pages/_species-pages.scss */
+/* line 36, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout #mini-panel-taxonomy .field-label,
+#animalia-layout #mini-panel-clone_of_taxonomy .field-label,
+#animalia-layout #mini-panel-animalia_taxonomy .field-label,
+#animalia-layout #mini-panel-bacteria_taxonomy .field-label,
+#animalia-layout #mini-panel-identifying_features .field-label,
 #plantae-layout #mini-panel-taxonomy .field-label,
 #plantae-layout #mini-panel-clone_of_taxonomy .field-label,
 #plantae-layout #mini-panel-animalia_taxonomy .field-label,
@@ -1683,7 +1697,12 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
   font-size: 90%;
   font-weight: normal;
 }
-/* line 39, ../sass/partials/pages/_species-pages.scss */
+/* line 40, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout #mini-panel-taxonomy .field-items,
+#animalia-layout #mini-panel-clone_of_taxonomy .field-items,
+#animalia-layout #mini-panel-animalia_taxonomy .field-items,
+#animalia-layout #mini-panel-bacteria_taxonomy .field-items,
+#animalia-layout #mini-panel-identifying_features .field-items,
 #plantae-layout #mini-panel-taxonomy .field-items,
 #plantae-layout #mini-panel-clone_of_taxonomy .field-items,
 #plantae-layout #mini-panel-animalia_taxonomy .field-items,
@@ -1692,11 +1711,20 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
   text-transform: uppercase;
   color: blue;
 }
-/* line 45, ../sass/partials/pages/_species-pages.scss */
+/* line 47, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout div:nth-child(2) > div.panel-panel.panel-col-first > div > div.panel-pane.pane-panels-mini.pane-animalia-taxonomy h2,
+#animalia-layout div:nth-child(2) > div.panel-panel.panel-col-first > div > div.panel-pane.pane-panels-mini.pane-identifying-features h2,
+#plantae-layout div:nth-child(2) > div.panel-panel.panel-col-first > div > div.panel-pane.pane-panels-mini.pane-animalia-taxonomy h2,
 #plantae-layout div:nth-child(2) > div.panel-panel.panel-col-first > div > div.panel-pane.pane-panels-mini.pane-identifying-features h2 {
   margin: 0;
+  font-weight: normal;
 }
-/* line 49, ../sass/partials/pages/_species-pages.scss */
+/* line 52, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout .pane-taxonomy,
+#animalia-layout .pane-therapeutic,
+#animalia-layout .pane-identifying-fetures,
+#animalia-layout .pane-node-field-animalia-video,
+#animalia-layout .pane-node-field-species-image-animalia,
 #plantae-layout .pane-taxonomy,
 #plantae-layout .pane-therapeutic,
 #plantae-layout .pane-identifying-fetures,
@@ -1705,7 +1733,12 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
   width: 100%;
   float: left;
 }
-/* line 56, ../sass/partials/pages/_species-pages.scss */
+/* line 59, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout .pane-taxonomy h2.pane-title,
+#animalia-layout .pane-therapeutic h2.pane-title,
+#animalia-layout .pane-identifying-fetures h2.pane-title,
+#animalia-layout .pane-node-field-animalia-video h2.pane-title,
+#animalia-layout .pane-node-field-species-image-animalia h2.pane-title,
 #plantae-layout .pane-taxonomy h2.pane-title,
 #plantae-layout .pane-therapeutic h2.pane-title,
 #plantae-layout .pane-identifying-fetures h2.pane-title,
@@ -1713,37 +1746,44 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
 #plantae-layout .pane-node-field-species-image-animalia h2.pane-title {
   margin: 0;
 }
-/* line 60, ../sass/partials/pages/_species-pages.scss */
+/* line 63, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout .wikipedia,
 #plantae-layout .wikipedia {
   background-color: rgba(163, 219, 122, 0.2);
   padding: 7px;
   width: 100%;
 }
-/* line 65, ../sass/partials/pages/_species-pages.scss */
+/* line 68, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout #citations,
 #plantae-layout #citations {
   background-color: rgba(244, 244, 135, 0.2);
   padding: 7px;
   margin-top: 8px;
 }
-/* line 70, ../sass/partials/pages/_species-pages.scss */
+/* line 73, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout div.panel-pane.pane-entity-field.pane-node-body.species-body,
 #plantae-layout div.panel-pane.pane-entity-field.pane-node-body.species-body {
   background-color: rgba(52, 28, 44, 0.1);
 }
-/* line 72, ../sass/partials/pages/_species-pages.scss */
+/* line 75, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout div.panel-pane.pane-entity-field.pane-node-body.species-body .stamp,
 #plantae-layout div.panel-pane.pane-entity-field.pane-node-body.species-body .stamp {
   display: none;
 }
-/* line 76, ../sass/partials/pages/_species-pages.scss */
+/* line 79, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout #species_image img,
 #plantae-layout #species_image img {
   border: 2px solid rgba(163, 219, 122, 0.2);
   float: left;
   margin-top: 0.25em;
 }
-/* line 81, ../sass/partials/pages/_species-pages.scss */
+/* line 84, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout .pane-node-body,
 #plantae-layout .pane-node-body {
   clear: both;
 }
-/* line 84, ../sass/partials/pages/_species-pages.scss */
+/* line 87, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout .stamp,
 #plantae-layout .stamp {
   clear: both;
   float: right;
@@ -1752,50 +1792,68 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
   padding-left: 7px;
   padding-right: 7px;
 }
-/* line 91, ../sass/partials/pages/_species-pages.scss */
+/* line 94, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout .stamp .pane-node-field-stamp-image,
 #plantae-layout .stamp .pane-node-field-stamp-image {
   padding-bottom: 0px;
 }
-/* line 94, ../sass/partials/pages/_species-pages.scss */
+/* line 97, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout .stamp .pane-node-field-issue-date,
 #plantae-layout .stamp .pane-node-field-issue-date {
   padding-bottom: 0px;
 }
-/* line 97, ../sass/partials/pages/_species-pages.scss */
+/* line 100, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout .stamp .pane-node-field-country-issued,
 #plantae-layout .stamp .pane-node-field-country-issued {
   padding-top: 0px;
 }
-/* line 101, ../sass/partials/pages/_species-pages.scss */
+/* line 104, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout #stamp-image,
 #plantae-layout #stamp-image {
   clear: inherit;
   width: 100%;
 }
-/* line 104, ../sass/partials/pages/_species-pages.scss */
+/* line 107, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout #stamp-image img,
 #plantae-layout #stamp-image img {
   width: 100%;
   height: 100%;
 }
-/* line 110, ../sass/partials/pages/_species-pages.scss */
+/* line 113, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout div.pane-custom,
 #plantae-layout div.pane-custom {
   float: left;
   clear: both;
   margin-bottom: 7px;
 }
-/* line 115, ../sass/partials/pages/_species-pages.scss */
+/* line 118, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout div.panel-pane.pane-panels-mini.pane-therapeutic > h2,
+#animalia-layout div.panel-pane.pane-panels-mini.pane-clone-of-taxonomy > h2,
+#animalia-layout div.panel-pane.pane-panels-mini.pane-identifying-features > h2,
+#animalia-layout div.panel-pane.pane-panels-mini.pane-taxonomy > h2,
 #plantae-layout div.panel-pane.pane-panels-mini.pane-therapeutic > h2,
 #plantae-layout div.panel-pane.pane-panels-mini.pane-clone-of-taxonomy > h2,
 #plantae-layout div.panel-pane.pane-panels-mini.pane-identifying-features > h2,
 #plantae-layout div.panel-pane.pane-panels-mini.pane-taxonomy > h2 {
   font-weight: normal;
 }
-/* line 121, ../sass/partials/pages/_species-pages.scss */
+/* line 124, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout .artwork img,
 #plantae-layout .artwork img {
   float: left;
 }
-/* line 124, ../sass/partials/pages/_species-pages.scss */
+/* line 127, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout .panel-col-middle,
 #plantae-layout .panel-col-middle {
   padding-top: 7px;
 }
-/* line 131, ../sass/partials/pages/_species-pages.scss */
+/* line 134, ../sass/partials/pages/_species-pages.scss */
+#animalia-layout div.pane-taxonomy,
+#animalia-layout div.pane-animalia-taxonomy,
+#animalia-layout div.pane-bacteria-taxonomy,
+#animalia-layout div.pane-clone-of-taxonomy,
+#animalia-layout div.pane-identifying-features,
+#animalia-layout div.pane-therapeutic,
 #plantae-layout div.pane-taxonomy,
 #plantae-layout div.pane-animalia-taxonomy,
 #plantae-layout div.pane-bacteria-taxonomy,
@@ -1811,12 +1869,14 @@ div.panel-pane.pane-entity-field.pane-node-field-natal-chart img {
 }
 @media only screen and (max-width: 600px) {
   /* line 9, ../sass/partials/pages/_species-pages.scss */
+  #animalia-layout,
   #plantae-layout {
     font-size: 90%;
   }
 }
 @media only screen and (min-width: 601px) {
   /* line 9, ../sass/partials/pages/_species-pages.scss */
+  #animalia-layout,
   #plantae-layout {
     font-size: 100%;
   }

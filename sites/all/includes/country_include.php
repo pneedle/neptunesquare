@@ -60,7 +60,7 @@ foreach ($records as $record) {
     $genus_species = $imagepath_species;
     // echo "imagepath_species: " . $imagepath_species . "<br />";
 
-    $imagepath_species = "http://localhost/neptunesquare/species/" . $imagepath_species;
+    $imagepath_species = "http://localhost/neptunesquare/genus-species/" . $imagepath_species;
     // want to get to: //http://localhost/neptunesquare/species/acer-rubrum
 
     echo "<p>";
