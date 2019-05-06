@@ -90,32 +90,7 @@
 		h2.pane-title {
 			display: none;
 		}
-	
-	@include breakpoint($bkpt-small) {
-		width: 41%;
-		img {
-			width: 33px;
-		}
 	}
-	@include breakpoint($bkpt-medium) {  // Medium devices (tablets, 501px and up)
-		width: 36%;
-		img {
-			width: 39px;
-		}
-	}
-	@include breakpoint($bkpt-large) {  // Large devices (desktops, 701px and up)
-		width: 25%;
-		img {
-			width: 42px;
-		}
-	}
-	@include breakpoint($bkpt-xlarge) { // Extra large devices (large desktops, 1201px and up)
-		width: 25%;
-		img {
-			width: 45px;
-		}
-	}
-}
 
 ///////////////////////////////
 //  MOON COLOR OF THE DAY
@@ -143,31 +118,6 @@
 		p {
 			text-transform: initial;
 		}
-
-		@include breakpoint($bkpt-small) {
-			width: 41%;
-			img {
-				width: 33px;
-			}
-		}
-		@include breakpoint($bkpt-medium) {  // (tablets, 501px and up)
-			width: 36%;
-			img {
-				width: 39px;
-			}
-		}
-		@include breakpoint($bkpt-large) {  // (desktops, 701px and up)
-			width: 25%;
-			img {
-				width: 42px;
-			}
-		}
-		@include breakpoint($bkpt-xlarge) { // (large desktops, 1201px and up)
-			width: 25%;
-			img {
-				width: 45px;
-			}
-		}
 	}
 
 ///////////////////////////////
@@ -183,7 +133,14 @@
 		text-align: justify;
 		background-color: $light-green;
 		font-size: 85%;
-		
+	}
+
+///////////////////////////////
+//  RIGHT COLUMN BREAKPOINTS
+///////////////////////////////
+	#frontpage-genus-species,
+	#moon-color-of-the-day,
+	#planetary-positions {
 		@include breakpoint($bkpt-small) {
 			width: 41%;
 			img {
@@ -197,7 +154,7 @@
 			}
 		}
 		@include breakpoint($bkpt-large) {  // Large devices (desktops, 701px and up)
-			width: 25%;
+			width: 30%;
 			img {
 				width: 42px;
 			}
