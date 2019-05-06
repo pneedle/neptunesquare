@@ -1,6 +1,8 @@
 <?php
 
 require_once 'sites/all/modules/custom/natal/functions.php';
+global $daily_id;
+
 $today = date("M. j, Y, g:i a"); // M = Jan
 $x = '<span style="color:rgb(57,51,127);font-size:30px">Planetary positions for: <br />' . $today;
 echo $x;
@@ -11,7 +13,7 @@ for ($i=0; $i<11; $i++) {
 	// RETRIEVE THE CURRENT SIGN FROM THE DATABASE
 	$query = db_select('field_data_natal_' . $p[$i] . '_sign', 'natal_' . $p[$i] . '_sign_value')
 		->fields('natal_' . $p[$i] . '_sign_value')
-		->condition('entity_id', 2151,'=')
+		->condition('entity_id', $daily_id,'=')
 		->execute()
 		->fetchAssoc();
 	$ss = $query['natal_' . $p[$i] . '_sign_value'];
@@ -19,7 +21,7 @@ for ($i=0; $i<11; $i++) {
 	// RETRIEVE THE CURRENT DEGREE FROM THE DATABASE
 	$query = db_select('field_data_natal_' . $p[$i] . '_degree', 'natal_' . $p[$i] . '_degree_value')
 		->fields('natal_' . $p[$i] . '_degree_value')
-		->condition('entity_id', 2151,'=')
+		->condition('entity_id', $daily_id,'=')
 		->execute()
 		->fetchAssoc();
 	$sd = $query['natal_' . $p[$i] . '_degree_value'];
@@ -27,7 +29,7 @@ for ($i=0; $i<11; $i++) {
 	// RETRIEVE THE CURRENT MINUTE FROM THE DATABASE
 	$query = db_select('field_data_natal_' . $p[$i] . '_minute', 'natal_' . $p[$i] . '_minute_value')
 		->fields('natal_' . $p[$i] . '_minute_value')
-		->condition('entity_id', 2151,'=')
+		->condition('entity_id', $daily_id,'=')
 		->execute()
 		->fetchAssoc();
 	$sm = $query['natal_' . $p[$i] . '_minute_value'];

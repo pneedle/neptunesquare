@@ -1,6 +1,6 @@
 <?php
 global $ss;
-$daily_id = 2151;
+global $daily_id;
 
 // set variable for daily_daily (nid = $daily_id)
 $nid = $daily_id;

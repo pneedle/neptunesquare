@@ -1,6 +1,10 @@
 <?php
 // This file is the place to store all basic functions
 
+// set global for $daily_id
+global $daily_id;
+$daily_id = 2151;
+
 // puzzler prefix - in case the path for the host server changes
 global $puzzler_prefix;
 $puzzler_prefix = "../neptunesquare/";

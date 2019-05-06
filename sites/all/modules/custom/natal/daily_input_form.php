@@ -1,6 +1,6 @@
 <?php
 require 'sites/all/modules/custom/natal/functions.php';
-$daily_id = 2151;
+global $daily_id;  // = 2151;
 
 $full_name = array();
 $query = "SELECT nid, title FROM node WHERE type = 'natal'";

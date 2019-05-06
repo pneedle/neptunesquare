@@ -1,6 +1,6 @@
 <?php
 global $user;
-$daily_id = 2151;
+global $daily_id;
 
 $title = drupal_get_title();  // e.g., "mercury_saturn_square"
 $components = explode('_',$title);
