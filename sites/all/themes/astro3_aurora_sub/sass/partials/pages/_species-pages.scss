@@ -7,6 +7,7 @@
 // PLANTAE-FUNGI-ANIMALIA-BACTERIA SPECIES PAGES
 ////////////////////////////////////////////////////////
 #animalia-layout,
+#fungi-layout,
 #plantae-layout {
 
 	font-family: $arial-narrow;
@@ -42,6 +43,7 @@
 			color: blue;
 		}
 	}
+	div:nth-child(2) > div.panel-panel.panel-col-first > div > div.panel-pane.pane-panels-mini.pane-clone-of-taxonomy,
 	div:nth-child(2) > div.panel-panel.panel-col-first > div > div.panel-pane.pane-panels-mini.pane-animalia-taxonomy,
 	div:nth-child(2) > div.panel-panel.panel-col-first > div > div.panel-pane.pane-panels-mini.pane-identifying-features {
 		h2 {
