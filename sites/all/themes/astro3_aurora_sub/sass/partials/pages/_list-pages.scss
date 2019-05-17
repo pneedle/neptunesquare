@@ -1,0 +1,260 @@
+////////////////////////
+// Style Guide Partials
+//
+// Your Style Guide
+// Build sub folders and partials in this folder, with everything being imported, in cascading order, into this file.
+//
+// All Style Guide selectors should go in here, regardless of layout or design (but separating the two in here is a good idea).
+////////////////////////
+@import 'breakpoint';
+//////////////////////////////
+// CSS Resets
+//
+// Choose your CSS Reset method:
+//  If you'd like a hard reset, uncomment `compass/reset`.
+//  If you'd prefer a soft reset, uncomment `normalize`
+//////////////////////////////
+// @import 'compass/reset';
+// @import 'normalize';
+
+
+//////////////////////////////////////////////////////////////
+//  ANIMALIA-BACTERIA-FUNGI-PLANTAE LIST PAGES  (abfp_list)
+//////////////////////////////////////////////////////////////
+#abfp_list {
+  font-family: $arial-narrow;
+
+  // ANIMALIA FACETS //
+  #facetapi-facet-search-apianimalia-block-field-kingdom,
+  #facetapi-facet-search-apianimalia-block-field-division-animalia,
+  #facetapi-facet-search-apianimalia-block-field-subphylum-animalia,
+  #facetapi-facet-search-apianimalia-block-field-class-animalia,
+  #facetapi-facet-search-apianimalia-block-field-order-animalia,
+  #facetapi-facet-search-apianimalia-block-field-suborder-animalia,
+  #facetapi-facet-search-apianimalia-block-field-family-animalia,
+  #facetapi-facet-search-apianimalia-block-field-genus-animalia {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    ul {
+      list-style-type: none; 
+      list-style: none;
+    }
+    li {
+      list-style-type: none; 
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: $violet;
+    }
+  }
+
+  // BACTERIA FACETS //
+  #facetapi-facet-search-apibacteria-block-field-kingdom,
+  #facetapi-facet-search-apibacteria-block-field-phylum-bacteria,
+  #facetapi-facet-search-apibacteria-block-field-class-bacteria,
+  #facetapi-facet-search-apibacteria-block-field-order-bacteria,
+  #facetapi-facet-search-apibacteria-block-field-family-bacteria,
+  #facetapi-facet-search-apibacteria-block-field-genus-bacteria {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    ul {
+      list-style-type: none; 
+      list-style: none;
+    }
+    li {
+      list-style-type: none; 
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: $violet;
+    }
+  }
+
+  // FUNGI FACETS //
+  #facetapi-facet-search-apifungi-block-field-kingdom,
+  #facetapi-facet-search-apifungi-block-field-subkingdom,
+  #facetapi-facet-search-apifungi-block-field-division-fungi,
+  #facetapi-facet-search-apifungi-block-field-class-fungi,
+  #facetapi-facet-search-apifungi-block-field-order-fungi,
+  #facetapi-facet-search-apifungi-block-field-family-fungi,
+  #facetapi-facet-search-apifungi-block-field-genus-fungi {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    ul {
+      list-style-type: none; 
+      list-style: none;
+    }
+    li {
+      list-style-type: none; 
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: $violet;
+    }
+  }
+
+  // PLANTAE FACETS //
+  #facetapi-facet-search-apiplantae-block-field-therapeuticname,
+  #facetapi-facet-search-apiplantae-block-field-kingdom,
+  #facetapi-facet-search-apiplantae-block-field-subkingdom,
+  #facetapi-facet-search-apiplantae-block-field-phylum,
+  #facetapi-facet-search-apiplantae-block-field-superdivision,
+  #facetapi-facet-search-apiplantae-block-field-class,
+  #facetapi-facet-search-apiplantae-block-field-subclass,
+  #facetapi-facet-search-apiplantae-block-field-order,
+  #facetapi-facet-search-apiplantae-block-field-family,
+  #facetapi-facet-search-apiplantae-block-field-genus,
+  #facetapi-facet-search-apiplantae-block-field-tags,
+  #facetapi-facet-search-apiplantae-block-field-margin-id,
+  #facetapi-facet-search-apiplantae-block-field-shape-id,
+  #facetapi-facet-search-apiplantae-block-field-needle {
+  //.facetapr-processed {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    ul {
+      list-style-type: none; 
+      list-style: none;
+    }
+    li {
+      list-style-type: none; 
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: $violet;
+    }
+  }
+  
+}
+
+//////////////////////////////////////////////////////////////
+//  ANIMALIA-BACTERIA-FUNGI-PLANTAE FACETAPI AREA
+//////////////////////////////////////////////////////////////
+#abfp_list {
+  font-family: $arial-narrow;
+
+  .pane-plant-list-kpcofgs,
+  .pane-fungi-list-kpcofgs,
+  .pane-bacteria-list-kpcofgs,
+  .pane-animal-list-kpcofgs {
+    background-color: $light-green;
+    float: left;
+    border: 2px solid $light-blue;
+    h2.pane-title {
+        display: unset;
+        text-transform: uppercase;
+        background-color: $darker-blue;
+        font-size: initial;
+        font-weight: normal;
+        color: #FFFFFF;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+  }
+}
+
+  ////////////////////////////////////////
+  //  PLANTAE-FUNGI-ANIMALIA LIST AREA
+  ////////////////////////////////////////
+  th.views-field {
+      text-transform: uppercase;
+      font-weight: normal;
+  }
+
+  .aurora-section-third {
+    background: white;
+    h2.pane-title {
+      font-size: 110%;
+      padding-left: 7px;
+    }
+  }
+  @include breakpoint($bkpt-small) {  // 0-500px   4
+    #abfp_list > section.aurora-sample-section.aurora-section-third > div.panel-pane.pane-views-panes.pane-animalia-list-panel-pane-1,
+    #abfp_list > section.aurora-sample-section.aurora-section-third > div.panel-pane.pane-views-panes.pane-animalia-list-panel-pane-2,
+    #abfp_list > section.aurora-sample-section.aurora-section-third > div.panel-pane.pane-views-panes.pane-animalia-list-panel-pane-3 {
+      display: none;    
+    }
+  }
+
+  @include breakpoint($bkpt-medium) {  // 501-700px   2
+    #abfp_list > section.aurora-sample-section.aurora-section-third > div.panel-pane.pane-views-panes.pane-animalia-list-panel-pane-1,
+    #abfp_list > section.aurora-sample-section.aurora-section-third > div.panel-pane.pane-views-panes.pane-animalia-list-panel-pane-3,
+    #abfp_list > section.aurora-sample-section.aurora-section-third > div.panel-pane.pane-views-panes.pane-animalia-list-panel-pane-4 {
+      display: none;    
+    }
+  }
+
+  @include breakpoint($bkpt-large) {  // 701-1200px   3
+    #abfp_list > section.aurora-sample-section.aurora-section-third > div.panel-pane.pane-views-panes.pane-animalia-list-panel-pane-1,
+    #abfp_list > section.aurora-sample-section.aurora-section-third > div.panel-pane.pane-views-panes.pane-animalia-list-panel-pane-2,
+    #abfp_list > section.aurora-sample-section.aurora-section-third > div.panel-pane.pane-views-panes.pane-animalia-list-panel-pane-4 {
+      display: none;    
+    }
+  }
+
+  @include breakpoint($bkpt-xlarge) {  // 1201px and up   1
+    #abfp_list > section.aurora-sample-section.aurora-section-third > div.panel-pane.pane-views-panes.pane-animalia-list-panel-pane-2,
+    #abfp_list > section.aurora-sample-section.aurora-section-third > div.panel-pane.pane-views-panes.pane-animalia-list-panel-pane-3,
+    #abfp_list > section.aurora-sample-section.aurora-section-third > div.panel-pane.pane-views-panes.pane-animalia-list-panel-pane-4 {
+      display: none;    
+    }
+  }
+ 
+/*  
+    @include breakpoint($bkpt-medium) {  // 501px to 700px
+      .pane-animalia-list-panel-pane-2,
+      .pane-bacteria-list-panel-pane-2,
+      .pane-plantae-list-panel-pane-3,
+      .pane-fungi-list-panel-pane-2 {
+        display: initial;
+        .views-table {
+          font-size: 95%;
+        }
+      }
+      .pane-animalia-list-panel-pane-1,
+      .pane-animalia-list-panel-pane-3,
+      .pane-animalia-list-panel-pane-4,
+      .pane-bacteria-list-panel-pane-1,
+      .pane-bacteria-list-panel-pane-3,
+      .pane-plantae-list-panel-pane-1,
+      .pane-plantae-list-panel-pane-2,
+      .pane-plantae-list-panel-pane-4,
+      .pane-fungi-list-panel-pane-1,
+      .pane-fungi-list-panel-pane-3 {
+
+        display: none;
+      }
+    }
+
+    @include breakpoint($bkpt-large) {  // 701px and up
+      .panel-pane.pane-views-panes.pane-animalia-list-panel-pane-1,
+      .pane-bacteria-list-panel-pane-1,
+      .pane-plantae-list-panel-pane-1,
+      .pane-fungi-list-panel-pane-3 {
+        display: initial;
+        .views-table {
+          font-size: 100%;
+        }
+      }
+      .panel-pane.pane-views-panes.pane-animalia-list-panel-pane-2,
+      .panel-pane.pane-views-panes.pane-animalia-list-panel-pane-3,
+      .pane-bacteria-list-panel-pane-2,
+      .pane-bacteria-list-panel-pane-3,
+      .pane-plantae-list-panel-pane-2,
+      .pane-plantae-list-panel-pane-3,
+      .pane-plantae-list-panel-pane-4,
+      .panel-pane.pane-views-panes.pane-fungi-list-panel-pane-2 {
+        display: none;
+      }
+    }   
+  }
+}
+*/
+

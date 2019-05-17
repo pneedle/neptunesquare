@@ -61,7 +61,7 @@ foreach ($records as $record) {
     // echo "imagepath_species: " . $imagepath_species . "<br />";
 
     $imagepath_species = "http://localhost/neptunesquare/genus-species/" . $imagepath_species;
-    // want to get to: //http://localhost/neptunesquare/species/acer-rubrum
+     // want to get to: //http://localhost/neptunesquare/species/acer-rubrum
 
     echo "<p>";
     echo "<div class=\"country-stamp\">"; // displays "width = 50%"" for image to fit 2 per column

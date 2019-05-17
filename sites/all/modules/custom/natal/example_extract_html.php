@@ -3,7 +3,7 @@ global $ss;
 global $daily_id;
 
 // set variable for daily_daily (nid = $daily_id)
-$nid = $daily_id;
+$nid = 2151; //$daily_id;
 
 require_once 'simple_html_dom.php';
 

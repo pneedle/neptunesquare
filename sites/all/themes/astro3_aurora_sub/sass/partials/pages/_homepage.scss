@@ -104,7 +104,7 @@
 		padding: 4px 4px 31px 5px;  // TRBL
 		text-align: justify;
 		background-color: $light-green;
-		font-size: 85%;
+		font-size: 90%;
 		header > h2 {
 			margin-top: -15px;
 		} 	
@@ -126,19 +126,29 @@
 	#frontpage-genus-species {
 		clear: both;
 		float: left;
-		width: 25%;
 		display: inline-block;
 		border: 1px solid black;
 		padding: 4px 4px 31px 5px;  // TRBL
 		text-align: justify;
 		background-color: $light-green;
-		font-size: 85%;
+		font-size: 90%;
+		@include breakpoint($bkpt-small) {
+			width: 41%;
+		}
+		@include breakpoint($bkpt-medium) {  // Medium devices (tablets, 501px and up)
+			width: 36%;
+		}
+		@include breakpoint($bkpt-large) {  // Large devices (desktops, 701px and up)
+			width: 30%;
+		}
+		@include breakpoint($bkpt-xlarge) { // Extra large devices (large desktops, 1201px and up)
+			width: 25%;
+		}
 	}
 
 ///////////////////////////////
 //  RIGHT COLUMN BREAKPOINTS
 ///////////////////////////////
-	#frontpage-genus-species,
 	#moon-color-of-the-day,
 	#planetary-positions {
 		@include breakpoint($bkpt-small) {

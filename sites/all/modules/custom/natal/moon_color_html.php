@@ -17,11 +17,13 @@
   //echo "</pre>";
 
   $moon_sign = sign_long($ss);
-  $url = "<a href=\"color/" . strtolower($moon_sign) . "-moon\">test</a>";
+  $url = "<a href=\"moon-" . strtolower($moon_sign) . "</a>";
+  //$url = "<a href=\"color/" . strtolower($moon_sign) . "-moon\">test</a>";
 
   //echo $url;
   if(isset($ss)){
-      die("<script>location.href = \"color/" . strtolower($moon_sign) . "-moon\"</script>");
+      die("<script>location.href = \"moon-" . strtolower($moon_sign) . "\"</script>");
+      //die("<script>location.href = \"color/" . strtolower($moon_sign) . "-moon\"</script>");
   }
 
 ?>
