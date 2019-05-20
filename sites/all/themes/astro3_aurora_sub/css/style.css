@@ -966,115 +966,142 @@ $bkpt-xlarge: 776px;
   display: none !important;
 }
 
-/* line 28, ../sass/partials/pages/_interaction.scss */
-#interaction div#current-block {
-  float: left;
-  box-sizing: initial;
+/* line 23, ../sass/partials/pages/_interaction.scss */
+#interaction {
   font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-/* line 33, ../sass/partials/pages/_interaction.scss */
-#interaction #current-block {
+/* line 30, ../sass/partials/pages/_interaction.scss */
+#interaction #planetary-positions {
+  width: 41%;
+  display: inline-block;
+  float: left;
+  box-sizing: initial;
+  background-color: rgba(163, 219, 122, 0.2);
   border: 1px solid black;
-  padding: 5px;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 10px;
 }
-/* line 37, ../sass/partials/pages/_interaction.scss */
-#interaction #current-block h2.pane-title {
+/* line 39, ../sass/partials/pages/_interaction.scss */
+#interaction #planetary-positions h2.pane-title {
   display: none;
 }
-@media (min-width: 0px) and (max-width: 715px) {
-  /* line 27, ../sass/partials/pages/_interaction.scss */
-  #interaction {
-    font-size: 94%;
-  }
-  /* line 44, ../sass/partials/pages/_interaction.scss */
-  #interaction #current-block img {
-    width: 31px;
-  }
-}
-@media (min-width: 716px) and (max-width: 802px) {
-  /* line 27, ../sass/partials/pages/_interaction.scss */
-  #interaction {
-    font-size: 96%;
-  }
-  /* line 50, ../sass/partials/pages/_interaction.scss */
-  #interaction #current-block img {
-    width: 34px;
-  }
-}
-@media (min-width: 901px) {
-  /* line 27, ../sass/partials/pages/_interaction.scss */
-  #interaction {
-    font-size: 98%;
-  }
-  /* line 56, ../sass/partials/pages/_interaction.scss */
-  #interaction #current-block img {
-    width: 37px;
-  }
-}
-@media (min-width: 803px) and (max-width: 900px) {
-  /* line 27, ../sass/partials/pages/_interaction.scss */
-  #interaction {
-    font-size: 100%;
-  }
-  /* line 62, ../sass/partials/pages/_interaction.scss */
-  #interaction #current-block img {
-    width: 40px;
-  }
-}
-
-/* line 72, ../sass/partials/pages/_interaction.scss */
+/* line 48, ../sass/partials/pages/_interaction.scss */
 #interaction #interaction-content {
+  width: 55%;
+  display: inline-block;
   border: 1px solid black;
-  padding: 8px 8px 40px 8px;
+  padding: 4px 4px 31px 5px;
   text-align: justify;
   background-color: rgba(146, 198, 222, 0.2);
-  float: right;
 }
-/* line 78, ../sass/partials/pages/_interaction.scss */
-#interaction #interaction-content header > h2 {
-  margin-top: -15px;
-}
-/* line 81, ../sass/partials/pages/_interaction.scss */
+/* line 56, ../sass/partials/pages/_interaction.scss */
 #interaction #interaction-content header > h2 > a,
 #interaction #interaction-content .pane-title {
   display: none;
 }
-/* line 85, ../sass/partials/pages/_interaction.scss */
+/* line 60, ../sass/partials/pages/_interaction.scss */
 #interaction #interaction-content .pane-content {
   margin-top: -14px;
   margin-bottom: -26px;
 }
-/* line 89, ../sass/partials/pages/_interaction.scss */
-#interaction #interaction-content p {
-  text-transform: initial;
-}
 @media (min-width: 0px) and (max-width: 715px) {
-  /* line 72, ../sass/partials/pages/_interaction.scss */
+  /* line 48, ../sass/partials/pages/_interaction.scss */
   #interaction #interaction-content {
-    width: calc(98% - 130px);
-    font-size: 97%;
+    width: 55%;
+    font-size: 16px;
+  }
+  /* line 68, ../sass/partials/pages/_interaction.scss */
+  #interaction #interaction-content img {
+    width: 33px;
   }
 }
 @media (min-width: 716px) and (max-width: 802px) {
-  /* line 72, ../sass/partials/pages/_interaction.scss */
+  /* line 48, ../sass/partials/pages/_interaction.scss */
   #interaction #interaction-content {
-    width: calc(98% - 140px);
-    font-size: 98%;
+    width: 60%;
+    font-size: 18px;
+  }
+  /* line 75, ../sass/partials/pages/_interaction.scss */
+  #interaction #interaction-content img {
+    width: 39px;
   }
 }
 @media (min-width: 901px) {
-  /* line 72, ../sass/partials/pages/_interaction.scss */
+  /* line 48, ../sass/partials/pages/_interaction.scss */
   #interaction #interaction-content {
-    width: calc(98% - 155px);
-    font-size: 99%;
+    width: 66%;
+    font-size: 20px;
+  }
+  /* line 82, ../sass/partials/pages/_interaction.scss */
+  #interaction #interaction-content img {
+    width: 42px;
   }
 }
 @media (min-width: 803px) and (max-width: 900px) {
-  /* line 72, ../sass/partials/pages/_interaction.scss */
+  /* line 48, ../sass/partials/pages/_interaction.scss */
   #interaction #interaction-content {
-    width: calc(98% - 160px);
-    font-size: 100%;
+    width: 66%;
+    font-size: 20px;
+  }
+  /* line 89, ../sass/partials/pages/_interaction.scss */
+  #interaction #interaction-content img {
+    width: 45px;
+  }
+}
+@media (min-width: 0px) and (max-width: 715px) {
+  /* line 100, ../sass/partials/pages/_interaction.scss */
+  #interaction #planetary-positions {
+    width: 41%;
+  }
+  /* line 102, ../sass/partials/pages/_interaction.scss */
+  #interaction #planetary-positions span {
+    font-size: 14px !important;
+  }
+  /* line 107, ../sass/partials/pages/_interaction.scss */
+  #interaction #planetary-positions img {
+    width: 33px;
+  }
+}
+@media (min-width: 716px) and (max-width: 802px) {
+  /* line 100, ../sass/partials/pages/_interaction.scss */
+  #interaction #planetary-positions {
+    width: 36%;
+  }
+  /* line 112, ../sass/partials/pages/_interaction.scss */
+  #interaction #planetary-positions span {
+    font-size: 16px !important;
+  }
+  /* line 116, ../sass/partials/pages/_interaction.scss */
+  #interaction #planetary-positions img {
+    width: 39px;
+  }
+}
+@media (min-width: 901px) {
+  /* line 100, ../sass/partials/pages/_interaction.scss */
+  #interaction #planetary-positions {
+    width: 30%;
+  }
+  /* line 121, ../sass/partials/pages/_interaction.scss */
+  #interaction #planetary-positions span {
+    font-size: 18px !important;
+  }
+  /* line 125, ../sass/partials/pages/_interaction.scss */
+  #interaction #planetary-positions img {
+    width: 42px;
+  }
+}
+@media (min-width: 803px) and (max-width: 900px) {
+  /* line 100, ../sass/partials/pages/_interaction.scss */
+  #interaction #planetary-positions {
+    width: 25%;
+  }
+  /* line 130, ../sass/partials/pages/_interaction.scss */
+  #interaction #planetary-positions span {
+    font-size: 20px !important;
+  }
+  /* line 134, ../sass/partials/pages/_interaction.scss */
+  #interaction #planetary-positions img {
+    width: 45px;
   }
 }
 
@@ -2405,7 +2432,7 @@ div.panel-pane.pane-custom.pane-2 img {
 }
 
 /* line 50, ../sass/partials/pages/_therapeutic.scss */
-.therapeutic-flora-right-pane a {
+.therapeutic-plantae-right-pane a {
   font-size: 100%;
 }
 
@@ -2417,12 +2444,12 @@ div.panel-pane.pane-custom.pane-2 img {
 }
 
 /* line 61, ../sass/partials/pages/_therapeutic.scss */
-.therapeutic-flora {
+.therapeutic-plantae {
   background-color: rgba(163, 219, 122, 0.2);
 }
 /* line 63, ../sass/partials/pages/_therapeutic.scss */
-.therapeutic-flora th.views-field,
-.therapeutic-flora .pane-title {
+.therapeutic-plantae th.views-field,
+.therapeutic-plantae .pane-title {
   font-family: "Futura-CondensedMedium", "Arial Narrow", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   text-transform: uppercase;
   font-weight: normal;

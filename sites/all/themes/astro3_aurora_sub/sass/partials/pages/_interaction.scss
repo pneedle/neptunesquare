@@ -18,66 +18,41 @@
 // @import 'normalize';
 
 ///////////////////////////////
-//  HOMEPAGE
+//  PLANETARY POSITIONS
 ///////////////////////////////
+#interaction {
+	font-family: $arial-narrow;
+
 
 ///////////////////////////////
 //  PLANETARY POSITIONS
 ///////////////////////////////
-#interaction {
-	div#current-block {
+	#planetary-positions {
+		width: 41%;
+		display: inline-block;
 		float: left;
 		box-sizing: initial;
-		font-family: $arial-narrow;
-	}
-	#current-block {
+		background-color: $light-green;
 		border: 1px solid black;
-		padding: 5px;
-		text-align: center;
+		text-align: left;
+		margin-bottom: 10px;
 		h2.pane-title {
 			display: none;
 		}
 	}
 
-	@include breakpoint($bkpt-small) {
-		font-size: 94%;
-		#current-block img {
-			width: 31px;
-		}
-	}
-	@include breakpoint($bkpt-medium) {
-		font-size: 96%;
-		#current-block img {
-			width: 34px;
-		}
-	}
-	@include breakpoint($bkpt-large) {
-		font-size: 98%;
-		#current-block img {
-			width: 37px;
-		}
-	}
-	@include breakpoint($bkpt-xlarge) {
-		font-size: 100%;
-		#current-block img {
-			width: 40px;
-		}
-	}
-}
-
 ///////////////////////////////
 //  INTERACTION
 ///////////////////////////////
-#interaction {
+
 	#interaction-content {
+		width: 55%;
+		display: inline-block;
 		border: 1px solid black;
-		padding: 8px 8px 40px 8px;  // TRBL
+		padding: 4px 4px 31px 5px;  // TRBL
 		text-align: justify;
 		background-color: $light-blue;
-		float: right;
-		header > h2 {
-			margin-top: -15px;
-		} 	
+		//font-size: 85%;
 		header > h2 > a,
 		.pane-title {
 			display: none;
@@ -86,24 +61,80 @@
 			margin-top: -14px;
 			margin-bottom: -26px;
 		}
-		p {
-			text-transform: initial;
-		}
+
 		@include breakpoint($bkpt-small) {
-			width: calc(98% - 130px);
-			font-size: 97%;
+			width: 55%;
+			font-size:16px;
+			img {
+				width: 33px;
+			}
 		}
 		@include breakpoint($bkpt-medium) {
-			width: calc(98% - 140px);
-			font-size: 98%;
+		 width: 60%;
+			font-size:18px;
+			img {
+				width: 39px;
+			}
 		}
 		@include breakpoint($bkpt-large) {
-			width: calc(98% - 155px);
-			font-size: 99%;
+			width: 66%;
+			font-size:20px;
+			img {
+				width: 42px;
+			}
 		}
 		@include breakpoint($bkpt-xlarge) {
-			width: calc(98% - 160px);
-			font-size: 100%;
+		  width: 66%;
+			font-size:20px;
+			img {
+				width: 45px;
+			}
+		}
+
+	}
+
+
+///////////////////////////////
+//  BREAKPOINTS
+///////////////////////////////
+	#planetary-positions {
+		@include breakpoint($bkpt-small) {
+		span {
+			font-size: 14px !important;
+		}
+
+			width: 41%;
+			img {
+				width: 33px;
+			}
+		}
+		@include breakpoint($bkpt-medium) {  // Medium devices (tablets, 501px and up)
+		span {
+			font-size: 16px !important;
+		}
+			width: 36%;
+			img {
+				width: 39px;
+			}
+		}
+		@include breakpoint($bkpt-large) {  // Large devices (desktops, 701px and up)
+		span {
+			font-size: 18px !important;
+		}
+			width: 30%;
+			img {
+				width: 42px;
+			}
+		}
+		@include breakpoint($bkpt-xlarge) { // Extra large devices (large desktops, 1201px and up)
+		span {
+			font-size: 20px !important;
+		}
+			width: 25%;
+			img {
+				width: 45px;
+			}
 		}
 	}
+
 }
