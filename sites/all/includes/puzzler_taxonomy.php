@@ -12,7 +12,7 @@
 
   // extract the term name
   $name = $term->name;
-  //echo "taxonomy name: " . $name . "<br />";
+  //echo "taxonomy name: " . $name . "<br />";$data['node']->title
 
   // Puzzler shortcode
   $wikipedia_into = "[puzzler:wikipedia-matching-intro:" . $name . "]";

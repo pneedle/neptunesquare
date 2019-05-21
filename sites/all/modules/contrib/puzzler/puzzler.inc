@@ -547,7 +547,7 @@ function puzzler_tokens($type, $tokens, array $data = array(), array $options = 
         case 'wikipedia-matching-html':
           $puzzler_options = array(
             'api_endpoint' => 'http://@wplang.wikipedia.org/w/index.php',
-            //'wptitle' => urlencode($data['node']->title),
+            'wptitle' => urlencode($data['node']->title),
             'wptitle' => $data['node']->title,
             'wpaction' => 'render',
             'wplang' => $data['node']->language,

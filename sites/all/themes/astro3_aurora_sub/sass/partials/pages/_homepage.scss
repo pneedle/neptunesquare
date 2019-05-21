@@ -187,7 +187,6 @@
 		padding: 4px 4px 31px 5px;  // TRBL
 		text-align: justify;
 		background-color: $light-blue;
-		font-size: 85%;
 		header > h2 > a,
 		.pane-title {
 			display: none;
@@ -199,28 +198,28 @@
 
 		@include breakpoint($bkpt-small) {
 			width: 55%;
-			font-size:16px;
+			font-size:14px;
 			img {
 				width: 33px;
 			}
 		}
 		@include breakpoint($bkpt-medium) {
 		 width: 60%;
-			font-size:18px;
+			font-size:16px;
 			img {
 				width: 39px;
 			}
 		}
 		@include breakpoint($bkpt-large) {
 			width: 66%;
-			font-size:20px;
+			font-size:18px;
 			img {
 				width: 42px;
 			}
 		}
 		@include breakpoint($bkpt-xlarge) {
 		  width: 66%;
-			font-size:20px;
+			font-size:18px;
 			img {
 				width: 45px;
 			}
