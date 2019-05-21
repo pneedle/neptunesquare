@@ -584,7 +584,7 @@ function puzzler_tokens($type, $tokens, array $data = array(), array $options = 
         case 'wikipedia-matching-image-html':
           $puzzler_options = array(
             'wppage' => $data['node']->title, // 'Albert_Einstein'
-            'wplang' => $data['node']->language,
+            //'wplang' => $data['node']->language,
             'wpprop' => 'pageimages',
             'todo' => $name,
           );
