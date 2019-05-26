@@ -1,5 +1,4 @@
 <?php
-
 function rstrstr($haystack,$needle) {
   return substr($haystack, 0,strpos($haystack, $needle));
 }
@@ -38,11 +37,22 @@ foreach ($records as $record) {
   $search = $lc_country_hyphenated;
   $found = strpos($string, $search);
 
+  $astro_search_aries = "aries_" . $search . "_";
+  $astro_search_taurus = "taurus_" . $search . "_";
+
+
+  $astro_found_aries = strpos($string, $astro_search_aries); // is "aries" in "aries_poland" ??
+  $astro_found_taurus = strpos($string, $astro_search_taurus); // is "aries" in "aries_poland" ??
+
   //echo "string: " . $string . "<br />";
   //echo "search: " . $search . "<br />";
   //echo "found: " . $found . "<br />";
+  //echo "astro_search: " . $astro_search;   ex: aries_canada_
 
-  if (strlen($found) != 0) {
+  //if (strlen($found) != 0) {
+
+    if (((strlen($found) != 0) && (strlen($astro_found_aries) == 0)) || 
+           ((strlen($found) != 0) && (strlen($astro_found_taurus) == 0)))     {
     //echo "string: " . $string;
     //echo '<br />';
 

@@ -20,15 +20,19 @@
 ///////////////////////////////
 //  PLANETARY POSITIONS
 ///////////////////////////////
-#interaction {
-	font-family: $arial-narrow;
+#interaction,
+#transits {
+	font-family: $myriad-pro; //$arial-narrow;
+	.aurora-sample-section {
+		background-color: #FFFFFF;
+	}
 
 
 ///////////////////////////////
 //  PLANETARY POSITIONS
 ///////////////////////////////
 	#planetary-positions {
-		width: 41%;
+		width: 36%;
 		display: inline-block;
 		float: left;
 		box-sizing: initial;
@@ -36,6 +40,7 @@
 		border: 1px solid black;
 		text-align: left;
 		margin-bottom: 10px;
+		margin-right: 0.5em;
 		h2.pane-title {
 			display: none;
 		}
@@ -45,8 +50,9 @@
 //  INTERACTION
 ///////////////////////////////
 
-	#interaction-content {
-		width: 55%;
+	#interaction-content,
+	#transit-content {
+		//width: 60%;
 		display: inline-block;
 		border: 1px solid black;
 		padding: 4px 4px 31px 5px;  // TRBL
@@ -63,28 +69,28 @@
 		}
 
 		@include breakpoint($bkpt-small) {
-			width: 55%;
+			width: 60%;
 			font-size:16px;
 			img {
 				width: 33px;
 			}
 		}
 		@include breakpoint($bkpt-medium) {
-		 width: 60%;
+		 width: 65%;
 			font-size:18px;
 			img {
 				width: 39px;
 			}
 		}
 		@include breakpoint($bkpt-large) {
-			width: 66%;
+			width: 70%;
 			font-size:20px;
 			img {
 				width: 42px;
 			}
 		}
 		@include breakpoint($bkpt-xlarge) {
-		  width: 66%;
+		  width: 75%;
 			font-size:20px;
 			img {
 				width: 45px;
@@ -103,7 +109,7 @@
 			font-size: 14px !important;
 		}
 
-			width: 41%;
+			width: 35%;
 			img {
 				width: 33px;
 			}
@@ -112,7 +118,7 @@
 		span {
 			font-size: 16px !important;
 		}
-			width: 36%;
+			width: 30%;
 			img {
 				width: 39px;
 			}
@@ -121,7 +127,7 @@
 		span {
 			font-size: 18px !important;
 		}
-			width: 30%;
+			width: 25%;
 			img {
 				width: 42px;
 			}
@@ -130,7 +136,7 @@
 		span {
 			font-size: 20px !important;
 		}
-			width: 25%;
+			width: 20%;
 			img {
 				width: 45px;
 			}

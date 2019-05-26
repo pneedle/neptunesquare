@@ -444,9 +444,9 @@ $query = db_select($table3, $field3)
 $result3 = $query[$field3];
 $description = $result3;
 
-//echo '<span style="color:rgb(0,102,229);font-size:18px;font-weight:bold">' . $description . '</span><br />' . $result . '<br /><br />';
+// blue-colored text below (angle: 237.2°)
 if ($description != "") {
-	echo '<span style="color:rgb(0,102,229);font-size:18px;font-weight:bold">' . $description . '</span><br /><span class="more">' . $result . '</span><br /><br /><br />'; 
+	echo '<span style="color:rgb(0,102,229);font-size:17px;font-weight:normal">' . $description . '</span><br /><span class="more">' . $result . '</span><hr />'; 
 	} // JS INJECTOR
 }
 ?>

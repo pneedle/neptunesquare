@@ -559,11 +559,11 @@ function puzzler_tokens($type, $tokens, array $data = array(), array $options = 
           break;
         case 'wikipedia-matching-intro':
           $puzzler_options = array(
-            'wppage' => $data['node']->title, // 'Albert_Einstein'
+            'wppage' => 'title', //$data['node']->title, // 'Albert_Einstein'
             'wpprop' => 'extracts',
             'wpexintro' => 1,
             //'wpexplaintext' => 1, // Not using because it also removed paragraphs.
-            'wplang' => $data['node']->language,
+            'wplang' => 'language', //$data['node']->language,
             'todo' => $name,
           );
           if ($given_title <> '') $puzzler_options['wppage'] = $given_title; // If there is a text provided after the $name, use it instead of the current page title!
@@ -584,7 +584,7 @@ function puzzler_tokens($type, $tokens, array $data = array(), array $options = 
         case 'wikipedia-matching-image-html':
           $puzzler_options = array(
             'wppage' => $data['node']->title, // 'Albert_Einstein'
-            //'wplang' => $data['node']->language,
+            'wplang' => 'language', //$data['node']->language,
             'wpprop' => 'pageimages',
             'todo' => $name,
           );
