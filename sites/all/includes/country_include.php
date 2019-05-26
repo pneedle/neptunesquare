@@ -55,7 +55,8 @@ foreach ($records as $record) {
     echo "$imagepath_stamp: " . $imagepath_stamp . "<br />";
     echo "$imagepath_astro: " . $imagepath_astro . "<br />";
 */
-  
+
+
     $imagepath_species = $search;  //$replace_species . $search;
     // echo $imagepath_species;  // ex: "http://localhost/neptunesquare/species/north-korea"
     $imagepath_species = str_replace($lc_country_hyphenated,$country,$imagepath_species);
@@ -73,8 +74,9 @@ foreach ($records as $record) {
     $imagepath_astro = rstrstr($imagepath_astro, "_");
     $astro = $imagepath_astro;
     // echo "imagepath_species: " . $imagepath_species . "<br />";
-    $imagepath_astro = "http://localhost/neptunesquare/country/" . $lc_country;
+    $imagepath_astro = "http://localhost/neptunesquare/" . $astro;
      // want to get to: //http://localhost/neptunesquare/species/acer-rubrum
+    //echo "$astro: " . $astro . "<br />";
 
 //  echo "<br />uri: " . $uri;
 
